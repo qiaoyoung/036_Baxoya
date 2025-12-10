@@ -1,0 +1,19 @@
+//
+//  StructureFallsRun.h
+// RunBonnyJourneyTweak
+//
+//  Created by amao on 4/25/16.
+//  Copyright © 2016 NetEase. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+
+@interface NSString (HeightBrainSetWinter)
+- (NSDictionary *)nimkit_jsonDict;
+@end
+
+
+@interface NSDictionary (HeightBrainSetWinter)
+- (NSString *)nimkit_jsonString;
+@end

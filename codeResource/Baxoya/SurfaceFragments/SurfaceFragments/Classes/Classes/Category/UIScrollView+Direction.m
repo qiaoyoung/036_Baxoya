@@ -11,8 +11,8 @@
 
 
 @interface UIScrollView ()
-@property (assign, nonatomic) AAAA_USERScrollViewDirection_BBBB horizontalScrollingDirection;
-@property (assign, nonatomic) AAAA_USERScrollViewDirection_BBBB verticalScrollingDirection;
+@property (assign, nonatomic) FilterInteractionJunction horizontalScrollingDirection;
+@property (assign, nonatomic) FilterInteractionJunction verticalScrollingDirection;
 @end
 
 
@@ -40,39 +40,39 @@ static const char verticalScrollingDirectionKey;
     CGPoint oldContentOffset = [[change valueForKey:NSKeyValueChangeOldKey] CGPointValue];
     
     if (oldContentOffset.x < newContentOffset.x) {
-        self.horizontalScrollingDirection = AAAA_USERScrollViewDirection_BBBBRight;
+        self.horizontalScrollingDirection = FilterInteractionJunctionRight;
     } else if (oldContentOffset.x > newContentOffset.x) {
-        self.horizontalScrollingDirection = AAAA_USERScrollViewDirection_BBBBLeft;
+        self.horizontalScrollingDirection = FilterInteractionJunctionLeft;
     } else {
-        self.horizontalScrollingDirection = AAAA_USERScrollViewDirection_BBBBNone;
+        self.horizontalScrollingDirection = FilterInteractionJunctionNone;
     }
     
     if (oldContentOffset.y < newContentOffset.y) {
-        self.verticalScrollingDirection = AAAA_USERScrollViewDirection_BBBBDown;
+        self.verticalScrollingDirection = FilterInteractionJunctionDown;
     } else if (oldContentOffset.y > newContentOffset.y) {
-        self.verticalScrollingDirection = AAAA_USERScrollViewDirection_BBBBUp;
+        self.verticalScrollingDirection = FilterInteractionJunctionUp;
     } else {
-        self.verticalScrollingDirection = AAAA_USERScrollViewDirection_BBBBNone;
+        self.verticalScrollingDirection = FilterInteractionJunctionNone;
     }
 }
 
 #pragma mark - Properties
-- (AAAA_USERScrollViewDirection_BBBB)horizontalScrollingDirection
+- (FilterInteractionJunction)horizontalScrollingDirection
 {
     return [objc_getAssociatedObject(self, (void *)&horizontalScrollingDirectionKey) intValue];
 }
 
-- (void)setHorizontalScrollingDirection:(AAAA_USERScrollViewDirection_BBBB)horizontalScrollingDirection
+- (void)setHorizontalScrollingDirection:(FilterInteractionJunction)horizontalScrollingDirection
 {
     objc_setAssociatedObject(self, (void *)&horizontalScrollingDirectionKey, [NSNumber numberWithInt:horizontalScrollingDirection], OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
-- (AAAA_USERScrollViewDirection_BBBB)verticalScrollingDirection
+- (FilterInteractionJunction)verticalScrollingDirection
 {
     return [objc_getAssociatedObject(self, (void *)&verticalScrollingDirectionKey) intValue];
 }
 
-- (void)setVerticalScrollingDirection:(AAAA_USERScrollViewDirection_BBBB)verticalScrollingDirection
+- (void)setVerticalScrollingDirection:(FilterInteractionJunction)verticalScrollingDirection
 {
     objc_setAssociatedObject(self, (void *)&verticalScrollingDirectionKey, [NSNumber numberWithInt:verticalScrollingDirection], OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
