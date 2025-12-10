@@ -16,29 +16,27 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
     'HEADER_SEARCH_PATHS' => '$(inherited) "${PODS_TARGET_SRCROOT}" "${PODS_TARGET_SRCROOT}/SurfaceFragments/Classes"'
   }
+  s.vendored_frameworks = [
+    'SurfaceFragments/Resources/Framework/NIMSDK.xcframework',
+    'SurfaceFragments/Resources/Framework/NIMNOS.xcframework',
+    'SurfaceFragments/Resources/Framework/NIMQuic.xcframework',
+    'SurfaceFragments/Resources/Framework/NIMSocketRocket.xcframework'
+  ]
   
-  # 依赖库
-  s.dependency 'NIMSDK_LITE', '9.20.14'
-  s.dependency 'SSZipArchive'
-  s.dependency 'TZImagePickerController'
-  s.dependency 'SDWebImage'
-  s.dependency 'SDWebImageFLPlugin'
+  s.dependency 'Then'
+  s.dependency 'Reachability'
+  s.dependency 'YYText'
   s.dependency 'YYImage'
   s.dependency 'YYImage/WebP'
-  s.dependency 'YYText'
+  s.dependency 'Firebase/Core'
+  s.dependency 'TZImagePickerController'
+  s.dependency 'Firebase/RemoteConfig'
   s.dependency 'YYModel'
   s.dependency 'Masonry'
   s.dependency 'FMDB'
-  s.dependency 'Reachability'
+  s.dependency 'SSZipArchive'
   s.dependency 'LEEAlert'
-  s.dependency 'Firebase/Core'
-  s.dependency 'Firebase/RemoteConfig'
+  s.dependency 'SDWebImage'
+  s.dependency 'SDWebImageFLPlugin'
   
-  # 新增库
-  s.dependency 'MJRefresh'
-  s.dependency 'SwiftyJSON'
-  s.dependency 'Then'
-  s.dependency 'Kingfisher'
-  s.dependency 'SnapKit'
-  s.dependency 'pop'
 end

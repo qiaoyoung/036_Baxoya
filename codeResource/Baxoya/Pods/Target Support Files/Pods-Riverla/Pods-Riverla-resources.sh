@@ -97,9 +97,13 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_ROOT}/../SurfaceFragments/SurfaceFragments/Resources/Framework/NIMSDK.xcframework/ios-arm64/NIMSDK.framework/NEZQFPSupport.bundle"
+  install_resource "${PODS_ROOT}/../SurfaceFragments/SurfaceFragments/Resources/Framework/NIMSDK.xcframework/ios-arm64_x86_64-simulator/NIMSDK.framework/NEZQFPSupport.bundle"
   install_resource "${PODS_ROOT}/../SurfaceFragments/SurfaceFragments/Resources/SurfaceFragments.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_ROOT}/../SurfaceFragments/SurfaceFragments/Resources/Framework/NIMSDK.xcframework/ios-arm64/NIMSDK.framework/NEZQFPSupport.bundle"
+  install_resource "${PODS_ROOT}/../SurfaceFragments/SurfaceFragments/Resources/Framework/NIMSDK.xcframework/ios-arm64_x86_64-simulator/NIMSDK.framework/NEZQFPSupport.bundle"
   install_resource "${PODS_ROOT}/../SurfaceFragments/SurfaceFragments/Resources/SurfaceFragments.bundle"
 fi
 

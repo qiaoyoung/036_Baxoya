@@ -21,29 +21,27 @@
   "pod_target_xcconfig": {
     "HEADER_SEARCH_PATHS": "$(inherited) \"${PODS_TARGET_SRCROOT}\" \"${PODS_TARGET_SRCROOT}/SurfaceFragments/Classes\""
   },
+  "vendored_frameworks": [
+    "SurfaceFragments/Resources/Framework/NIMSDK.xcframework",
+    "SurfaceFragments/Resources/Framework/NIMNOS.xcframework",
+    "SurfaceFragments/Resources/Framework/NIMQuic.xcframework",
+    "SurfaceFragments/Resources/Framework/NIMSocketRocket.xcframework"
+  ],
   "dependencies": {
-    "NIMSDK_LITE": [
-      "9.20.14"
-    ],
-    "SSZipArchive": [],
-    "TZImagePickerController": [],
-    "SDWebImage": [],
-    "SDWebImageFLPlugin": [],
+    "Then": [],
+    "Reachability": [],
+    "YYText": [],
     "YYImage": [],
     "YYImage/WebP": [],
-    "YYText": [],
+    "Firebase/Core": [],
+    "TZImagePickerController": [],
+    "Firebase/RemoteConfig": [],
     "YYModel": [],
     "Masonry": [],
     "FMDB": [],
-    "Reachability": [],
+    "SSZipArchive": [],
     "LEEAlert": [],
-    "Firebase/Core": [],
-    "Firebase/RemoteConfig": [],
-    "MJRefresh": [],
-    "SwiftyJSON": [],
-    "Then": [],
-    "Kingfisher": [],
-    "SnapKit": [],
-    "pop": []
+    "SDWebImage": [],
+    "SDWebImageFLPlugin": []
   }
 }
