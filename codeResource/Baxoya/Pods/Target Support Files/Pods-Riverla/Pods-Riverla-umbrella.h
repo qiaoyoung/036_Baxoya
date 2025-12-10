@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_BaxoyaVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_BaxoyaVersionString[];
+FOUNDATION_EXPORT double Pods_RiverlaVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_RiverlaVersionString[];
 

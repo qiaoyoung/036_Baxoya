@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_Baxoya : NSObject
+@interface PodsDummy_Pods_Riverla : NSObject
 @end
-@implementation PodsDummy_Pods_Baxoya
+@implementation PodsDummy_Pods_Riverla
 @end

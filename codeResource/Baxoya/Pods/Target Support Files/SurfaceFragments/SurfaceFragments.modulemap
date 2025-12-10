@@ -1,0 +1,6 @@
+framework module SurfaceFragments {
+  umbrella header "SurfaceFragments-umbrella.h"
+
+  export *
+  module * { export * }
+}
