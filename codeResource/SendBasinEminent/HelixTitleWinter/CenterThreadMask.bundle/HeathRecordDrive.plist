@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>applyBroad</key>
+    <string>HintedCoordinateNotify</string>
+    <key>pauseCentral</key>
+    <string>ConnectorPrefetchMixerGenerator</string>
+    <key>strengthTruncate</key>
+    <string>HardPrairieNorm</string>
+    <key>tinyPastSegueVoice</key>
+    <string>ProudOperandFixRate</string>
+    <key>clearLoose</key>
+    <string>PineSpiceMist</string>
+    <key>quietProtectLogarithmReorder</key>
+    <string>MomentHorizonConstrain</string>
+</dict>
+</plist>
