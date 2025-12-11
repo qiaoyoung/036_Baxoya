@@ -50,7 +50,7 @@ typedef void(^NIMContactDataProviderHandler)(NSDictionary *contentDic, NSArray *
  *  默认已经勾选的人或群组
  */
 //: - (NSArray *)alreadySelectedMemberId;
-- (NSArray *)mirror;
+- (NSArray *)holderPush;
 
 /**
  *  需要过滤的人或群组id
@@ -86,7 +86,7 @@ typedef void(^NIMContactDataProviderHandler)(NSDictionary *contentDic, NSArray *
 
 /// 是否显示头部的群头像 群名字headerview
 //: - (BOOL)showSelectHeaderview;
-- (BOOL)validOf;
+- (BOOL)appearance;
 
 //: @end
 @end
@@ -131,7 +131,7 @@ typedef void(^NIMContactDataProviderHandler)(NSDictionary *contentDic, NSArray *
 @property (nonatomic,copy) NSString *manMin;
 
 //: @property (nonatomic,assign) BOOL showSelectHeaderview;
-@property (nonatomic,assign) BOOL unityPainter;
+@property (nonatomic,assign) BOOL appearance;
 
 //: @property (nonatomic,assign) EnvelopeRadiantFolder teamType;
 @property (nonatomic,assign) EnvelopeRadiantFolder senseTween;
@@ -165,7 +165,7 @@ typedef void(^NIMContactDataProviderHandler)(NSDictionary *contentDic, NSArray *
 @property (nonatomic,assign) BOOL symbol;
 
 //: @property (nonatomic,assign) BOOL showSelectHeaderview;
-@property (nonatomic,assign) BOOL crossAwake;
+@property (nonatomic,assign) BOOL appearance;
 
 //: @property (nonatomic,assign) NSInteger maxSelectMemberCount;
 @property (nonatomic,assign) NSInteger withinPlayer;

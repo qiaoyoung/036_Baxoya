@@ -92,7 +92,7 @@
 //        _progressLabel.text = [NSString stringWithFormat:@"%d%%", (int)(progress*100)];
 //        [_activity startAnimating];
         //: self.progressView.progress = progress;
-        self.force.protection = progress;
+        self.progressView.protection = progress;
     }
 
     //: [self setNeedsLayout];
@@ -163,23 +163,23 @@
 //        [self addSubview:_activity];
 
         //: self.progressView = [[AlongSorterHideChooser alloc] initWithFrame:self.bounds];
-        self.force = [[AlongSorterHideChooser alloc] initWithFrame:self.bounds];
+        self.progressView = [[AlongSorterHideChooser alloc] initWithFrame:self.bounds];
         //: self.progressView.backgroundColor = [UIColor clearColor];
-        self.force.backgroundColor = [UIColor clearColor];
+        self.progressView.backgroundColor = [UIColor clearColor];
         //: self.progressView.translatesAutoresizingMaskIntoConstraints = NO;
-        self.force.translatesAutoresizingMaskIntoConstraints = NO;
+        self.progressView.translatesAutoresizingMaskIntoConstraints = NO;
         //: self.progressView.showsText = YES;
-        self.force.neat = YES;
+        self.progressView.neat = YES;
         //: self.progressView.tintColor = [UIColor colorWithHexString:@"#A148FF"];
-        self.force.tintColor = [UIColor deviceFleet:[SparkMemory_Data componentCanvasMessage]];
+        self.progressView.tintColor = [UIColor deviceFleet:[SparkMemory_Data componentCanvasMessage]];
 //        self.progressView.tintColor = RGB_COLOR_String(kCommonBGColor_All);
 //        self.progressView.tintColor = [UIColor colorWithPatternImage:[StandInteractiveStrategyMusic getLinearGradientImage:RGB_COLOR_String(kCommonBGColor_begin) and:RGB_COLOR_String(kCommonBGColor_end) directionType:StandInteractiveStrategyMusicDirectionLevel]];
 
         //: [self addSubview:self.progressView];
-        [self addSubview:self.force];
+        [self addSubview:self.progressView];
 
         //: NSDictionary *views = NSDictionaryOfVariableBindings(_progressView);
-        NSDictionary *views = NSDictionaryOfVariableBindings(_force);
+        NSDictionary *views = NSDictionaryOfVariableBindings(_progressView);
         //: [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-0-[_progressView]-0-|" options:0 metrics:nil views:views]];
         [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:[SparkMemory_Data viewColorAlert] options:0 metrics:nil views:views]];
         //: [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-0-[_progressView]-0-|" options:0 metrics:nil views:views]];

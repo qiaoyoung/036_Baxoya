@@ -106,7 +106,7 @@ Byte constSolarFormat[] = {56, 12, 39, 13, 182, 87, 77, 108, 231, 41, 97, 181, 5
 
 
 //: - (id<VersionIconModule>)sessionConfig
-- (id<VersionIconModule>)index
+- (id<VersionIconModule>)layer
 {
     //: if (_sessionConfig == nil) {
     if (_index == nil) {

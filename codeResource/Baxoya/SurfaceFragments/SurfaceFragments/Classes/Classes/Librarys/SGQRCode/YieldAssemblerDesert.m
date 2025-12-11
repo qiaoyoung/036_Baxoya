@@ -107,7 +107,7 @@
     //: if (self.link == nil) {
     if (self.circleSolid == nil) {
         //: self.link = [CADisplayLink displayLinkWithTarget:[BlendOperatorBlendGenerate weakProxyWithTarget:self] selector:@selector(updateUI)];
-        self.circleSolid = [CADisplayLink displayLinkWithTarget:[BlendOperatorBlendGenerate net:self] selector:@selector(updateUI)];
+        self.circleSolid = [CADisplayLink displayLinkWithTarget:[BlendOperatorBlendGenerate net:self] selector:@selector(offBy)];
         //: [self.link addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];
         [self.circleSolid addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];
     }

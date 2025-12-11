@@ -111,7 +111,7 @@
 }
 
 //: - (NSString *)groupTitle {
-- (NSString *)without {
+- (NSString *)visual {
     //: NSString *title = [[OffStructureBeautifyBrook sharedCenter] firstLetter:self.info.showName].capitalizedString;
     NSString *title = [[OffStructureBeautifyBrook body] withTrait:self.subtleWoman.portrait].capitalizedString;
     //: unichar character = [title characterAtIndex:0];
@@ -134,13 +134,13 @@
 }
 
 //: - (NSString *)memberId{
-- (NSString *)cover{
+- (NSString *)nearReflect{
     //: return self.info.infoId;
     return self.subtleWoman.arena;
 }
 
 //: - (NSString *)showName{
-- (NSString *)cleanFlag{
+- (NSString *)holder{
     //: return self.info.showName;
     return self.subtleWoman.portrait;
 }
@@ -164,7 +164,7 @@
 }
 
 //: - (id)sortKey {
-- (id)speed {
+- (id)laneAssist {
     //: return [[OffStructureBeautifyBrook sharedCenter] spellingForString:self.info.showName].shortSpelling;
     return [[OffStructureBeautifyBrook body] acceptableClassify:self.subtleWoman.portrait].definite;
 }
@@ -172,13 +172,13 @@
 //userId和Vcname必有一个有值，根据有值的状态push进不同的页面
 
 //: - (NSString *)vcName{
-- (NSString *)leap{
+- (NSString *)vcName{
     //: return nil;
     return nil;
 }
 
 //: - (NSString *)userId{
-- (NSString *)hillMember{
+- (NSString *)userId{
     //: return self.info.infoId;
     return self.subtleWoman.arena;
 }

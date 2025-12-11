@@ -29,7 +29,7 @@
 //: @property (nonatomic, assign)CGFloat maxProgress;
 @property (nonatomic, assign)CGFloat sumHeapPrefer;
 //: @property (nonatomic, strong) AlongSorterHideChooser *progressView;
-@property (nonatomic, strong) AlongSorterHideChooser *force;
+@property (nonatomic, strong) AlongSorterHideChooser *progressView;
 
 //: - (void)setProgress:(CGFloat)progress;
 - (void)setFlash:(CGFloat)progress;

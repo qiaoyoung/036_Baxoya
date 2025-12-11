@@ -2046,7 +2046,7 @@ UnregisterOrbitCubitNextDelegate>
 }
 
 //: - (void)onTapMenuItemMutiSelect:(ReplaceStopApply *)item
-- (void)labAcross:(ReplaceStopApply *)item
+- (void)onTapMenuItemMutiSelect:(ReplaceStopApply *)item
 {
     //: [self switchUIWithSessionState:OpenConfigurationTowerConduitSelect];
     [self evaluate:OpenConfigurationTowerConduitSelect];
@@ -2243,7 +2243,7 @@ UnregisterOrbitCubitNextDelegate>
 }
 
 //: - (void)onTapMenuItemTranslation:(ReplaceStopApply *)item
-- (void)detect:(ReplaceStopApply *)item
+- (void)onTapMenuItemTranslation:(ReplaceStopApply *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self estimatedSensorMember];
@@ -2385,7 +2385,7 @@ UnregisterOrbitCubitNextDelegate>
 //: #pragma mark - Cell Actions
 #pragma mark - Cell Actions
 //: - (void)showImage:(NIMMessage *)message
-- (void)second:(NIMMessage *)message
+- (void)showImage:(NIMMessage *)message
 {
     //: NIMImageObject *object = message.messageObject;
     NIMImageObject *object = message.messageObject;
@@ -2433,7 +2433,7 @@ UnregisterOrbitCubitNextDelegate>
 }
 
 //: - (void)showCustom:(NIMMessage *)message
-- (void)resolve:(NIMMessage *)message
+- (void)showCustom:(NIMMessage *)message
 {
    //普通的自定义消息点击事件可以在这里做哦~
 
@@ -2535,7 +2535,7 @@ UnregisterOrbitCubitNextDelegate>
 }
 
 //: - (void)onTapMenuItemMark:(ReplaceStopApply *)item
-- (void)compositionBox:(ReplaceStopApply *)item
+- (void)onTapMenuItemMark:(ReplaceStopApply *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self estimatedSensorMember];
@@ -2606,7 +2606,7 @@ UnregisterOrbitCubitNextDelegate>
 }
 
 //: - (void)onTapMenuItemRevoke:(ReplaceStopApply *)item
-- (void)gateDirect:(ReplaceStopApply *)item
+- (void)onTapMenuItemRevoke:(ReplaceStopApply *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self estimatedSensorMember];
@@ -2833,7 +2833,7 @@ UnregisterOrbitCubitNextDelegate>
 //: #pragma mark - 菜单
 #pragma mark - 菜单
 //: - (void)onTapMenuItemReply:(ReplaceStopApply *)item
-- (void)aspectByAppear:(ReplaceStopApply *)item
+- (void)onTapMenuItemReply:(ReplaceStopApply *)item
 {
     //: NIMMessage *menuMessage = [self messageForMenu];
     NIMMessage *menuMessage = [self estimatedSensorMember];
@@ -2841,7 +2841,7 @@ UnregisterOrbitCubitNextDelegate>
     if ([self.index respondsToSelector:@selector(setEdgeGladsed:)])
     {
         //: [self.sessionConfig setThreadMessage:menuMessage];
-        [self.index setImmediately:menuMessage];
+        [self.index setEdgeGladsed:menuMessage];
     }
 
     //: [self.sessionInputView refreshStatus:ReflectGenuineModuleText];
@@ -3045,7 +3045,7 @@ UnregisterOrbitCubitNextDelegate>
 }
 
 //: - (void)onTapMenuItemUnpin:(ReplaceStopApply *)item
-- (void)partProperty:(ReplaceStopApply *)item
+- (void)onTapMenuItemUnpin:(ReplaceStopApply *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self estimatedSensorMember];
@@ -3079,7 +3079,7 @@ UnregisterOrbitCubitNextDelegate>
 
 
 //: - (void)showVideo:(NIMMessage *)message
-- (void)mount:(NIMMessage *)message
+- (void)showVideo:(NIMMessage *)message
 {
     //: NIMVideoObject *object = message.messageObject;
     NIMVideoObject *object = message.messageObject;
@@ -3306,7 +3306,7 @@ UnregisterOrbitCubitNextDelegate>
 }
 
 //: - (void)onTapMenuItemForword:(ReplaceStopApply *)item
-- (void)force:(ReplaceStopApply *)item
+- (void)onTapMenuItemForword:(ReplaceStopApply *)item
 {
     //: TallDefinedMagnifyBeyond *vc = [[TallDefinedMagnifyBeyond alloc]init];
     TallDefinedMagnifyBeyond *vc = [[TallDefinedMagnifyBeyond alloc]init];
@@ -3504,7 +3504,7 @@ UnregisterOrbitCubitNextDelegate>
 
 
 //: - (void)onTapMenuItemPin:(ReplaceStopApply *)item
-- (void)ping:(ReplaceStopApply *)item
+- (void)onTapMenuItemPin:(ReplaceStopApply *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self estimatedSensorMember];
@@ -3695,7 +3695,7 @@ UnregisterOrbitCubitNextDelegate>
 }
 
 //: - (void)onTapMenuItemReport:(ReplaceStopApply *)item
-- (void)wave:(ReplaceStopApply *)item
+- (void)onTapMenuItemReport:(ReplaceStopApply *)item
 {
     //: [self.view addSubview:self.translateView];
     [self.view addSubview:self.corner];
@@ -3759,7 +3759,7 @@ UnregisterOrbitCubitNextDelegate>
 }
 
 //: - (void)onTapMenuItemDelete:(ReplaceStopApply *)item
-- (void)programSucceed:(ReplaceStopApply *)item
+- (void)onTapMenuItemDelete:(ReplaceStopApply *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self estimatedSensorMember];
@@ -3856,7 +3856,7 @@ UnregisterOrbitCubitNextDelegate>
 }
 
 //: - (void)onTapMenuItemAudio2Text:(ReplaceStopApply *)item
-- (void)slope:(ReplaceStopApply *)item
+- (void)onTapMenuItemAudio2Text:(ReplaceStopApply *)item
 {
 
 }
@@ -4357,7 +4357,7 @@ UnregisterOrbitCubitNextDelegate>
 }
 
 //: - (id<VersionIconModule>)sessionConfig
-- (id<VersionIconModule>)index
+- (id<VersionIconModule>)layer
 {
     //: if (_sessionConfig == nil) {
     if (_index == nil) {

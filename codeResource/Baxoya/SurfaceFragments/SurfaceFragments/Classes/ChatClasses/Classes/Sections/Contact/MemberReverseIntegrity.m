@@ -382,7 +382,7 @@ typedef struct {
     if ([self.secondary respondsToSelector:@selector(holderPush)])
     {
         //: _selectecContacts = [[self.config alreadySelectedMemberId] mutableCopy];
-        _previous = [[self.secondary mirror] mutableCopy];
+        _previous = [[self.secondary holderPush] mutableCopy];
     }
 
     //: _selectecContacts = _selectecContacts.count ? _selectecContacts : [NSMutableArray array];
@@ -504,7 +504,7 @@ typedef struct {
 
 
     //: if (self.config.showSelectHeaderview) {
-    if (self.secondary.validOf) {
+    if (self.secondary.appearance) {
 
         //: [self.view addSubview:self.setGroupnameView];
         [self.view addSubview:self.steady];

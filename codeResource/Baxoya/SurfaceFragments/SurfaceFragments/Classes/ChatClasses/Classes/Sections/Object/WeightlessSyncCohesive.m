@@ -194,7 +194,7 @@
         //: FocalSleekStitch *timeModel = [[FocalSleekStitch alloc] init];
         FocalSleekStitch *timeModel = [[FocalSleekStitch alloc] init];
         //: timeModel.messageTime = model.messageTime;
-        timeModel.fleetWood = model.root;
+        timeModel.root = model.root;
         //: [self.items insertObject:timeModel atIndex:0];
         [self.yard insertObject:timeModel atIndex:0];
     }
@@ -261,7 +261,7 @@
             //: FocalSleekStitch *timeModel = [[FocalSleekStitch alloc] init];
             FocalSleekStitch *timeModel = [[FocalSleekStitch alloc] init];
             //: timeModel.messageTime = model.messageTime;
-            timeModel.fleetWood = model.root;
+            timeModel.root = model.root;
             //: [self.items insertObject:timeModel atIndex:index];
             [self.yard insertObject:timeModel atIndex:index];
             //: [inserts addObject:@(index)];

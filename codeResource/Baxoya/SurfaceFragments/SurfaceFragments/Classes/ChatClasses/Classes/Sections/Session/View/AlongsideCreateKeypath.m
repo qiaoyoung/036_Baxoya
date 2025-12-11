@@ -161,7 +161,7 @@ typedef struct {
         //: FocalSleekStitch *model = (FocalSleekStitch *)data;
         FocalSleekStitch *model = (FocalSleekStitch *)data;
         //: [_timeLabel setText:[GrainSymbolHistogramLoyal showTime:model.messageTime showDetail:YES]];
-        [_featherEventModern setText:[GrainSymbolHistogramLoyal define:model.fleetWood variableAcceptable:YES]];
+        [_featherEventModern setText:[GrainSymbolHistogramLoyal define:model.root variableAcceptable:YES]];
     }
 }
 

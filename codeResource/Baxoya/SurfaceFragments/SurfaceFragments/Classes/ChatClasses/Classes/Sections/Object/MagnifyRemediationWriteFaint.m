@@ -183,7 +183,7 @@ dispatch_queue_t assetWriting()
 @property (nonatomic,strong) SafePlatformParse *evaluate;
 
 //: @property (nonatomic,strong) NIMMessage *referenceMessage;
-@property (nonatomic,strong) NIMMessage *thresholdVine;
+@property (nonatomic,strong) NIMMessage *inside;
 
 //: @property (nonatomic,assign) OpenConfigurationTowerConduit sessionState;
 @property (nonatomic,assign) OpenConfigurationTowerConduit executeUtility;
@@ -591,10 +591,10 @@ dispatch_queue_t assetWriting()
         }];
     }
     //: else if ([self.sessionConfig respondsToSelector:@selector(threadMessage)] && [self.sessionConfig threadMessage])
-    else if ([self.day respondsToSelector:@selector(edgeGladsed)] && [self.day immediately])
+    else if ([self.day respondsToSelector:@selector(edgeGladsed)] && [self.day edgeGladsed])
     {
         //: NIMMessage *threadMessage = [self.sessionConfig threadMessage];
-        NIMMessage *threadMessage = [self.day immediately];
+        NIMMessage *threadMessage = [self.day edgeGladsed];
         //: [[[NIMSDK sharedSDK] chatExtendManager] reply:message
         [[[NIMSDK sharedSDK] chatExtendManager] reply:message
                                                    //: to:threadMessage
@@ -866,10 +866,10 @@ dispatch_queue_t assetWriting()
                                                 error:nil];
     }
     //: else if ([self.sessionConfig respondsToSelector:@selector(threadMessage)] && [self.sessionConfig threadMessage])
-    else if ([self.day respondsToSelector:@selector(edgeGladsed)] && [self.day immediately])
+    else if ([self.day respondsToSelector:@selector(edgeGladsed)] && [self.day edgeGladsed])
     {
         //: NIMMessage *threadMessage = [self.sessionConfig threadMessage];
-        NIMMessage *threadMessage = [self.day immediately];
+        NIMMessage *threadMessage = [self.day edgeGladsed];
         //: [[[NIMSDK sharedSDK] chatExtendManager] reply:message
         [[[NIMSDK sharedSDK] chatExtendManager] reply:message
                                                    //: to:threadMessage
@@ -1229,7 +1229,7 @@ dispatch_queue_t assetWriting()
              minimum:(void(^)(NSError *error))completion
 {
     //: NIMMessage *message = self.referenceMessage;
-    NIMMessage *message = self.thresholdVine;
+    NIMMessage *message = self.inside;
     //: if (message)
     if (message)
     {
@@ -1249,7 +1249,7 @@ dispatch_queue_t assetWriting()
         //: }];
         }];
         //: self.referenceMessage = nil;
-        self.thresholdVine = nil;
+        self.inside = nil;
     }
 }
 
@@ -1283,7 +1283,7 @@ dispatch_queue_t assetWriting()
                                                   completion:^(NSError * _Nullable error)
     {
         //: weakSelf.referenceMessage = nil;
-        weakSelf.thresholdVine = nil;
+        weakSelf.inside = nil;
         //: [weakSelf refreshQuickComments:message completion:nil];
         [weakSelf leap:message willing:nil];
         //: if (completion)

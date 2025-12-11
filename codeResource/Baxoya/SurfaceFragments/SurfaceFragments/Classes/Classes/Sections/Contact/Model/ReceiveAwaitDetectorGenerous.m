@@ -131,7 +131,7 @@
         //: for (id<PointBridgeCapsuleFit> member in members) {
         for (id<PointBridgeCapsuleFit> member in members) {
             //: if ([[member memberId] isEqualToString:uid]) {
-            if ([[member oval] isEqualToString:uid]) {
+            if ([[member nearReflect] isEqualToString:uid]) {
                 //: return member;
                 return member;
             }
@@ -207,7 +207,7 @@
 //: - (void)removeGroupMember:(id<PointBridgeCapsuleFit>)member{
 - (void)belowPick:(id<PointBridgeCapsuleFit>)member{
     //: NSString *groupTitle = [member groupTitle];
-    NSString *groupTitle = [member shrink];
+    NSString *groupTitle = [member visual];
     //: NSInteger groupIndex = [_groupTtiles indexOfObject:groupTitle];
     NSInteger groupIndex = [_on indexOfObject:groupTitle];
     //: RestrictionAtomicZestfulCrop *pair = [_groups objectAtIndex:groupIndex];
@@ -258,12 +258,12 @@
     //: for (id<PointBridgeCapsuleFit>member in members) {
     for (id<PointBridgeCapsuleFit>member in members) {
         //: if ([[member memberId] isEqualToString:me]) {
-        if ([[member oval] isEqualToString:me]) {
+        if ([[member nearReflect] isEqualToString:me]) {
             //: continue;
             continue;
         }
         //: NSString *groupTitle = [member groupTitle];
-        NSString *groupTitle = [member shrink];
+        NSString *groupTitle = [member visual];
         //: NSMutableArray *groupedMembers = [tmp objectForKey:groupTitle];
         NSMutableArray *groupedMembers = [tmp objectForKey:groupTitle];
         //: if(!groupedMembers) {
@@ -309,7 +309,7 @@
 - (void)jetAppropriate:(id<PointBridgeCapsuleFit>)member
 {
     //: NSString *groupTitle = [member groupTitle];
-    NSString *groupTitle = [member shrink];
+    NSString *groupTitle = [member visual];
     //: NSInteger groupIndex = [_groupTtiles indexOfObject:groupTitle];
     NSInteger groupIndex = [_on indexOfObject:groupTitle];
     //: RestrictionAtomicZestfulCrop *pair = [_groups objectAtIndex:groupIndex];
@@ -359,7 +359,7 @@
         //: [groupedMembers sortUsingComparator:^NSComparisonResult(id<PointBridgeCapsuleFit> member1, id<PointBridgeCapsuleFit> member2) {
         [groupedMembers sortUsingComparator:^NSComparisonResult(id<PointBridgeCapsuleFit> member1, id<PointBridgeCapsuleFit> member2) {
             //: return _groupMemberComparator([member1 sortKey], [member2 sortKey]);
-            return _decisionPassage([member1 captureFor], [member2 captureFor]);
+            return _decisionPassage([member1 laneAssist], [member2 laneAssist]);
         //: }];
         }];
     //: }];

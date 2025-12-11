@@ -16,11 +16,11 @@
 @protocol PointBridgeCapsuleFit <NSObject>
 
 //: - (NSString *)groupTitle;
-- (NSString *)shrink;
+- (NSString *)visual;
 //: - (NSString *)memberId;
-- (NSString *)oval;
+- (NSString *)nearReflect;
 //: - (id)sortKey;
-- (id)captureFor;
+- (id)laneAssist;
 
 //: @end
 @end

@@ -27,7 +27,7 @@
 @property (nonatomic, assign) CGFloat glimpse;
 
 //: @property (nonatomic, assign) NSTimeInterval messageTime;
-@property (nonatomic, assign) NSTimeInterval fleetWood;
+@property (nonatomic, assign) NSTimeInterval root;
 
 //: @end
 @end
