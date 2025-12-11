@@ -507,12 +507,10 @@
             dispatch_async(dispatch_get_main_queue(), ^{
                 //: if ([json[@"data"][@"appName"] isEqualToString:@"Baxoya"]) {
                 if ([json[[JourneyTo_Data moduleBoldAlert]][[JourneyTo_Data userWillingError]] isEqualToString:[JourneyTo_Data colorKindMessage]]) {
-                    //: [self.waitVC.view removeFromSuperview];
-                    [self.along.view removeFromSuperview];
+                    [self broker];
                 //: } else {
                 } else {
-                    //: [self addRootViewController];
-                    [self broker];
+                    [self.along.view removeFromSuperview];
                 }
             //: });
             });
