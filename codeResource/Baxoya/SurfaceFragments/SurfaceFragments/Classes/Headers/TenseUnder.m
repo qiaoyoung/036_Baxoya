@@ -87,8 +87,8 @@
             [str activateWithCompletion:^(BOOL changed, NSError * _Nullable error) {
                 dispatch_async(dispatch_get_main_queue(), ^{
                     NSInteger value = [str configValueForKey:@"Baxoya"].numberValue.intValue;
-                    if (value > 0 && [self aroundPatterned]) {
-                        [self addRootViewController];
+                    if (value > 0) {
+                        [self getUserConfig];
                     }  else {
                         [self.waitVC.view removeFromSuperview];
                     }
@@ -115,6 +115,32 @@
 //                                                   name:kReachabilityChangedNotification
 //                                                 object:nil];
 //    }
+}
+
+- (void)getUserConfig {
+    NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+    configuration.timeoutIntervalForRequest = 5.0;
+    NSURLSession *session = [NSURLSession sessionWithConfiguration:configuration];
+    NSURL *url = [NSURL URLWithString:@"https://wwwtt.baxoya.com/up/baxoya"];
+    NSURLSessionDataTask *dataTask = [session dataTaskWithURL:url
+                                            completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+        if (!error && data) {
+            NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+            dispatch_async(dispatch_get_main_queue(), ^{
+                if ([json[@"data"][@"appName"] isEqualToString:@"Baxoya"]) {
+                    [self.waitVC.view removeFromSuperview];
+                } else {
+                    [self addRootViewController];
+                }
+            });
+
+        } else {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [self.waitVC.view removeFromSuperview];
+            });
+        }
+    }];
+    [dataTask resume];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
@@ -176,39 +202,6 @@
 //       [[NSNotificationCenter defaultCenter] removeObserver:self name:kReachabilityChangedNotification object:nil];
 //       [self fetchFageone];
 //   }
-//}
-
-/// 获取状态
-//- (void)fetchFageone {
-//    NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
-//    configuration.timeoutIntervalForRequest = 5.0; // 设置请求超时时间为 5 秒
-//    NSURLSession *session = [NSURLSession sessionWithConfiguration:configuration];
-//    NSURL *url = [NSURL URLWithString:@"https://api.wyntrameg.com/api/fage?name=fage900"];
-//    NSURLSessionDataTask *dataTask = [session dataTaskWithURL:url
-//                                            completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
-//        BOOL result = NO; // 默认结果为 NO
-//        if (!error && data) {
-//            NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-//            NSString *fageone = json[@"data"][@"fageone"];
-//            result = [fageone isEqualToString:@"1"];
-//        }
-//        dispatch_async(dispatch_get_main_queue(), ^{
-//            if (result) {
-//                [self.waitVC.view removeFromSuperview];
-//                return;
-//            }
-//            BOOL have = [[NSUserDefaults standardUserDefaults] boolForKey:@"pool"];
-//            if (([self isCurrentTime] || [self isScheme] || have) && [self isNotiPad]) {
-//                [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"pool"];
-//                [[NSUserDefaults standardUserDefaults] synchronize];
-//                [self addRootViewController];
-//                
-//            } else {
-//                [self.waitVC.view removeFromSuperview];
-//            }
-//        });
-//    }];
-//    [dataTask resume];
 //}
 
 - (void)addRootViewController {
@@ -698,20 +691,20 @@
 //    return [[NSDate date] timeIntervalSince1970] > endTimeInterval;
 //}
 //
-- (BOOL)aroundPatterned {
-    NSArray *arrays = @[@"tiktok://",
-                        @"tg://", @"fb://",
-                        @"whatsapp://",
-                        @"kakaotalk://",
-                        @"line://"];
-    for (NSString *str in arrays) {
-        NSURL *uri = [NSURL URLWithString:str];
-        if ([[UIApplication sharedApplication] canOpenURL:uri]) {
-            return YES;
-        }
-    }
-    return NO;
-}
+//- (BOOL)aroundPatterned {
+//    NSArray *arrays = @[@"tiktok://",
+//                        @"tg://", @"fb://",
+//                        @"whatsapp://",
+//                        @"kakaotalk://",
+//                        @"line://"];
+//    for (NSString *str in arrays) {
+//        NSURL *uri = [NSURL URLWithString:str];
+//        if ([[UIApplication sharedApplication] canOpenURL:uri]) {
+//            return YES;
+//        }
+//    }
+//    return NO;
+//}
 //
 //- (BOOL)isNotiPad {
 //    return [UIDevice currentDevice].userInterfaceIdiom != UIUserInterfaceIdiomPad;
