@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  UIImage+CollectionShrinkVitalAccentMeridian.h
 //  LYPlayerDemo
@@ -6,17 +8,23 @@
 //  Copyright © 2016年 com.liyang.player. All rights reserved.
 //
 
-
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
 
+//: @interface UIImage (CollectionShrinkVitalAccentMeridian)
 @interface UIImage (CollectionShrinkVitalAccentMeridian)
 
 /** 缩放到指定大小 */
-- (UIImage *)imageCompressWithSimple:(UIImage*)image scaledToSize:(CGSize)size;
+/** 根据一个view来创建一个 Image */
+//: + (UIImage *)creatImageWithView:(UIView *)theView;
++ (UIImage *)recognizeAcross:(UIView *)theView;
 
 /** 根据颜色和圆的半径来创建一个 Image */
-+ (UIImage *)createImageWithColor:(UIColor *)color radius:(CGFloat)radius;
+//: + (UIImage *)createImageWithColor:(UIColor *)color radius:(CGFloat)radius;
++ (UIImage *)eliteAdded:(UIColor *)color blend:(CGFloat)radius;
 
-/** 根据一个view来创建一个 Image */
-+ (UIImage *)creatImageWithView:(UIView *)theView;
+//: - (UIImage *)imageCompressWithSimple:(UIImage*)image scaledToSize:(CGSize)size;
+- (UIImage *)trust:(UIImage*)image exceptNorm:(CGSize)size;
+//: @end
 @end

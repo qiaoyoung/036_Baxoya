@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  OperationThroughoutJourneyWithConstants.h
 //  https://github.com/hackiftekhar/OperationThroughoutJourneyWith
@@ -20,15 +22,13 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
-
-#ifndef OperationThroughoutJourneyWithConstants_h
-#define OperationThroughoutJourneyWithConstants_h
-
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
-
 ///-----------------------------------
 /// @name TemplePleasantValueManageBehavior
 ///-----------------------------------
+
+// __M_A_C_R_O__
 
 /**
  `TemplePleasantValueBySubviews`
@@ -40,10 +40,15 @@
  `TemplePleasantValueByPosition`
  Creates Toolbar according to the y,x position of textField in it's superview coordinate.
  */
+//: typedef NS_ENUM(NSInteger, TemplePleasantValueManageBehavior) {
 typedef NS_ENUM(NSInteger, TemplePleasantValueManageBehavior) {
+    //: TemplePleasantValueBySubviews,
     TemplePleasantValueBySubviews,
+    //: TemplePleasantValueByTag,
     TemplePleasantValueByTag,
+    //: TemplePleasantValueByPosition,
     TemplePleasantValueByPosition,
+//: };
 };
 
 /**
@@ -56,10 +61,15 @@ typedef NS_ENUM(NSInteger, TemplePleasantValueManageBehavior) {
  `TrailInspectGenericAlwaysShow`
  Always show nextPrevious buttons, if there are more than 1 textField then both buttons will be visible but will be shown as disabled.
  */
+//: typedef NS_ENUM(NSUInteger, TrailInspectGeneric) {
 typedef NS_ENUM(NSUInteger, TrailInspectGeneric) {
+    //: TrailInspectGenericDefault,
     TrailInspectGenericDefault,
+    //: TrailInspectGenericAlwaysHide,
     TrailInspectGenericAlwaysHide,
+    //: TrailInspectGenericAlwaysShow,
     TrailInspectGenericAlwaysShow,
+//: };
 };
 
 /**
@@ -72,13 +82,18 @@ typedef NS_ENUM(NSUInteger, TrailInspectGeneric) {
  `RepositionHazeOverDisabled`
  setting is disabled.
  */
+//: typedef NS_ENUM(NSUInteger, RepositionHazeOver) {
 typedef NS_ENUM(NSUInteger, RepositionHazeOver) {
+    //: RepositionHazeOverDefault,
     RepositionHazeOverDefault,
+    //: RepositionHazeOverEnabled,
     RepositionHazeOverEnabled,
+    //: RepositionHazeOverDisabled,
     RepositionHazeOverDisabled,
+//: };
 };
 
-#endif
+
 
 /*
  

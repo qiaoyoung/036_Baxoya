@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  LayoutGroupDropFor.h
 //  HuaxiajiaboApp
@@ -6,23 +8,33 @@
 //  Copyright © 2015年 HuaMo. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
 
+//: @protocol LayoutGroupDropForDelegate ;
 @protocol LayoutGroupDropForDelegate ;
 
+//: @interface LayoutGroupDropFor : UIView{
 @interface LayoutGroupDropFor : UIView{
-    
+
 }
 
-- (id)initWithDelegate:(id<LayoutGroupDropForDelegate>)delegate dataDict:(NSDictionary *)dataDict selectedDict:(NSDictionary *)selectedDict jsonNode:(NSString *)jsonNode;
+//: - (void)show;
+- (void)command;
 
-- (void)show;
+//: - (id)initWithDelegate:(id<LayoutGroupDropForDelegate>)delegate dataDict:(NSDictionary *)dataDict selectedDict:(NSDictionary *)selectedDict jsonNode:(NSString *)jsonNode;
+- (id)initWithStack:(id<LayoutGroupDropForDelegate>)delegate afterPass:(NSDictionary *)dataDict ember:(NSDictionary *)selectedDict structureOfEnsure:(NSString *)jsonNode;
 
+//: @end
 @end
 
 
+//: @protocol LayoutGroupDropForDelegate <NSObject>
 @protocol LayoutGroupDropForDelegate <NSObject>
 
-- (void)dataPicker:(LayoutGroupDropFor *)dataPicker selectedDict:(NSDictionary *)selectedDict;
+//: - (void)dataPicker:(LayoutGroupDropFor *)dataPicker selectedDict:(NSDictionary *)selectedDict;
+- (void)appWarehouse:(LayoutGroupDropFor *)dataPicker technique:(NSDictionary *)selectedDict;
 
+//: @end
 @end

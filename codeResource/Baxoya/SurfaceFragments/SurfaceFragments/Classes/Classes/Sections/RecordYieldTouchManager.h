@@ -1,24 +1,42 @@
-#import <Foundation/Foundation.h>
-#import <SSZipArchive/SSZipArchive.h>
-NS_ASSUME_NONNULL_BEGIN
-#define kSurfaceFragments @"SurfaceFragments"
+// __DEBUG__
+// __CLOSE_PRINT__
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
+#import <Foundation/Foundation.h>
+//: #import <SSZipArchive/SSZipArchive.h>
+#import <SSZipArchive/SSZipArchive.h>
+
+//: NS_ASSUME_NONNULL_BEGIN
+NS_ASSUME_NONNULL_BEGIN
+
+
+//: @interface RecordYieldTouchManager : NSObject
 @interface RecordYieldTouchManager : NSObject
 
-+ (instancetype)sharedManager;
+//: - (NSString *)getHtml_filePath;
+- (NSString *)his;
 
-- (NSString *)getHtml_filePath;
+//: + (instancetype)sharedManager;
++ (instancetype)thoroughWealthy;
 
-- (NSString *)getXML_filePath;
+//: - (NSString *)getEmojiPath;
+- (NSString *)sound;
 
-- (NSString *)getEmojiPath;
+//: - (NSString *)getLprojPath;
+- (NSString *)doingSecond;
 
-- (NSString *)getLprojPath;
+//: - (UIImage *)zip_imageNamed:(NSString *)name;
+- (UIImage *)natived:(NSString *)name;
 
-- (NSString *)getVoicePath;
+//: - (NSString *)getVoicePath;
+- (NSString *)civic;
 
-- (UIImage *)zip_imageNamed:(NSString *)name;
+//: - (NSString *)getXML_filePath;
+- (NSString *)list;
 
+//: @end
 @end
 
+//: NS_ASSUME_NONNULL_END
 NS_ASSUME_NONNULL_END

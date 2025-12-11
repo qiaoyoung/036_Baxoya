@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  FairyRealBlock.h
 // RunBonnyJourneyTweak
@@ -6,12 +8,18 @@
 //  Copyright © 2017年 NetEase. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
 
+//: @interface FairyRealBlock : UIVisualEffectView
 @interface FairyRealBlock : UIVisualEffectView
 
-+ (void)show;
+//: + (void)dismiss;
++ (void)distantBalance;
 
-+ (void)dismiss;
+//: + (void)show;
++ (void)drift;
 
+//: @end
 @end

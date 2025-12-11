@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  UIScrollView+EnvironmentTaskObjectTorch.h
 //  https://github.com/hackiftekhar/OperationThroughoutJourneyWith
@@ -21,42 +23,57 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
 
-
+//: NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
+//: @interface UIScrollView (EnvironmentTaskObjectTorch)
 @interface UIScrollView (EnvironmentTaskObjectTorch)
 
 /**
  If YES, then scrollview will ignore scrolling (simply not scroll it) for adjusting textfield position. Default is NO.
  */
-@property(nonatomic, assign) BOOL shouldIgnoreScrollingAdjustment;
+//: @property(nonatomic, assign) BOOL shouldIgnoreScrollingAdjustment;
+@property(nonatomic, assign) BOOL detectChallenges;
 
 /**
  If YES, then scrollview will ignore content inset adjustment (simply not updating it) when keyboard is shown. Default is NO.
  */
-@property(nonatomic, assign) BOOL shouldIgnoreContentInsetAdjustment;
+//: @property(nonatomic, assign) BOOL shouldIgnoreContentInsetAdjustment;
+@property(nonatomic, assign) BOOL stormVerseShotted;
 
 /**
  Restore scrollViewContentOffset when resigning from scrollView. Default is NO.
  */
-@property(nonatomic, assign) BOOL shouldRestoreScrollViewContentOffset;
+//: @property(nonatomic, assign) BOOL shouldRestoreScrollViewContentOffset;
+@property(nonatomic, assign) BOOL justSecondaried;
 
 
+//: @end
 @end
 
+//: NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
+//: @interface UITableView (PetLandscapeSteam)
 @interface UITableView (PetLandscapeSteam)
 
--(nullable NSIndexPath*)previousIndexPathOfIndexPath:(nonnull NSIndexPath*)indexPath;
+//: -(nullable NSIndexPath*)previousIndexPathOfIndexPath:(nonnull NSIndexPath*)indexPath;
+-(nullable NSIndexPath*)externalSecond:(nonnull NSIndexPath*)indexPath;
 //-(nullable NSIndexPath*)nextIndexPathOfIndexPath:(nonnull NSIndexPath*)indexPath;
 
+//: @end
 @end
 
+//: NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
+//: @interface UICollectionView (PetLandscapeSteam)
 @interface UICollectionView (PetLandscapeSteam)
 
--(nullable NSIndexPath*)previousIndexPathOfIndexPath:(nonnull NSIndexPath*)indexPath;
+//: -(nullable NSIndexPath*)previousIndexPathOfIndexPath:(nonnull NSIndexPath*)indexPath;
+-(nullable NSIndexPath*)kickArray:(nonnull NSIndexPath*)indexPath;
 //-(nullable NSIndexPath*)nextIndexPathOfIndexPath:(nonnull NSIndexPath*)indexPath;
 
+//: @end
 @end

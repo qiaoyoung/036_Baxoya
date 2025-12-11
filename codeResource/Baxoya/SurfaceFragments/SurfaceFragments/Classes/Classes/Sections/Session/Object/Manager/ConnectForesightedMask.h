@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  ConnectForesightedMask.h
 //  NIM
@@ -15,29 +17,42 @@
 //     "message_count": 1234   //必填,最终写入文件中的消息数
 //   }
 
-
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
 
+//: NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_BEGIN
 
+//: @interface ConnectForesightedMask : NSObject
 @interface ConnectForesightedMask : NSObject
 
-@property (nonatomic, assign) NSInteger version;
+//: @property (nonatomic, copy) NSString *appVersion;
+@property (nonatomic, copy) NSString *carrier;
 
-@property (nonatomic, assign) NIMLoginClientType clientType;
+//: @property (nonatomic, copy) NSString *sdkVersion;
+@property (nonatomic, copy) NSString *densityMessage;
 
-@property (nonatomic, copy) NSString *sdkVersion;
+//: @property (nonatomic, assign) NIMLoginClientType clientType;
+@property (nonatomic, assign) NIMLoginClientType representation;
 
-@property (nonatomic, copy) NSString *appVersion;
+//: @property (nonatomic, assign) NSInteger totalInfoCount;
+@property (nonatomic, assign) NSInteger elite;
 
-@property (nonatomic, assign) NSInteger totalInfoCount;
+//: @property (nonatomic, assign) NSInteger version;
+@property (nonatomic, assign) NSInteger legacyCareful;
 
-+ (instancetype)initWithDefaultConfig;
+//: + (nullable instancetype)initWithRawContent:(NSData *)data;
++ (nullable instancetype)initWithPathCan:(NSData *)data;
 
-+ (nullable instancetype)initWithRawContent:(NSData *)data;
+//: - (nullable NSData *)toRawContent;
+- (nullable NSData *)creativeRiver;
 
-- (nullable NSData *)toRawContent;
+//: + (instancetype)initWithDefaultConfig;
++ (instancetype)initWithWork;
 
+//: @end
 @end
 
+//: NS_ASSUME_NONNULL_END
 NS_ASSUME_NONNULL_END

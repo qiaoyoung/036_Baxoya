@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  UpdateTreatStripSincere.h
 //  NIM
@@ -6,18 +8,29 @@
 //  Copyright © 2022 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
 
+//: NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_BEGIN
 
+//: @interface UpdateTreatStripSincere : NSObject
 @interface UpdateTreatStripSincere : NSObject
-@property (nonatomic,strong) NSMutableDictionary *langDict;
-+ (UpdateTreatStripSincere *)shareInstance;
-- (void)setLanguagre:(NSString *)langType;
-+ (NSString *)getTextWithKey:(NSString *)key;
+//: @property (nonatomic,strong) NSMutableDictionary *langDict;
+@property (nonatomic,strong) NSMutableDictionary *watch;
+//: + (NSString *)getLocale;
++ (NSString *)acknowledgeDrawer;
+//: + (NSString *)getTextWithKey:(NSString *)key;
++ (NSString *)signalBySpot:(NSString *)key;
+//: - (void)setLanguagre:(NSString *)langType;
+- (void)setBasic:(NSString *)langType;
 
-+ (NSString *)getLocale;
+//: + (UpdateTreatStripSincere *)shareInstance;
++ (UpdateTreatStripSincere *)dialog;
 
+//: @end
 @end
 
+//: NS_ASSUME_NONNULL_END
 NS_ASSUME_NONNULL_END

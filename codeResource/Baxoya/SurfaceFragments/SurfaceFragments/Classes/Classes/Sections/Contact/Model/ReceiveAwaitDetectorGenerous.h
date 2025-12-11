@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  ReceiveAwaitDetectorGenerous.h
 //  NIM
@@ -6,39 +8,61 @@
 //  Copyright (c) 2015年 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
 
+//: @protocol PointBridgeCapsuleFit <NSObject>
 @protocol PointBridgeCapsuleFit <NSObject>
 
-- (NSString *)groupTitle;
-- (NSString *)memberId;
-- (id)sortKey;
+//: - (NSString *)groupTitle;
+- (NSString *)shrink;
+//: - (NSString *)memberId;
+- (NSString *)oval;
+//: - (id)sortKey;
+- (id)captureFor;
 
+//: @end
 @end
 
+//: @interface ReceiveAwaitDetectorGenerous : NSObject
 @interface ReceiveAwaitDetectorGenerous : NSObject
 
-@property (nonatomic, strong) NSArray *members;
-@property (nonatomic, copy) NSComparator groupTitleComparator;
-@property (nonatomic, copy) NSComparator groupMemberComparator;
-@property (nonatomic, readonly) NSArray *sortedGroupTitles;
+//: @property (nonatomic, copy) NSComparator groupTitleComparator;
+@property (nonatomic, copy) NSComparator earth;
+//: @property (nonatomic, strong) NSArray *members;
+@property (nonatomic, strong) NSArray *displayTheory;
+//: @property (nonatomic, copy) NSComparator groupMemberComparator;
+@property (nonatomic, copy) NSComparator decisionPassage;
+//: @property (nonatomic, readonly) NSArray *sortedGroupTitles;
+@property (nonatomic, readonly) NSArray *stayChart;
 
-- (void)addGroupMember:(id<PointBridgeCapsuleFit>)member;
+//: - (NSInteger)groupCount;
+- (NSInteger)islandBy;
 
-- (void)removeGroupMember:(id<PointBridgeCapsuleFit>)member;
+//: - (void)addGroupAboveWithTitle:(NSString *)title members:(NSArray *)members;
+- (void)momentumRunning:(NSString *)title styleAndHistoryExpand:(NSArray *)members;
 
-- (void)addGroupAboveWithTitle:(NSString *)title members:(NSArray *)members;
+//: - (NSString *)titleOfGroup:(NSInteger)groupIndex;
+- (NSString *)venture:(NSInteger)groupIndex;
 
-- (NSString *)titleOfGroup:(NSInteger)groupIndex;
+//: - (NSArray *)membersOfGroup:(NSInteger)groupIndex;
+- (NSArray *)back:(NSInteger)groupIndex;
 
-- (NSArray *)membersOfGroup:(NSInteger)groupIndex;
+//: - (void)removeGroupMember:(id<PointBridgeCapsuleFit>)member;
+- (void)belowPick:(id<PointBridgeCapsuleFit>)member;
 
-- (id<PointBridgeCapsuleFit>)memberOfIndex:(NSIndexPath *)indexPath;
+//: - (id<PointBridgeCapsuleFit>)memberOfIndex:(NSIndexPath *)indexPath;
+- (id<PointBridgeCapsuleFit>)obvious:(NSIndexPath *)indexPath;
 
-- (id<PointBridgeCapsuleFit>)memberOfId:(NSString *)uid;
+//: - (NSInteger)memberCountOfGroup:(NSInteger)groupIndex;
+- (NSInteger)fixedTo:(NSInteger)groupIndex;
 
-- (NSInteger)groupCount;
+//: - (void)addGroupMember:(id<PointBridgeCapsuleFit>)member;
+- (void)jetAppropriate:(id<PointBridgeCapsuleFit>)member;
 
-- (NSInteger)memberCountOfGroup:(NSInteger)groupIndex;
+//: - (id<PointBridgeCapsuleFit>)memberOfId:(NSString *)uid;
+- (id<PointBridgeCapsuleFit>)doing:(NSString *)uid;
 
+//: @end
 @end

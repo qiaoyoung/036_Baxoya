@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  ConstructConvertModel.m
 //  ConstructConvertDemo
@@ -6,8 +8,11 @@
 //  Copyright © 2016年 chenfanfang. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import "ConstructConvertModel.h"
 #import "ConstructConvertModel.h"
 
+//: @implementation ConstructConvertModel
 @implementation ConstructConvertModel
 
 /**
@@ -19,12 +24,19 @@
  *
  *  @return 实例化的菜单模型
  */
-+ (instancetype)ff_DropDownMenuModelWithMenuItemTitle:(NSString *)menuItemTitle menuItemIconName:(NSString *)menuItemIconName menuBlock:(FFMenuBlock)menuBlock {
+//: + (instancetype)ff_DropDownMenuModelWithMenuItemTitle:(NSString *)menuItemTitle menuItemIconName:(NSString *)menuItemIconName menuBlock:(FFMenuBlock)menuBlock {
++ (instancetype)phase:(NSString *)menuItemTitle option:(NSString *)menuItemIconName gradual:(FFMenuBlock)menuBlock {
+    //: ConstructConvertModel *model = [ConstructConvertModel new];
     ConstructConvertModel *model = [ConstructConvertModel new];
-    model.menuItemTitle = menuItemTitle;
-    model.menuItemIconName = menuItemIconName;
-    model.menuBlock = menuBlock;
+    //: model.menuItemTitle = menuItemTitle;
+    model.allow = menuItemTitle;
+    //: model.menuItemIconName = menuItemIconName;
+    model.dry = menuItemIconName;
+    //: model.menuBlock = menuBlock;
+    model.consumptionGender = menuBlock;
+    //: return model;
     return model;
 }
 
+//: @end
 @end

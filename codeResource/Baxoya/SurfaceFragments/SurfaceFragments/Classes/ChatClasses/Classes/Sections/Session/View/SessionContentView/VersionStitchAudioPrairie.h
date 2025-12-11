@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  NIMSessionAudioCententView.h
 // RunBonnyJourneyTweak
@@ -6,22 +8,35 @@
 //  Copyright (c) 2015年 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import "RetreatModifyAdaptRight.h"
 #import "RetreatModifyAdaptRight.h"
 
+//: @protocol SorterInto <NSObject>
 @protocol SorterInto <NSObject>
--(void)startPlayingAudioUI;  //点击一开始就要显示
+//: -(void)startPlayingAudioUI; 
+-(void)enableSegment; //点击一开始就要显示
+//: @optional
 @optional
-- (void)retryDownloadMsg; //重收消息
+//: - (void)retryDownloadMsg; 
+- (void)save; //重收消息
+//: @end
 @end
 
+//: @interface VersionStitchAudioPrairie : RetreatModifyAdaptRight
 @interface VersionStitchAudioPrairie : RetreatModifyAdaptRight
 
-@property (nonatomic, strong) UILabel     *audioDurationLable; //语音时长
+//: @property (nonatomic, weak) id<SorterInto> audioUIDelegate;
+@property (nonatomic, weak) id<SorterInto> restrictionUnity;
 
-@property (nonatomic, weak) id<SorterInto> audioUIDelegate;
+//: @property (nonatomic, strong) UIView *audioBackgroundView;
+@property (nonatomic, strong) UIView *praiseSource;
 
-@property (nonatomic, strong) UIView *audioBackgroundView;
+//: @property (nonatomic, strong) UILabel *audioDurationLable; 
+@property (nonatomic, strong) UILabel *split;//语音时长
 
-- (void)setPlaying:(BOOL)isPlaying;
+//: - (void)setPlaying:(BOOL)isPlaying;
+- (void)setPrefer:(BOOL)isPlaying;
 
+//: @end
 @end

@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  TransitionNotebookDispatch.h
 //  NIM
@@ -6,22 +8,33 @@
 //  Copyright © 2024 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
 
+//: NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_BEGIN
 
 
+//: typedef void(^SpeiceSexBackBlock) (NSInteger selectedGender);
 typedef void(^SpeiceSexBackBlock) (NSInteger selectedGender);
 
+//: @interface TransitionNotebookDispatch : UIView
 @interface TransitionNotebookDispatch : UIView
 
-@property (nonatomic, copy) SpeiceSexBackBlock speiceBackBlock;
+//: @property (nonatomic, copy) SpeiceSexBackBlock speiceBackBlock;
+@property (nonatomic, copy) SpeiceSexBackBlock indicator;
 
-- (void)reloadWithGender:(NSInteger)gender;
+//: - (void)animationShow;
+- (void)read;
 
-- (void)animationShow;
-- (void)animationClose;
+//: - (void)animationClose;
+- (void)equalWood;
+//: - (void)reloadWithGender:(NSInteger)gender;
+- (void)speakTwist:(NSInteger)gender;
 
+//: @end
 @end
 
+//: NS_ASSUME_NONNULL_END
 NS_ASSUME_NONNULL_END

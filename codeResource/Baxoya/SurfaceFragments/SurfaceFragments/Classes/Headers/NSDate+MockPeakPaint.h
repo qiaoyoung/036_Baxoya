@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  NSDate+KIDate.h
 //  Kitalker
@@ -5,6 +7,12 @@
 //  Created by 杨 烽 on 12-8-30.
 //
 //
+
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
+#import <Foundation/Foundation.h>
+//: #import "NSDateFormatter+MockPeakPaint.h"
+#import "NSDateFormatter+MockPeakPaint.h"
 
 /*
  
@@ -97,81 +105,98 @@
  zzzz: (Specific GMT Timezone Name) Z: +0000 (RFC 822 Timezone) 指定GMT时区的名称
  
  */
-
-#import <Foundation/Foundation.h>
-#import "NSDateFormatter+MockPeakPaint.h"
-
-#define KKDateFormatter01 @"yyyy-MM-dd HH:mm:ss"
-#define KKDateFormatter02 @"yyyy-MM-dd HH:mm"
-#define KKDateFormatter03 @"yyyy-MM-dd HH"
-#define KKDateFormatter04 @"yyyy-MM-dd"
-#define KKDateFormatter05 @"yyyy-MM"
-#define KKDateFormatter06 @"MM-dd"
-#define KKDateFormatter07 @"HH:mm"
-#define KKDateFormatter08 @"MM-dd HH:mm"
+//: @interface NSDate (MockPeakPaint)
 @interface NSDate (MockPeakPaint)
 
 /*日期*/
-+ (NSString *)day:(NSDate*)date;
-
-/*星期几*/
-+ (NSString *)weekday:(NSDate*)date;
-
-/*月份*/
-+ (NSString *)month:(NSDate*)date;
-
-/*年份*/
-+ (NSString *)year:(NSDate*)date;
-
-/*获取当前月有多少天*/
-+ (int)numberOfDaysInMonth:(NSDate*)date;
-
-/*获取当前月有多少周*/
-+ (int)weeksOfMonth:(NSDate*)date;
-
-/*是否在某个日期之前*/
-- (BOOL)isBefore:(NSDate *)date;
+//: + (BOOL)isString:(NSString*)date1String01 earlierThanDate:(NSDate*)date02 formatter01:(NSString*)formatter01;
++ (BOOL)secure:(NSString*)date1String01 frame:(NSDate*)date02 rare:(NSString*)formatter01;
 
 /*是否在某个日期之后*/
-- (BOOL)isAfter:(NSDate *)date;
+//: - (BOOL)isAfter:(NSDate *)date;
+- (BOOL)label:(NSDate *)date;
 
-/*是否在某个时间闭区间之间*/
-- (BOOL)isBetween:(NSDate *)startDate and:(NSDate *)endDate;
+/*月份*/
+//: + (NSString *)month:(NSDate*)date;
++ (NSString *)anyWealthy:(NSDate*)date;
+
+/*获取当前月有多少周*/
+//: + (int)weeksOfMonth:(NSDate*)date;
++ (int)frequencyOn:(NSDate*)date;
 
 /**
  判断时间是否超过N天了
  date01：需要判断的日期
  days：超过N天了
  */
-+ (BOOL)isDate:(NSDate*)date01 beforeNDays:(NSUInteger)days;
+//: + (BOOL)isDate:(NSDate*)date01 beforeNDays:(NSUInteger)days;
++ (BOOL)drawTo:(NSDate*)date01 motionTranslate:(NSUInteger)days;
 
-- (NSDate *)exchangeToBeijingDate;
+//: + (BOOL)isDate:(NSDate*)date01 earlierThanDate:(NSDate*)date02;
++ (BOOL)meDefine:(NSDate*)date01 coordinatorRemark:(NSDate*)date02;
 
+/*年份*/
+//: + (NSString *)year:(NSDate*)date;
++ (NSString *)softAndAppropriate:(NSDate*)date;
+
+//: + (NSDate *)dateForTodayInClock:(NSInteger)clock;
++ (NSDate *)enhance:(NSInteger)clock;
+
+/*是否在某个时间闭区间之间*/
+//: - (BOOL)isBetween:(NSDate *)startDate and:(NSDate *)endDate;
+- (BOOL)manageThorough:(NSDate *)startDate creative:(NSDate *)endDate;
+
+//: + (NSString *)day:(NSDate*)date;
++ (NSString *)available:(NSDate*)date;
+
+//: - (NSDate *)exchangeToBeijingDate;
+- (NSDate *)atSpecial;
+
+//: - (NSString *)normalizeDatestring_houseFilter;
+- (NSString *)minute;
+
+//: - (NSString *)normalizeDateString;
+- (NSString *)blue;
+
+/*星期几*/
+//: + (NSString *)weekday:(NSDate*)date;
++ (NSString *)delivery:(NSDate*)date;
+
+
+//: + (NSString*)getStringFromDate:(NSDate*)date dateFormatter:(NSString*)formatterString;
++ (NSString*)local:(NSDate*)date sensor:(NSString*)formatterString;
+
+//: + (BOOL)isString:(NSString*)date1String01 earlierThanString:(NSString*)date1String02 formatter01:(NSString*)formatter01 formatter02:(NSString*)formatter02;
++ (BOOL)asAdded:(NSString*)date1String01 identity:(NSString*)date1String02 ocean:(NSString*)formatter01 detailedIn:(NSString*)formatter02;
+
+
+//: + (NSDate*)getDateFromString:(NSString*)dateString formatterString:(NSString*)formatterString;
++ (NSDate*)force:(NSString*)dateString everyYard:(NSString*)formatterString;
+
+/*是否在某个日期之前*/
+//: - (BOOL)isBefore:(NSDate *)date;
+- (BOOL)secretConvert:(NSDate *)date;
+
+/*获取当前月有多少天*/
+//: + (int)numberOfDaysInMonth:(NSDate*)date;
++ (int)remainTender:(NSDate*)date;
+
+//: + (NSString*)getStringFromOldDateString:(NSString*)oldDateString
++ (NSString*)cycle:(NSString*)oldDateString
+                       //: withOldFormatter:(NSString*)oldFormatterString
+                       belowAlready:(NSString*)oldFormatterString
+                           //: newFormatter:(NSString*)newFormatterString;
+                           speak:(NSString*)newFormatterString;
+//: + (NSDate*)getDateFromString:(NSString*)string dateFormatter:(NSString*)formatterString;
++ (NSDate*)counter:(NSString*)string loadUltimate:(NSString*)formatterString;
+//: #pragma mark ==================================================
 #pragma mark ==================================================
+//: #pragma mark == 字符串方法
 #pragma mark == 字符串方法
+//: #pragma mark ==================================================
 #pragma mark ==================================================
-+ (NSString*)getStringWithFormatter:(NSString*)formatterString;
+//: + (NSString*)getStringWithFormatter:(NSString*)formatterString;
++ (NSString*)create:(NSString*)formatterString;
 
-+ (NSDate*)getDateFromString:(NSString*)dateString formatterString:(NSString*)formatterString;
-
-+ (NSString*)getStringFromOldDateString:(NSString*)oldDateString
-                       withOldFormatter:(NSString*)oldFormatterString
-                           newFormatter:(NSString*)newFormatterString;
-
-+ (NSString*)getStringFromDate:(NSDate*)date dateFormatter:(NSString*)formatterString;
-
-+ (NSDate*)getDateFromString:(NSString*)string dateFormatter:(NSString*)formatterString;
-
-
-+ (BOOL)isDate:(NSDate*)date01 earlierThanDate:(NSDate*)date02;
-
-+ (BOOL)isString:(NSString*)date1String01 earlierThanString:(NSString*)date1String02 formatter01:(NSString*)formatter01 formatter02:(NSString*)formatter02;
-
-+ (BOOL)isString:(NSString*)date1String01 earlierThanDate:(NSDate*)date02 formatter01:(NSString*)formatter01;
-
-+ (NSDate *)dateForTodayInClock:(NSInteger)clock;
-
-- (NSString *)normalizeDateString;
-- (NSString *)normalizeDatestring_houseFilter;
-
+//: @end
 @end

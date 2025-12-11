@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  ReorderPlateMagic.h
 //  NIM
@@ -6,10 +8,16 @@
 //  Copyright (c) 2013 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
 
+//: @interface ReorderPlateMagic : NSObject
 @interface ReorderPlateMagic : NSObject
-+ (ReorderPlateMagic *)sharedInstance;
+//: - (NSString *)toPinyin: (NSString *)source;
+- (NSString *)boot: (NSString *)source;
 
-- (NSString *)toPinyin: (NSString *)source;
+//: + (ReorderPlateMagic *)sharedInstance;
++ (ReorderPlateMagic *)overDisable;
+//: @end
 @end

@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 // RunBonnyJourneyTweakCommentUtil.h
 // RunBonnyJourneyTweak
@@ -6,33 +8,52 @@
 //  Copyright © 2020 NetEase. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
 
+//: @class NIMQuickComment;
 @class NIMQuickComment;
+//: @class ShadedPowerMarkAcknowledge;
 @class ShadedPowerMarkAcknowledge;
+//: NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_BEGIN
 
+//: @interface PragmaticInlineLocalizationHidePublisher : NSObject
 @interface PragmaticInlineLocalizationHidePublisher : NSObject
 
-+ (UIFont *)commentFont;
+//: + (NSString *)commentsContent:(NSArray<NIMQuickComment *> *)comments;
++ (NSString *)modify:(NSArray<NIMQuickComment *> *)comments;
 
-+ (NSString *)commentContent:(NIMQuickComment *)comment;
+//: + (NSArray *)sortedKeys:(NSMapTable<NSNumber *, NIMQuickComment *> *)map;
++ (NSArray *)sunnyRegion:(NSMapTable<NSNumber *, NIMQuickComment *> *)map;
 
-+ (NSString *)commentsContent:(NSArray<NIMQuickComment *> *)comments;
+//: + (NSString *)commentContent:(NIMQuickComment *)comment;
++ (NSString *)questionAcrossSystem:(NIMQuickComment *)comment;
 
-+ (CGSize)itemSizeWithComment:(NIMQuickComment *)comment;
+//: + (UIFont *)commentFont;
++ (UIFont *)message;
 
-+ (CGSize)itemSizeWithComments:(NSArray<NIMQuickComment *> *)comments;
+//: + (CGSize)itemSizeWithComments:(NSArray<NIMQuickComment *> *)comments;
++ (CGSize)load:(NSArray<NIMQuickComment *> *)comments;
 
-+ (CGSize)containerSizeWithComments:(NSMapTable *)comments;
+//: + (CGSize)containerSizeWithComments:(NSMapTable *)comments;
++ (CGSize)firstPriority:(NSMapTable *)comments;
 
-+ (NIMQuickComment * _Nullable)myCommentFromComments:(NSInteger )keyIndex
-                                      keys:(NSArray *)keys
-                                  comments:(NSMapTable *)map;
+//: + (ShadedPowerMarkAcknowledge *)newCommentLabel;
++ (ShadedPowerMarkAcknowledge *)name;
 
-+ (ShadedPowerMarkAcknowledge *)newCommentLabel;
 
-+ (NSArray *)sortedKeys:(NSMapTable<NSNumber *, NIMQuickComment *> *)map;
+//: + (CGSize)itemSizeWithComment:(NIMQuickComment *)comment;
++ (CGSize)weaveRun:(NIMQuickComment *)comment;
+
+//: + (NIMQuickComment * _Nullable)myCommentFromComments:(NSInteger )keyIndex
++ (NIMQuickComment * _Nullable)spine:(NSInteger )keyIndex
+                                      //: keys:(NSArray *)keys
+                                      bareWorld:(NSArray *)keys
+                                  //: comments:(NSMapTable *)map;
+                                  detailed:(NSMapTable *)map;//: @end
 @end
 
+//: NS_ASSUME_NONNULL_END
 NS_ASSUME_NONNULL_END

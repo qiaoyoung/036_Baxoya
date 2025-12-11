@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  ZoomJunctionCarefree.h
 //  NIM
@@ -6,17 +8,25 @@
 //  Copyright © 2017年 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
 
+//: @interface ZoomJunctionCarefree : NSObject
 @interface ZoomJunctionCarefree : NSObject
 
-+ (instancetype)sharedManager;
+//: - (void)unsubscribeTempPoplarShaderHeroicLaunchState:(NSString *)userId;
+- (void)regular:(NSString *)userId;
 
-- (void)start;
+//: - (void)subscribeTempPoplarShaderHeroicLaunchState:(NSString *)userId;
+- (void)forest:(NSString *)userId;
 
-- (NSDictionary<NIMSubscribeEvent *, NSString *> *)eventsForType:(NSInteger)type;
+//: - (void)start;
+- (void)mist;
 
-- (void)subscribeTempPoplarShaderHeroicLaunchState:(NSString *)userId;
+//: - (NSDictionary<NIMSubscribeEvent *, NSString *> *)eventsForType:(NSInteger)type;
+- (NSDictionary<NIMSubscribeEvent *, NSString *> *)skilledSumeract:(NSInteger)type;
 
-- (void)unsubscribeTempPoplarShaderHeroicLaunchState:(NSString *)userId;
+//: + (instancetype)sharedManager;
++ (instancetype)thoroughWealthy;
 
+//: @end
 @end

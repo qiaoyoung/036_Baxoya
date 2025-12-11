@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  NSDictionary+ReliefSmartCrystal.h
 //  NIM
@@ -6,20 +8,33 @@
 //  Copyright (c) 2013年 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
 
+//: @interface NSDictionary (ReliefSmartCrystal)
 @interface NSDictionary (ReliefSmartCrystal)
-- (NSString *)jsonString: (NSString *)key;
+//: - (NSString *)jsonString: (NSString *)key;
+- (NSString *)mind: (NSString *)key;
 
-- (NSDictionary *)jsonDict: (NSString *)key;
-- (NSArray *)jsonArray: (NSString *)key;
-- (NSArray *)jsonStringArray: (NSString *)key;
+//: - (BOOL)jsonBool: (NSString *)key;
+- (BOOL)reply: (NSString *)key;
+//: - (NSInteger)jsonInteger: (NSString *)key;
+- (NSInteger)collectorDistinct: (NSString *)key;
+//: - (NSDictionary *)jsonDict: (NSString *)key;
+- (NSDictionary *)man: (NSString *)key;
 
 
-- (BOOL)jsonBool: (NSString *)key;
-- (NSInteger)jsonInteger: (NSString *)key;
-- (long long)jsonLongLong: (NSString *)key;
-- (unsigned long long)jsonUnsignedLongLong:(NSString *)key;
+//: - (NSArray *)jsonArray: (NSString *)key;
+- (NSArray *)that: (NSString *)key;
+//: - (double)jsonDouble: (NSString *)key;
+- (double)growingInTrim: (NSString *)key;
+//: - (NSArray *)jsonStringArray: (NSString *)key;
+- (NSArray *)child: (NSString *)key;
+//: - (unsigned long long)jsonUnsignedLongLong:(NSString *)key;
+- (unsigned long long)betweenAmongApply:(NSString *)key;
 
-- (double)jsonDouble: (NSString *)key;
+//: - (long long)jsonLongLong: (NSString *)key;
+- (long long)along: (NSString *)key;
+//: @end
 @end

@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  InsightDeliverFaintMacro.h
 //  reportsFollowers
@@ -5,15 +7,23 @@
 //  Created by tianyulong on 2021/11/19.
 //
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
 
+//: NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_BEGIN
 
+//: @interface InsightDeliverFaintMacro : NSObject
 @interface InsightDeliverFaintMacro : NSObject
 
-+ (NSURLSessionTask *)noticeBodyWithJson:(NSDictionary *)params
-                     WithCompletionBlock:(void(^)(BOOL success , NSDictionary * dic))success ;
+//: + (NSURLSessionTask *)noticeBodyWithJson:(NSDictionary *)params
++ (NSURLSessionTask *)old:(NSDictionary *)params
+                     //: WithCompletionBlock:(void(^)(BOOL success , NSDictionary * dic))success ;
+                     turn:(void(^)(BOOL success , NSDictionary * dic))success ;
 
+//: @end
 @end
 
+//: NS_ASSUME_NONNULL_END
 NS_ASSUME_NONNULL_END

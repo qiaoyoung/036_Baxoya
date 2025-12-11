@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  VoyageOpalCatalyst.h
 //  fanxingxue
@@ -6,24 +8,38 @@
 //  Copyright © 2018年 caoyu. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
 
+//: @interface VoyageOpalCatalyst : NSObject
 @interface VoyageOpalCatalyst : NSObject
-+(BOOL)isLogin;
-+ (void)refrushNewData;
-+ (NSString *)getUserId;
+//: + (NSString *)getLocaleString;
++ (NSString *)capacityLoyal;
+//: + (void)callSevicePhoneNumber;
++ (void)readShift;
+//: + (NSString *)getHeaderImageUrl;
++ (NSString *)preciousCreateer;
 
-+ (NSString *)getHeaderImageUrl;
-+ (NSString *)getNickName;
-
-
-+ (void)callSevicePhoneNumber;
-+ (NSString *)getMobileNumber;
-
-+ (void)saveUserInfo:(id)responseObject;
-+ (void)logout;
+//: + (NSString *)getMobileNumber;
++ (NSString *)wish;
+//: + (void)refrushNewData;
++ (void)skill;
 
 
-+ (NSString *)getLocaleString;
+//: +(BOOL)isLogin;
++(BOOL)between;
+//: + (void)logout;
++ (void)inspectFilter;
 
+//: + (NSString *)getNickName;
++ (NSString *)technique;
+//: + (NSString *)getUserId;
++ (NSString *)happyLarge;
+
+
+//: + (void)saveUserInfo:(id)responseObject;
++ (void)thread:(id)responseObject;
+
+//: @end
 @end

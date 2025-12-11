@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  NSString+MeridianObjectReconcile.h
 //  NIMDemo
@@ -6,24 +8,36 @@
 //  Copyright (c) 2015年 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
 
-NSString * emptyString(NSString *anMaybeEmptyString);
+//: NSString * emptyString(NSString *anMaybeEmptyString);
+NSString * soundFound(NSString *anMaybeEmptyString);
 
+//: @interface NSString (MeridianObjectReconcile)
 @interface NSString (MeridianObjectReconcile)
 
-- (CGSize)stringSizeWithFont:(UIFont *)font;
+//: + (NSString *)randomStringWithLength:(NSUInteger)length;
++ (NSString *)native:(NSUInteger)length;
 
-- (NSString *)MD5String;
+//: - (NSString *)MD5String;
+- (NSString *)mechanismBy;
 
-- (NSUInteger)getBytesLength;
+//: - (CGSize)stringSizeWithFont:(UIFont *)font;
+- (CGSize)no:(UIFont *)font;
 
-- (NSString *)stringByDeletingPictureResolution;
+//: - (NSUInteger)getBytesLength;
+- (NSUInteger)enterSpark;
 
-- (NSString *)tokenByPassword;
+//: - (NSString *)tokenByPassword;
+- (NSString *)exceptMerit;
 
-- (NSString *)user_localized;
+//: - (NSString *)stringByDeletingPictureResolution;
+- (NSString *)publish;
 
-+ (NSString *)randomStringWithLength:(NSUInteger)length;
+//: - (NSString *)user_localized;
+- (NSString *)nativeDown;
 
+//: @end
 @end

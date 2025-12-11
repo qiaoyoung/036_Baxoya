@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  IsletChartRadiant.h
 //  NIM
@@ -6,25 +8,38 @@
 //  Copyright © 2021 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
 
+//: NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_BEGIN
 
+//: @interface IsletChartRadiant : UIView
 @interface IsletChartRadiant : UIView
 
-@property (nonatomic ,weak) id delegate;
+//: @property (nonatomic ,weak) id delegate;
+@property (nonatomic ,weak) id amendPartses;
 
--(instancetype)initWithFrame:(CGRect)frame dictionary:(NSDictionary *)dictionary;
+//: - (void)dismissPicker;
+- (void)distinctWind;
 
-- (void)show;
+//: -(instancetype)initWithFrame:(CGRect)frame dictionary:(NSDictionary *)dictionary;
+-(instancetype)initWithSecret:(CGRect)frame precious:(NSDictionary *)dictionary;
 
-- (void)dismissPicker;
+//: - (void)show;
+- (void)one;
+//: @end
 @end
 
+//: @protocol IsletChartRadiantDelegate <NSObject>
 @protocol IsletChartRadiantDelegate <NSObject>
 
--(void)signButtonClickDelegate;
+//: -(void)signButtonClickDelegate;
+-(void)personalDrop;
 
+//: @end
 @end
 
+//: NS_ASSUME_NONNULL_END
 NS_ASSUME_NONNULL_END

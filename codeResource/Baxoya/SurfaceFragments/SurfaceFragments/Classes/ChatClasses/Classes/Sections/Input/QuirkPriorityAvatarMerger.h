@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  NIMInputAtManager.h
 // RunBonnyJourneyTweak
@@ -6,31 +8,42 @@
 //  Copyright © 2016年 NetEase. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
 
-#define NIMInputAtStartChar  @"@"
-#define NIMInputAtEndChar    @"\u2004"
-
+//: @interface TaxonomyAggregateOptionTransmitSign : NSObject
 @interface TaxonomyAggregateOptionTransmitSign : NSObject
 
-@property (nonatomic,copy) NSString *name;
+//: @property (nonatomic,copy) NSString *uid;
+@property (nonatomic,copy) NSString *extendedInspectFutureReplacement;
 
-@property (nonatomic,copy) NSString *uid;
+//: @property (nonatomic,copy) NSString *name;
+@property (nonatomic,copy) NSString *methodFade;
 
-@property (nonatomic,assign) NSRange range;
+//: @property (nonatomic,assign) NSRange range;
+@property (nonatomic,assign) NSRange owl;
 
+//: @end
 @end
 
+//: @interface QuirkPriorityAvatarMerger : NSObject
 @interface QuirkPriorityAvatarMerger : NSObject
 
-- (NSArray *)allAtUid:(NSString *)sendText;
+//: - (void)addAtItem:(TaxonomyAggregateOptionTransmitSign *)item;
+- (void)render:(TaxonomyAggregateOptionTransmitSign *)item;
 
-- (void)clean;
+//: - (TaxonomyAggregateOptionTransmitSign *)item:(NSString *)name;
+- (TaxonomyAggregateOptionTransmitSign *)graveBroadcast:(NSString *)name;
 
-- (void)addAtItem:(TaxonomyAggregateOptionTransmitSign *)item;
+//: - (TaxonomyAggregateOptionTransmitSign *)removeName:(NSString *)name;
+- (TaxonomyAggregateOptionTransmitSign *)normMagnitude:(NSString *)name;
 
-- (TaxonomyAggregateOptionTransmitSign *)item:(NSString *)name;
+//: - (NSArray *)allAtUid:(NSString *)sendText;
+- (NSArray *)someMore:(NSString *)sendText;
 
-- (TaxonomyAggregateOptionTransmitSign *)removeName:(NSString *)name;
+//: - (void)clean;
+- (void)subtle;
 
+//: @end
 @end

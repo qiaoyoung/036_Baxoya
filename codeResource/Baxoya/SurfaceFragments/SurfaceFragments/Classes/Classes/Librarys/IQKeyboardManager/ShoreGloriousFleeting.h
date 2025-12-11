@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  ShoreGloriousFleeting.h
 //  https://github.com/hackiftekhar/OperationThroughoutJourneyWith
@@ -21,41 +23,49 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
-
+//: #import "LuckyKindredToward.h"
 #import "LuckyKindredToward.h"
-
 
 /**
  ShoreGloriousFleeting for OperationThroughoutJourneyWith.
  */
+//: NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
+//: @interface ShoreGloriousFleeting : UIToolbar <UIInputViewAudioFeedback>
 @interface ShoreGloriousFleeting : UIToolbar <UIInputViewAudioFeedback>
 
 /**
  Previous bar button of toolbar.
  */
-@property(nonnull, nonatomic, strong) ReservoirMigrateOaken *previousBarButton;
+/**
+ Fixed space bar button of toolbar.
+ */
+//: @property(nonnull, nonatomic, strong) ReservoirMigrateOaken *fixedSpaceBarButton;
+@property(nonnull, nonatomic, strong) ReservoirMigrateOaken *shadow;
 
 /**
  Next bar button of toolbar.
  */
-@property(nonnull, nonatomic, strong) ReservoirMigrateOaken *nextBarButton;
-
-/**
- Title bar button of toolbar.
- */
-@property(nonnull, nonatomic, strong, readonly) LuckyKindredToward *titleBarButton;
+//: @property(nonnull, nonatomic, strong) ReservoirMigrateOaken *nextBarButton;
+@property(nonnull, nonatomic, strong) ReservoirMigrateOaken *flag;
 
 /**
  Done bar button of toolbar.
  */
-@property(nonnull, nonatomic, strong) ReservoirMigrateOaken *doneBarButton;
+//: @property(nonnull, nonatomic, strong) ReservoirMigrateOaken *doneBarButton;
+@property(nonnull, nonatomic, strong) ReservoirMigrateOaken *stoneCenter;
 
 /**
- Fixed space bar button of toolbar.
+ Title bar button of toolbar.
  */
-@property(nonnull, nonatomic, strong) ReservoirMigrateOaken *fixedSpaceBarButton;
+//: @property(nonnull, nonatomic, strong, readonly) LuckyKindredToward *titleBarButton;
+@property(nonnull, nonatomic, strong, readonly) LuckyKindredToward *plain;
 
+//: @property(nonnull, nonatomic, strong) ReservoirMigrateOaken *previousBarButton;
+@property(nonnull, nonatomic, strong) ReservoirMigrateOaken *send;
+
+//: @end
 @end
-

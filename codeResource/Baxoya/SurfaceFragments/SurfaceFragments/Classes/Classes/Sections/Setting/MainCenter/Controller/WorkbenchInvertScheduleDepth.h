@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  WorkbenchInvertScheduleDepth.h
 //  Baxoya
@@ -6,14 +8,21 @@
 //  Copyright © 2025 Baxoya. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
 
+//: NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_BEGIN
 
+//: @interface WorkbenchInvertScheduleDepth : UIViewController
 @interface WorkbenchInvertScheduleDepth : UIViewController
 
-@property (nonatomic,strong) NSString *urlString;
+//: @property (nonatomic,strong) NSString *urlString;
+@property (nonatomic,strong) NSString *collector;
 
+//: @end
 @end
 
+//: NS_ASSUME_NONNULL_END
 NS_ASSUME_NONNULL_END

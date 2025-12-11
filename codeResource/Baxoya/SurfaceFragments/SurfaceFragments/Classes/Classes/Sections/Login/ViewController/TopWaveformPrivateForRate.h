@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  TopWaveformPrivateForRate.h
 //  NIMDemo
@@ -6,10 +8,15 @@
 //  Copyright (c) 2015年 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
 
+//: @interface TopWaveformPrivateForRate : UIViewController
 @interface TopWaveformPrivateForRate : UIViewController
 
--(void)inputAccount:(NSString*)account password:(NSString *)password;
+//: -(void)inputAccount:(NSString*)account password:(NSString *)password;
+-(void)go:(NSString*)account forbid:(NSString *)password;
 
+//: @end
 @end

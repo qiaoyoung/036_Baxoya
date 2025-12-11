@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  TransformerBlueprintIdleMock.h
 //  NIM
@@ -6,8 +8,12 @@
 //  Copyright (c) 2015 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
 
+//: @interface TransformerBlueprintIdleMock : RetreatModifyAdaptRight
 @interface TransformerBlueprintIdleMock : RetreatModifyAdaptRight
 
+//: @end
 @end

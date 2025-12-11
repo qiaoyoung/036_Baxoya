@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  UIView+NavigateDetachFeatureTeam.h
 //  https://github.com/hackiftekhar/OperationThroughoutJourneyWith
@@ -21,16 +23,21 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
-
+//: #import "OperationThroughoutJourneyWithConstants.h"
 #import "OperationThroughoutJourneyWithConstants.h"
 
+//: @class UICollectionView, UIScrollView, UITableView, UISearchBar, NSArray;
 @class UICollectionView, UIScrollView, UITableView, UISearchBar, NSArray;
 
 /**
  UIView hierarchy category.
  */
+//: NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
+//: @interface UIView (NavigateDetachFeatureTeam)
 @interface UIView (NavigateDetachFeatureTeam)
 
 ///----------------------
@@ -40,18 +47,30 @@ NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 /**
  Returns the UIViewController object that manages the receiver.
  */
-@property (nullable, nonatomic, readonly, strong) UIViewController *viewContainingController;
+/**
+ Returns all siblings of the receiver which canBecomeFirstResponder.
+ */
+//: @property (nonnull, nonatomic, readonly, copy) NSArray<__kindof UIView*> *responderSiblings;
+@property (nonnull, nonatomic, readonly, copy) NSArray<__kindof UIView*> *novel;
+
+//: @property (nullable, nonatomic, readonly, strong) UIViewController *viewContainingController;
+@property (nullable, nonatomic, readonly, strong) UIViewController *picture;
 
 /**
- Returns the topMost UIViewController object in hierarchy.
+ Returns all deep subViews of the receiver which canBecomeFirstResponder.
  */
-@property (nullable, nonatomic, readonly, strong) UIViewController *topMostController;
+//: @property (nonnull, nonatomic, readonly, copy) NSArray<__kindof UIView*> *deepResponderViews;
+@property (nonnull, nonatomic, readonly, copy) NSArray<__kindof UIView*> *resistance;
+
+///----------------
+/// @name Transform
+///----------------
 
 /**
- Returns the UIViewController object that is actually the parent of this object. Most of the time it's the viewController object which actually contains it, but result may be different if it's viewController is added as childViewController of another viewController.
+ Returns current view transform with respect to the 'toView'.
  */
-@property (nullable, nonatomic, readonly, strong) UIViewController *parentContainerViewController;
-
+//: -(CGAffineTransform)convertTransformToView:(nullable UIView*)toView;
+-(CGAffineTransform)artistic:(nullable UIView*)toView;
 ///-----------------------------------
 /// @name Superviews/Subviews/Siblings
 ///-----------------------------------
@@ -63,41 +82,8 @@ NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 
  @param belowView view object in upper hierarchy where method should stop searching and return nil
  */
--(nullable __kindof UIView*)superviewOfClassType:(nonnull Class)classType belowView:(nullable UIView*)belowView;
--(nullable __kindof UIView*)superviewOfClassType:(nonnull Class)classType;
-
-/**
- Returns all siblings of the receiver which canBecomeFirstResponder.
- */
-@property (nonnull, nonatomic, readonly, copy) NSArray<__kindof UIView*> *responderSiblings;
-
-/**
- Returns all deep subViews of the receiver which canBecomeFirstResponder.
- */
-@property (nonnull, nonatomic, readonly, copy) NSArray<__kindof UIView*> *deepResponderViews;
-
-///-------------------------
-/// @name Special TextFields
-///-------------------------
-
-/**
- Returns searchBar if receiver object is UISearchBarTextField, otherwise return nil.
- */
-@property (nullable, nonatomic, readonly) UISearchBar *textFieldSearchBar;
-
-/**
- Returns YES if the receiver object is UIAlertSheetTextField, otherwise return NO.
- */
-@property (nonatomic, getter=isAlertViewTextField, readonly) BOOL alertViewTextField;
-
-///----------------
-/// @name Transform
-///----------------
-
-/**
- Returns current view transform with respect to the 'toView'.
- */
--(CGAffineTransform)convertTransformToView:(nullable UIView*)toView;
+//: -(nullable __kindof UIView*)superviewOfClassType:(nonnull Class)classType belowView:(nullable UIView*)belowView;
+-(nullable __kindof UIView*)motion:(nonnull Class)classType custom:(nullable UIView*)belowView;
 
 ///-----------------
 /// @name Hierarchy
@@ -106,30 +92,69 @@ NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 /**
  Returns a string that represent the information about it's subview's hierarchy. You can use this method to debug the subview's positions.
  */
-@property (nonnull, nonatomic, readonly, copy) NSString *subHierarchy;
+//: @property (nonnull, nonatomic, readonly, copy) NSString *subHierarchy;
+@property (nonnull, nonatomic, readonly, copy) NSString *ocean;
+
+/**
+ Returns the topMost UIViewController object in hierarchy.
+ */
+//: @property (nullable, nonatomic, readonly, strong) UIViewController *topMostController;
+@property (nullable, nonatomic, readonly, strong) UIViewController *treat;
+
+///-------------------------
+/// @name Special TextFields
+///-------------------------
+
+/**
+ Returns searchBar if receiver object is UISearchBarTextField, otherwise return nil.
+ */
+//: @property (nullable, nonatomic, readonly) UISearchBar *textFieldSearchBar;
+@property (nullable, nonatomic, readonly) UISearchBar *min;
 
 /**
  Returns an string that represent the information about it's upper hierarchy. You can use this method to debug the superview's positions.
  */
-@property (nonnull, nonatomic, readonly, copy) NSString *superHierarchy;
+//: @property (nonnull, nonatomic, readonly, copy) NSString *superHierarchy;
+@property (nonnull, nonatomic, readonly, copy) NSString *raw;
+
+//: -(nullable __kindof UIView*)superviewOfClassType:(nonnull Class)classType;
+-(nullable __kindof UIView*)memberTrust:(nonnull Class)classType;
 
 /**
  Returns an string that represent the information about it's frame positions. You can use this method to debug self positions.
  */
-@property (nonnull, nonatomic, readonly, copy) NSString *debugHierarchy;
+//: @property (nonnull, nonatomic, readonly, copy) NSString *debugHierarchy;
+@property (nonnull, nonatomic, readonly, copy) NSString *trail;
 
+/**
+ Returns the UIViewController object that is actually the parent of this object. Most of the time it's the viewController object which actually contains it, but result may be different if it's viewController is added as childViewController of another viewController.
+ */
+//: @property (nullable, nonatomic, readonly, strong) UIViewController *parentContainerViewController;
+@property (nullable, nonatomic, readonly, strong) UIViewController *familyState;
+
+/**
+ Returns YES if the receiver object is UIAlertSheetTextField, otherwise return NO.
+ */
+//: @property (nonatomic, getter=isAlertViewTextField, readonly) BOOL alertViewTextField;
+@property (nonatomic, getter=isAlertViewTextField, readonly) BOOL sheetWallDistant;
+
+//: @end
 @end
 
 
 /**
  NSObject category to used for logging purposes
  */
+//: NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
+//: @interface NSObject (RequestFlagshipAllocateGrayscale)
 @interface NSObject (RequestFlagshipAllocateGrayscale)
 
 /**
  Short description for logging purpose.
  */
-@property (nonnull, nonatomic, readonly, copy) NSString *_IQDescription;
+//: @property (nonnull, nonatomic, readonly, copy) NSString *_IQDescription;
+@property (nonnull, nonatomic, readonly, copy) NSString *portAdvanced;
 
+//: @end
 @end

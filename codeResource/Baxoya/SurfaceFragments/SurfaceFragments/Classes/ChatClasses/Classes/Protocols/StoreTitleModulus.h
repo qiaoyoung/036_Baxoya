@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  StoreTitleModulus.h
 // RunBonnyJourneyTweak
@@ -5,16 +7,24 @@
 //  Created by amao on 8/13/15.
 //  Copyright (c) 2015 NetEase. All rights reserved.
 //
-
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
 
+// __M_A_C_R_O__
+
+//: @class NIMSession;
 @class NIMSession;
+//: @class TactfulAppearanceBrightnessClass;
 @class TactfulAppearanceBrightnessClass;
+//: @class TerrainCropPreloadFacade;
 @class TerrainCropPreloadFacade;
+//: @class NIMMessage;
 @class NIMMessage;
 
+//: @protocol StoreTitleModulus <NSObject>
 @protocol StoreTitleModulus <NSObject>
 
+//: @optional
 @optional
 
 /**
@@ -25,8 +35,10 @@
  *
  *  @return 用户信息
  */
-- (TactfulAppearanceBrightnessClass *)infoByUser:(NSString *)userId
-                    option:(TerrainCropPreloadFacade *)option;
+//: - (TactfulAppearanceBrightnessClass *)infoByUser:(NSString *)userId
+- (TactfulAppearanceBrightnessClass *)expose:(NSString *)userId
+                    //: option:(TerrainCropPreloadFacade *)option;
+                    intervaleract:(TerrainCropPreloadFacade *)option;
 
 
 /**
@@ -37,8 +49,10 @@
  *
  *  @return 群组信息
  */
-- (TactfulAppearanceBrightnessClass *)infoByTeam:(NSString *)teamId
-                    option:(TerrainCropPreloadFacade *)option;
+//: - (TactfulAppearanceBrightnessClass *)infoByTeam:(NSString *)teamId
+- (TactfulAppearanceBrightnessClass *)forget:(NSString *)teamId
+                    //: option:(TerrainCropPreloadFacade *)option;
+                    lock:(TerrainCropPreloadFacade *)option;
 
 /**
  *  上层提供超大群组信息的接口
@@ -48,8 +62,10 @@
  *
  *  @return 群组信息
  */
-- (TactfulAppearanceBrightnessClass *)infoBySuperTeam:(NSString *)teamId
-                         option:(TerrainCropPreloadFacade *)option;
+//: - (TactfulAppearanceBrightnessClass *)infoBySuperTeam:(NSString *)teamId
+- (TactfulAppearanceBrightnessClass *)tableTender:(NSString *)teamId
+                         //: option:(TerrainCropPreloadFacade *)option;
+                         implementation:(TerrainCropPreloadFacade *)option;
 
 /**
 *  上层提供被回复消息内容给统一格式的接口
@@ -58,6 +74,8 @@
 *
 *  @return 回复展示内容
 */
-- (NSString *)replyedContentWithMessage:(NIMMessage *)message;
+//: - (NSString *)replyedContentWithMessage:(NIMMessage *)message;
+- (NSString *)scenePressed:(NIMMessage *)message;
 
+//: @end
 @end

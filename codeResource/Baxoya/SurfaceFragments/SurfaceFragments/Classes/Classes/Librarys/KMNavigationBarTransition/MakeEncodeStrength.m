@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  MakeEncodeStrength.m
 //
@@ -21,25 +23,39 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
+// __M_A_C_R_O__
+//: #import "MakeEncodeStrength.h"
 #import "MakeEncodeStrength.h"
+//: #import <objc/runtime.h>
 #import <objc/runtime.h>
 
+//: @interface MakeEncodeStrength : NSObject
 @interface MakeEncodeStrength : NSObject
-@property (nonatomic, weak) id object;
+//: @property (nonatomic, weak) id object;
+@property (nonatomic, weak) id disappearMenu;
+//: @end
 @end
 
+//: @implementation MakeEncodeStrength
 @implementation MakeEncodeStrength
 
-void km_objc_setAssociatedWeakObject(id container, void *key, id value)
+//: void km_objc_setAssociatedWeakObject(id container, void *key, id value)
+void orbitNative(id container, void *key, id value)
 {
+    //: MakeEncodeStrength *wrapper = [[MakeEncodeStrength alloc] init];
     MakeEncodeStrength *wrapper = [[MakeEncodeStrength alloc] init];
-    wrapper.object = value;
+    //: wrapper.object = value;
+    wrapper.disappearMenu = value;
+    //: objc_setAssociatedObject(container, key, wrapper, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     objc_setAssociatedObject(container, key, wrapper, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
-id km_objc_getAssociatedWeakObject(id container, void *key)
+//: id km_objc_getAssociatedWeakObject(id container, void *key)
+id symbolEnforce(id container, void *key)
 {
-    return [(MakeEncodeStrength *)objc_getAssociatedObject(container, key) object];
+    //: return [(MakeEncodeStrength *)objc_getAssociatedObject(container, key) object];
+    return [(MakeEncodeStrength *)objc_getAssociatedObject(container, key) disappearMenu];
 }
 
+//: @end
 @end

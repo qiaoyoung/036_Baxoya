@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  ReplaceAuthenticateUpdateDiscrete.h
 //  NIM
@@ -6,9 +8,13 @@
 //  Copyright © 2016年 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import "ResilientFlowVersion.h"
 #import "ResilientFlowVersion.h"
 
+//: @interface ReplaceAuthenticateUpdateDiscrete : NSObject<ViableOperatorViewBy>
 @interface ReplaceAuthenticateUpdateDiscrete : NSObject<ViableOperatorViewBy>
 
 
+//: @end
 @end

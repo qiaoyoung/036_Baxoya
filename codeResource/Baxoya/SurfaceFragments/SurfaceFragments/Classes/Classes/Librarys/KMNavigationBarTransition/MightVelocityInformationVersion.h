@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  MightVelocityInformationVersion.h
 //
@@ -20,15 +22,20 @@
 //  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
-
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
-
 //! Project version number for MightVelocityInformationVersion.
+
+// __M_A_C_R_O__
+
+//: FOUNDATION_EXPORT double MightVelocityInformationVersionVersionNumber;
 FOUNDATION_EXPORT double MightVelocityInformationVersionVersionNumber;
 
 //! Project version string for MightVelocityInformationVersion.
+//: FOUNDATION_EXPORT const unsigned char MightVelocityInformationVersionVersionString[];
 FOUNDATION_EXPORT const unsigned char MightVelocityInformationVersionVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <MightVelocityInformationVersion/PublicHeader.h>
 
+//: #import <MightVelocityInformationVersion/UINavigationController+MightVelocityInformationVersion.h>
 #import <MightVelocityInformationVersion/UINavigationController+MightVelocityInformationVersion.h>

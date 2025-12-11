@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  NSObject+TranslateCacheIcon.m
 //  NIM
@@ -6,17 +8,26 @@
 //  Copyright © 2023 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import "NSObject+TranslateCacheIcon.h"
 #import "NSObject+TranslateCacheIcon.h"
+//: #import <objc/runtime.h>
 #import <objc/runtime.h>
 
+//: @implementation NSObject (TranslateCacheIcon)
 @implementation NSObject (TranslateCacheIcon)
 
-- (void)setTranslateCacheIcon:(NSString *)TranslateCacheIcon{
-    objc_setAssociatedObject(self, @selector(TranslateCacheIcon), TranslateCacheIcon, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-}
-
-- (NSString *)TranslateCacheIcon{
+//: - (NSString *)TranslateCacheIcon{
+- (NSString *)bounceDimensionned{
+    //: return objc_getAssociatedObject(self, _cmd);
     return objc_getAssociatedObject(self, _cmd);
 }
 
+//: - (void)setTranslateCacheIcon:(NSString *)TranslateCacheIcon{
+- (void)setBounceDimensionned:(NSString *)TranslateCacheIcon{
+    //: objc_setAssociatedObject(self, @selector(TranslateCacheIcon), TranslateCacheIcon, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, @selector(bounceDimensionned), TranslateCacheIcon, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+//: @end
 @end

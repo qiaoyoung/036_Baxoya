@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  NSString+NIM.h
 // RunBonnyJourneyTweak
@@ -6,30 +8,45 @@
 //  Copyright (c) 2015年 NetEase. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
 
+//: @interface NSString (RunBonnyJourneyTweak)
 @interface NSString (RunBonnyJourneyTweak)
 
-- (CGSize)nim_stringSizeWithFont:(UIFont *)font;
+//: - (NSDictionary *)toDictionary ;
+- (NSDictionary *)restriction ;
 
-- (NSString *)nim_MD5String;
+//: - (NSRange)nim_rangeOfLastUnicode;
+- (NSRange)construct;
 
-- (NSUInteger)nim_getBytesLength;
+//: - (NSString *)nim_localizedWithTable:(NSString *)table;
+- (NSString *)leaveTruth:(NSString *)table;
 
-- (NSString *)nim_stringByDeletingPictureResolution;
+//: - (NSString *)nim_MD5String;
+- (NSString *)bullet;
 
-- (UIColor *)nim_hexToColor;
+//: - (BOOL)nim_fileIsExist;
+- (BOOL)distance;
 
-- (BOOL)nim_fileIsExist;
+//: - (CGSize)nim_stringSizeWithFont:(UIFont *)font;
+- (CGSize)assistSlice:(UIFont *)font;
 
 
-- (NSString *)nim_localized;
+//: - (NSUInteger)nim_getBytesLength;
+- (NSUInteger)untilSecurity;
 
-- (NSString *)nim_localizedWithTable:(NSString *)table;
+//: - (NSString *)nim_stringByDeletingPictureResolution;
+- (NSString *)dual;
 
-- (BOOL)nim_containsEmoji;
+//: - (UIColor *)nim_hexToColor;
+- (UIColor *)norm;
 
-- (NSRange)nim_rangeOfLastUnicode;
+//: - (BOOL)nim_containsEmoji;
+- (BOOL)movement;
 
-- (NSDictionary *)toDictionary ;
+//: - (NSString *)nim_localized;
+- (NSString *)write;
+//: @end
 @end

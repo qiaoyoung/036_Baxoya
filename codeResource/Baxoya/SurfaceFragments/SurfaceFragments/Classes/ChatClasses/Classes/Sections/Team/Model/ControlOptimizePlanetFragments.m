@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  USERCardMemberItem.m
 //  NIM
@@ -6,108 +8,172 @@
 //  Copyright (c) 2015年 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import "ControlOptimizePlanetFragments.h"
 #import "ControlOptimizePlanetFragments.h"
+//: #import "GrainSymbolHistogramLoyal.h"
 #import "GrainSymbolHistogramLoyal.h"
+//: #import "RunBonnyJourneyTweak.h"
 #import "RunBonnyJourneyTweak.h"
- 
+
+//: @interface ControlOptimizePlanetFragments ()
 @interface ControlOptimizePlanetFragments ()
 
-@property (nonatomic, strong) NIMTeamMember *member;
+//: @property (nonatomic, assign) NIMTeamType teamType;
+@property (nonatomic, assign) NIMTeamType sizeNet;
 
-@property (nonatomic, assign) NIMTeamType teamType;
+//: @property (nonatomic, strong) NIMTeamMember *member;
+@property (nonatomic, strong) NIMTeamMember *obviousShared;
 
+//: @end
 @end
 
+//: @implementation ControlOptimizePlanetFragments
 @implementation ControlOptimizePlanetFragments
 
-- (instancetype)init {
-    if (self = [super init]) {
-        _opeator = ProjectPolygonVertexWideNone;
-    }
-    return self;
+//: - (void)setUserType:(NIMTeamMemberType)userType {
+- (void)setDrawer:(NIMTeamMemberType)userType {
+    //: _member.type = userType;
+    _obviousShared.type = userType;
 }
 
-- (instancetype)initWithMember:(NIMTeamMember *)member
-                      teamType:(NIMTeamType)teamType {
-    if (self = [super init]) {
-        _member = member;
-        _teamType = teamType;
-        _userId = member.userId;
-        _opeator = ProjectPolygonVertexWideNone;
-    }
-    return self;
+//: - (BOOL)isMuted {
+- (BOOL)belowGravityFriendly {
+    //: return _member.isMuted;
+    return _obviousShared.isMuted;
 }
 
-- (NSUInteger)hash {
-    return [self.userId hash];
+//: - (NIMTeamMemberType)userType {
+- (NIMTeamMemberType)drawer {
+    //: return _member.type;
+    return _obviousShared.type;
 }
 
+//: - (BOOL)isEqual:(id)object{
 - (BOOL)isEqual:(id)object{
+    //: if (![object isKindOfClass:[ControlOptimizePlanetFragments class]]) {
     if (![object isKindOfClass:[ControlOptimizePlanetFragments class]]) {
+        //: return NO;
         return NO;
     }
+    //: ControlOptimizePlanetFragments *obj = (ControlOptimizePlanetFragments*)object;
     ControlOptimizePlanetFragments *obj = (ControlOptimizePlanetFragments*)object;
-    return [obj.userId isEqual:self.userId];
+    //: return [obj.userId isEqual:self.userId];
+    return [obj.mapEndlessed isEqual:self.mapEndlessed];
 }
 
+//: - (NSString *)inviterAccid {
+- (NSString *)family {
+    //: return _member.inviterAccid;
+    return _obviousShared.inviterAccid;
+}
+
+//: #pragma mark - <TimelineWaterPullPristine>
 #pragma mark - <TimelineWaterPullPristine>
-- (NSString *)teamId {
-    return _member.teamId;
+//: - (NSString *)teamId {
+- (NSString *)unit {
+    //: return _member.teamId;
+    return _obviousShared.teamId;
 }
 
-- (NSString *)userId {
-    if (_member) {
-        return _member.userId;
-    } else {
-        return _userId;
-    }
+//: - (UIImage *)imageNormal{
+- (UIImage *)sense{
+    //: TactfulAppearanceBrightnessClass *info = [[RunBonnyJourneyTweak sharedKit] infoByUser:self.userId option:nil];
+    TactfulAppearanceBrightnessClass *info = [[RunBonnyJourneyTweak fabricWithoutStormDisabled] expose:self.mapEndlessed intervaleract:nil];
+    //: return info.avatarImage;
+    return info.technologyStand;
 }
 
-- (NIMTeamMemberType)userType {
-    return _member.type;
+//: - (NIMTeamType)teamType {
+- (NIMTeamType)sizeNet {
+    //: return _teamType;
+    return _sizeNet;
 }
 
-- (void)setUserType:(NIMTeamMemberType)userType {
-    _member.type = userType;
-}
-
-- (NIMTeamType)teamType {
-    return _teamType;
-}
-
-- (UIImage *)imageNormal{
-    TactfulAppearanceBrightnessClass *info = [[RunBonnyJourneyTweak sharedKit] infoByUser:self.userId option:nil];
-    return info.avatarImage;
-}
-
-- (NSString *)title {
+//: - (NSString *)title {
+- (NSString *)isolate {
+    //: NIMSession *session = nil;
     NIMSession *session = nil;
-    if (!self.member) {
-        session = [NIMSession session:self.userId type:NIMSessionTypeP2P];
+    //: if (!self.member) {
+    if (!self.obviousShared) {
+        //: session = [NIMSession session:self.userId type:NIMSessionTypeP2P];
+        session = [NIMSession session:self.mapEndlessed type:NIMSessionTypeP2P];
+    //: } else {
     } else {
-        if (self.teamType == NIMTeamTypeSuper) {
-            session = [NIMSession session:self.teamId type:NIMSessionTypeSuperTeam];
+        //: if (self.teamType == NIMTeamTypeSuper) {
+        if (self.sizeNet == NIMTeamTypeSuper) {
+            //: session = [NIMSession session:self.teamId type:NIMSessionTypeSuperTeam];
+            session = [NIMSession session:self.unit type:NIMSessionTypeSuperTeam];
+        //: } else {
         } else {
-            session = [NIMSession session:self.teamId type:NIMSessionTypeTeam];
+            //: session = [NIMSession session:self.teamId type:NIMSessionTypeTeam];
+            session = [NIMSession session:self.unit type:NIMSessionTypeTeam];
         }
     }
-    return [GrainSymbolHistogramLoyal showNick:self.userId inSession:session];
+    //: return [GrainSymbolHistogramLoyal showNick:self.userId inSession:session];
+    return [GrainSymbolHistogramLoyal hero:self.mapEndlessed sharpUtility:session];
 }
 
-- (NSString *)imageUrl{
-    return [[RunBonnyJourneyTweak sharedKit] infoByUser:self.userId option:nil].avatarUrlString;
+//: - (NSString *)imageUrl{
+- (NSString *)capKey{
+    //: return [[RunBonnyJourneyTweak sharedKit] infoByUser:self.userId option:nil].avatarUrlString;
+    return [[RunBonnyJourneyTweak fabricWithoutStormDisabled] expose:self.mapEndlessed intervaleract:nil].fitInside;
 }
 
-- (NSString *)inviterAccid {
-    return _member.inviterAccid;
+//: - (BOOL)isMyUserId {
+- (BOOL)submit {
+    //: return [self.userId isEqualToString:[NIMSDK sharedSDK].loginManager.currentAccount];
+    return [self.mapEndlessed isEqualToString:[NIMSDK sharedSDK].loginManager.currentAccount];
 }
 
-- (BOOL)isMuted {
-    return _member.isMuted;
+//: - (instancetype)initWithMember:(NIMTeamMember *)member
+- (instancetype)initWithAnySecureSafety:(NIMTeamMember *)member
+                      //: teamType:(NIMTeamType)teamType {
+                      grand:(NIMTeamType)teamType {
+    //: if (self = [super init]) {
+    if (self = [super init]) {
+        //: _member = member;
+        _obviousShared = member;
+        //: _teamType = teamType;
+        _sizeNet = teamType;
+        //: _userId = member.userId;
+        _mapEndlessed = member.userId;
+        //: _opeator = ProjectPolygonVertexWideNone;
+        _earth = ProjectPolygonVertexWideNone;
+    }
+    //: return self;
+    return self;
 }
 
-- (BOOL)isMyUserId {
-    return [self.userId isEqualToString:[NIMSDK sharedSDK].loginManager.currentAccount];
+//: - (NSString *)userId {
+- (NSString *)mapEndlessed {
+    //: if (_member) {
+    if (_obviousShared) {
+        //: return _member.userId;
+        return _obviousShared.userId;
+    //: } else {
+    } else {
+        //: return _userId;
+        return _mapEndlessed;
+    }
 }
 
+//: - (NSUInteger)hash {
+- (NSUInteger)hash {
+    //: return [self.userId hash];
+    return [self.mapEndlessed hash];
+}
+
+//: - (instancetype)init {
+- (instancetype)init {
+    //: if (self = [super init]) {
+    if (self = [super init]) {
+        //: _opeator = ProjectPolygonVertexWideNone;
+        _earth = ProjectPolygonVertexWideNone;
+    }
+    //: return self;
+    return self;
+}
+
+//: @end
 @end

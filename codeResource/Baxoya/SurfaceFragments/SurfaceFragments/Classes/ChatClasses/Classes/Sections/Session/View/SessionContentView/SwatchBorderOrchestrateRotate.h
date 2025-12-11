@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  SwatchBorderOrchestrateRotate.h
 // RunBonnyJourneyTweak
@@ -6,8 +8,12 @@
 //  Copyright (c) 2015年 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import "RetreatModifyAdaptRight.h"
 #import "RetreatModifyAdaptRight.h"
 
+//: @interface SwatchBorderOrchestrateRotate : RetreatModifyAdaptRight
 @interface SwatchBorderOrchestrateRotate : RetreatModifyAdaptRight
 
+//: @end
 @end

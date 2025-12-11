@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  UIViewController+MightVelocityInformationVersion.h
 //
@@ -21,10 +23,15 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
 
+//: @interface UIViewController (MightVelocityInformationVersion)
 @interface UIViewController (MightVelocityInformationVersion)
 
-@property (nonatomic, weak) UIScrollView *km_scrollView;
+//: @property (nonatomic, weak) UIScrollView *km_scrollView;
+@property (nonatomic, weak) UIScrollView *counterExcessed;
 
+//: @end
 @end

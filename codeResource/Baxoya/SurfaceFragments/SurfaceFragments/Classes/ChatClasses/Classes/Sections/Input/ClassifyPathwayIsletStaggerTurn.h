@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  ClassifyPathwayIsletStaggerTurn.h
 // RunBonnyJourneyTweak
@@ -6,10 +8,19 @@
 //  Copyright © 2015年 NetEase. All rights reserved.
 //
 
+// __M_A_C_R_O__
+
+//: typedef NS_ENUM(NSInteger,InfoRandomizeTideSlipBasic){
 typedef NS_ENUM(NSInteger,InfoRandomizeTideSlipBasic){
-    InfoRandomizeTideSlipBasicVoice,         //录音文本切换按钮
+    //: InfoRandomizeTideSlipBasicVoice, 
+    InfoRandomizeTideSlipBasicVoice, //录音文本切换按钮
+    //: InfoRandomizeTideSlipBasicTextAndRecord, 
     InfoRandomizeTideSlipBasicTextAndRecord, //文本输入框或录音按钮
-    InfoRandomizeTideSlipBasicEmoticon,      //表情贴图
-    InfoRandomizeTideSlipBasicMore,          //更多菜单
-    InfoRandomizeTideSlipBasicSend,          //发送
+    //: InfoRandomizeTideSlipBasicEmoticon, 
+    InfoRandomizeTideSlipBasicEmoticon, //表情贴图
+    //: InfoRandomizeTideSlipBasicMore, 
+    InfoRandomizeTideSlipBasicMore, //更多菜单
+    //: InfoRandomizeTideSlipBasicSend, 
+    InfoRandomizeTideSlipBasicSend, //发送
+//: };
 };

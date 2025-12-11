@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  CloneGuardCollector.h
 // RunBonnyJourneyTweak
@@ -6,34 +8,50 @@
 //  Copyright © 2016年 NetEase. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
+//: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
+//: #import "FenceAccelerate.h"
 #import "FenceAccelerate.h"
 
-
+//: @class VariableColorfulParametricWealth;
 @class VariableColorfulParametricWealth;
 
+//: @interface CloneGuardCollector : NSObject<FenceAccelerateDelegate>
 @interface CloneGuardCollector : NSObject<FenceAccelerateDelegate>
 
-@property (nonatomic,strong) NSMutableDictionary *cachedInfo;
+//: @property (nonatomic,assign) NSTimeInterval timeInterval;
+@property (nonatomic,assign) NSTimeInterval magnet;
 
-@property (nonatomic,strong) FenceAccelerate *timer;
+//: @property (nonatomic,strong) NSMutableDictionary *cachedInfo;
+@property (nonatomic,strong) NSMutableDictionary *occasion;
 
-@property (nonatomic,assign) NSTimeInterval timeInterval;
+//: @property (nonatomic,strong) FenceAccelerate *timer;
+@property (nonatomic,strong) FenceAccelerate *past;
 
-- (void)addFireInfo:(VariableColorfulParametricWealth *)info;
+//: - (void)addFireInfo:(VariableColorfulParametricWealth *)info;
+- (void)evaluationUnit:(VariableColorfulParametricWealth *)info;
 
+//: @end
 @end
 
 
+//: @interface VariableColorfulParametricWealth : NSObject
 @interface VariableColorfulParametricWealth : NSObject
 
-@property (nonatomic,strong) NIMSession *session;
+//: @property (nonatomic,copy) NSString *notificationName;
+@property (nonatomic,copy) NSString *followValid;
 
-@property (nonatomic,copy)   NSString *notificationName;
+//: @property (nonatomic,strong) NIMSession *session;
+@property (nonatomic,strong) NIMSession *against;
 
-- (NSObject *)fireObject;
+//: - (NSString *)saveIdentity;
+- (NSString *)off;
 
-- (NSString *)saveIdentity;
+//: - (NSObject *)fireObject;
+- (NSObject *)overNeat;
 
+//: @end
 @end

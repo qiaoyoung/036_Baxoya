@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  PatternEnhanceLogarithm.m
 //  sohunews
@@ -6,78 +8,117 @@
 //  Copyright © 2020 Sohu.com. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import "PatternEnhanceLogarithm.h"
 #import "PatternEnhanceLogarithm.h"
+//: #import "PreloadInspectDerive.h"
 #import "PreloadInspectDerive.h"
+//: #import "AbortChannelImpact.h"
 #import "AbortChannelImpact.h"
 
-#define kLeadCompleteFlag @"LeadCompleteFlag"
-
-#define kIsDefaultUserIcon @"isDefaultUserIcon"
-#define kIsDefaultNikeName @"isDefaultNikeName"
-#define kIsDefaultUserSlogan @"isDefaultUserSlogan"
-#define kNowDate @"nowDate"
-
-
+//: @interface PatternEnhanceLogarithm ()
 @interface PatternEnhanceLogarithm ()
 
-@property (nonatomic, assign) BOOL isShow;
+//: @property (nonatomic, assign) BOOL isShow;
+@property (nonatomic, assign) BOOL exposeAdd;
 
-@property (nonatomic, strong) PreloadInspectDerive *leadVIEW;
+//: @property (nonatomic, strong) PreloadInspectDerive *leadVIEW;
+@property (nonatomic, strong) PreloadInspectDerive *mostManage;
 
+//: @end
 @end
 
+//: @implementation PatternEnhanceLogarithm
 @implementation PatternEnhanceLogarithm
 
-dSINGLETON_FOR_CLASS(PatternEnhanceLogarithm);
+//: + (instancetype)sharedInstance { static PatternEnhanceLogarithm *sharedPatternEnhanceLogarithm = nil; static dispatch_once_t pred; _dispatch_once(&pred, ^{ sharedPatternEnhanceLogarithm = [[PatternEnhanceLogarithm alloc] init]; }); return sharedPatternEnhanceLogarithm; };
++ (instancetype)cover { static PatternEnhanceLogarithm *sharedPatternEnhanceLogarithm = nil; static dispatch_once_t pred; _dispatch_once(&pred, ^{ sharedPatternEnhanceLogarithm = [[PatternEnhanceLogarithm alloc] init]; }); return sharedPatternEnhanceLogarithm; };
 
 
-- (void)showLeadViewForCompletingUserInfoWithSuperView:(UIView *)superView
-                                           withMessage:(NSString *)msg
-                                           cancleBlock:(void (^)(void))callback
+//: - (void)showLeadViewForCompletingUserInfoWithSuperView:(UIView *)superView
+- (void)argumentReceive:(UIView *)superView
+                                           //: withMessage:(NSString *)msg
+                                           necessaryCircuit:(NSString *)msg
+                                           //: cancleBlock:(void (^)(void))callback
+                                           rateBy:(void (^)(void))callback
 {
-        
+
     // 已经展示引导浮层
-    if (self.isShow) {
-        self.leadVIEW.title = msg;
-        [self.leadVIEW.leftwardMarqueeView reloadData];
-        [self.leadVIEW.leftwardMarqueeView start];
-        self.leadVIEW.completion   = callback;
+    //: if (self.isShow) {
+    if (self.exposeAdd) {
+        //: self.leadVIEW.title = msg;
+        self.mostManage.become = msg;
+        //: [self.leadVIEW.leftwardMarqueeView reloadData];
+        [self.mostManage.runningCalculateMount steel];
+        //: [self.leadVIEW.leftwardMarqueeView start];
+        [self.mostManage.runningCalculateMount belowHill];
+        //: self.leadVIEW.completion = callback;
+        self.mostManage.orbit = callback;
+        //: return;
         return;
     }
-    
-    @weakify(self);
+
+    @
+     //: autoreleasepool{} __weak __typeof__(self) __weak_self__ = self;
+     autoreleasepool{} __weak __typeof__(self) __weak_self__ = self;
+                  ;
+    //: void (^finishShow)(ReloadAcknowledgeEngine type) = ^(ReloadAcknowledgeEngine type){
     void (^finishShow)(ReloadAcknowledgeEngine type) = ^(ReloadAcknowledgeEngine type){
-      
+
+        //: dispatch_async(dispatch_get_main_queue(), ^{
         dispatch_async(dispatch_get_main_queue(), ^{
-          
-            @strongify(self);
-            self.isShow = YES;
-            self.leadVIEW = [PreloadInspectDerive showTipViewForCompletingUserInfolWithDelay:0 superView:superView ReloadAcknowledgeEngine:(type) withMessage:msg trueBlock:^{
+
+            @
+             //: try{} @finally{} __typeof__(self) self = __weak_self__;
+             try{} @finally{} __typeof__(self) self = __weak_self__;
+                            ;
+            //: self.isShow = YES;
+            self.exposeAdd = YES;
+            //: self.leadVIEW = [PreloadInspectDerive showTipViewForCompletingUserInfolWithDelay:0 superView:superView ReloadAcknowledgeEngine:(type) withMessage:msg trueBlock:^{
+            self.mostManage = [PreloadInspectDerive decide:0 pet:superView insertShow:(type) by:msg leafArgument:^{
+                //: !callback ? : callback();
                 !callback ? : callback();
-            } cancleBlock:^{
-                @strongify(self);
-                self.isShow = NO;
+            //: } cancleBlock:^{
+            } silver:^{
+                @
+                 //: try{} @finally{} __typeof__(self) self = __weak_self__;
+                 try{} @finally{} __typeof__(self) self = __weak_self__;
+                                ;
+                //: self.isShow = NO;
+                self.exposeAdd = NO;
+            //: }];
             }];
+        //: });
         });
+    //: };
     };
-    
+
+    //: finishShow(ReloadAcknowledgeEngine_headicon);
     finishShow(ReloadAcknowledgeEngine_headicon);
 
 }
 
-- (void)dismissLeadView {
-    
-    if (!self.isShow) {
+//: - (void)dismissLeadView {
+- (void)window {
+
+    //: if (!self.isShow) {
+    if (!self.exposeAdd) {
+        //: return;
         return;
     }
-    
-    if (!self.leadVIEW) {
+
+    //: if (!self.leadVIEW) {
+    if (!self.mostManage) {
+        //: return;
         return;
     }
-    
-    [self.leadVIEW p_dismiss];
-    self.leadVIEW = nil;
-    
+
+    //: [self.leadVIEW p_dismiss];
+    [self.mostManage success];
+    //: self.leadVIEW = nil;
+    self.mostManage = nil;
+
 }
 
+//: @end
 @end

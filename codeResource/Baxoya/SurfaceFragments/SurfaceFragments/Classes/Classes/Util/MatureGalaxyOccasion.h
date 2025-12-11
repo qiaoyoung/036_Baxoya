@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  MatureGalaxyOccasion.h
 //  NIM
@@ -6,12 +8,18 @@
 //  Copyright (c) 2015年 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
 
+//: @class DryCombinerSwiftMoorComposite;
 @class DryCombinerSwiftMoorComposite;
 
+//: @interface MatureGalaxyOccasion : NSObject
 @interface MatureGalaxyOccasion : NSObject
 
-+ (instancetype)sharedCenter;
-- (void)start;
+//: - (void)start;
+- (void)handsome;
+//: + (instancetype)sharedCenter;
++ (instancetype)componentSpot;
 
+//: @end
 @end

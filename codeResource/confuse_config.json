@@ -37,7 +37,7 @@
         "check" : "",
         "key" : "config_project_root_path",
         "tips" : "切换项目的时候记得点击菜单栏->Config->重置配置\n注意: 正常情况为xxx.xcodeproj文件夹的上一级目录\n提示： 请优先选择该选项，其他内容自动匹配，不一定正确，请自己检查一遍",
-        "configValue" : "",
+        "configValue" : "\/Users\/qiaoyang\/Desktop\/036_Baxoya\/codeResource\/Baxoya",
         "required" : 1
       },
       {
@@ -47,7 +47,7 @@
         "check" : "(?<!\/Pods)\\.xcodeproj$",
         "key" : "config_project_xcodeproj_path",
         "tips" : "编译运行的xcodeproj，例如: confuse_test，默认第一个xx.xcodeproj\n注意：需要自行检查",
-        "configValue" : "",
+        "configValue" : "\/Users\/qiaoyang\/Desktop\/036_Baxoya\/codeResource\/Baxoya\/Riverla.xcodeproj",
         "required" : 1
       },
       {
@@ -57,7 +57,7 @@
         "check" : "",
         "key" : "config_main_scheme_name",
         "tips" : "编译运行的scheme，例如: confuse_test，默认第一个\n注意：需要自行检查",
-        "configValue" : "",
+        "configValue" : "Riverla",
         "required" : 1
       },
       {
@@ -127,7 +127,7 @@
         "check" : "",
         "key" : "config_project_reference_path",
         "tips" : "读取参考项目(允许编译不通过)\n1.单词：只读取(h|m|mm|hpp|cpp|swift)文件\n2.UUID：个数约等于文件个数，最好多导入一些文件\n注意：参考的项目最好是未提交过的",
-        "configValue" : "",
+        "configValue" : "\/Users\/qiaoyang\/Desktop\/036_Baxoya\/codeResource\/SendBasinEminent",
         "required" : 0
       },
       {
@@ -147,7 +147,7 @@
         "check" : "",
         "key" : "config_sensitive_word",
         "tips" : "避免混淆后出现敏感词，逗号隔开",
-        "configValue" : "",
+        "configValue" : "riverla,neeyo,Web,Network,Script,Shell,Runtime,Service,Process,URL,VPN,Ads,Tracking,Middleware,ProviderKit,ValidatorKit,Toolkit,Inventory,Telemetry,Manager,Dispatcher,Serializer,Processor,Registry,Repository,Database,Codec,router,gateway,tunnel,protocol,syncer,indexer,topology,domain,unittest,sample,debug,benchmark,logger,trace,monitor,workspace,counterpart,Encode,Serialize,Normalize",
         "required" : 0
       },
       {
@@ -177,7 +177,7 @@
 
     ],
     "title" : "删除注释",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
         "main.m",
@@ -209,7 +209,7 @@
 
     ],
     "title" : "替换资源",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -242,7 +242,7 @@
 
     ],
     "title" : "修改sks",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -362,7 +362,7 @@
       "config_is_macro"
     ],
     "title" : "修改控制流",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
         "function1:param2:",
@@ -442,7 +442,7 @@
       "config_is_macro"
     ],
     "title" : "重命名图片",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
         "AppIcon",
@@ -527,7 +527,7 @@
       "config_is_macro"
     ],
     "title" : "插入图片",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
         "scrollViewDidScroll:"
@@ -550,7 +550,7 @@
         "check" : "^.*\\.xcassets$",
         "key" : "config_oc_image_inject_path",
         "tips" : "注意: 只能是xcassets文件夹, 建议项目中用到的图片全部放到xcassets文件夹",
-        "configValue" : "",
+        "configValue" : "\/Users\/qiaoyang\/Desktop\/036_Baxoya\/codeResource\/Baxoya\/Business\/Images.xcassets",
         "required" : 1
       },
       {
@@ -656,7 +656,7 @@
       "config_is_macro"
     ],
     "title" : "插入属性",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
         "scrollViewDidScroll:"
@@ -736,7 +736,7 @@
       "config_is_macro"
     ],
     "title" : "修改闭包",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -769,7 +769,7 @@
       "config_is_macro"
     ],
     "title" : "拆分方法",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -802,7 +802,7 @@
       "config_is_macro"
     ],
     "title" : "插入方法",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -835,7 +835,7 @@
       "config_is_macro"
     ],
     "title" : "合并方法",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -878,7 +878,7 @@
       "config_is_macro"
     ],
     "title" : "修改方法",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -954,7 +954,7 @@
         "check" : "^(\\w|,|，)+$",
         "key" : "config_oc_global_variable_rename_prefix",
         "tips" : "多个逗号隔开并随机调用，注意：首字符不可为数字",
-        "configValue" : "k,k_",
+        "configValue" : "k,k_,App,Common,Module,Screen,View,Widget,Component,Layout,Theme,Style,Color,Global,Data,User,Const",
         "required" : 0
       },
       {
@@ -964,7 +964,7 @@
         "check" : "^(\\w|,|，)+$",
         "key" : "config_oc_global_variable_rename_suffix",
         "tips" : "多个逗号隔开并随机调用\n注意：忽略首字符大小写",
-        "configValue" : "value,data,string,name",
+        "configValue" : "Name,Title,Value,String,Key,Path,Format,Error,Alert,Message,Event,Timer,Helper,Config,Preference,Platform,Resource,Number",
         "required" : 0
       },
       {
@@ -1017,7 +1017,7 @@
       "config_is_macro"
     ],
     "title" : "重命名多语言",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -1050,7 +1050,7 @@
       "config_is_macro"
     ],
     "title" : "插入局部变量",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
         "main.m"
@@ -1083,7 +1083,7 @@
       "config_is_macro"
     ],
     "title" : "修改局部变量",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
         "main.m"
@@ -1139,7 +1139,7 @@
         "check" : "^\\d+$",
         "key" : "config_oc_string_modify_min_length ",
         "tips" : "字符个数>=最少长度,将被修改",
-        "configValue" : "4",
+        "configValue" : "3",
         "required" : 0
       },
       {
@@ -1159,7 +1159,7 @@
         "check" : "^(\\w|,|，)+$",
         "key" : "config_oc_string_modify_prefix",
         "tips" : "多个逗号隔开并随机调用，注意：首字符不可为数字",
-        "configValue" : "k,k_",
+        "configValue" : "k,k_,App,Common,Module,Screen,View,Widget,Component,Layout,Theme,Style,Color,Global,Data,User,Const",
         "required" : 0
       },
       {
@@ -1169,7 +1169,7 @@
         "check" : "^(\\w|,|，)+$",
         "key" : "config_oc_string_modify_suffix",
         "tips" : "多个逗号隔开并随机调用\n注意：忽略首字符大小写",
-        "configValue" : "value,data,string,name",
+        "configValue" : "Name,Title,Value,String,Key,Path,Format,Error,Alert,Message,Event,Timer,Helper,Config,Preference,Platform,Resource,Number",
         "required" : 0
       },
       {
@@ -1189,7 +1189,7 @@
 
     ],
     "title" : "修改xib、storyboard",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -1222,7 +1222,7 @@
       "config_is_macro"
     ],
     "title" : "修改字体",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -1255,7 +1255,7 @@
       "config_is_macro"
     ],
     "title" : "修改颜色",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -1288,7 +1288,7 @@
       "config_is_macro"
     ],
     "title" : "修改布局",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
         "scrollViewDidScroll:"
@@ -1331,7 +1331,7 @@
       "config_is_macro"
     ],
     "title" : "插入文件",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -1354,7 +1354,7 @@
         "check" : "",
         "key" : "config_oc_file_inject_target",
         "tips" : "工程的target，例如: confuse_test，默认第一个，多个请用逗号隔开\n注意：需要自行检查",
-        "configValue" : "",
+        "configValue" : "Riverla",
         "required" : 0
       },
       {
@@ -1384,7 +1384,7 @@
       "config_is_macro"
     ],
     "title" : "插入文本",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -1470,7 +1470,7 @@
       "config_is_macro"
     ],
     "title" : "重命名类",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
         "Main",
@@ -1845,7 +1845,7 @@
 
     ],
     "title" : "修改控制流",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -1878,7 +1878,7 @@
 
     ],
     "title" : "重命名全局方法",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -1931,7 +1931,7 @@
 
     ],
     "title" : "重命名图片",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
         "AppIcon",
@@ -2006,7 +2006,7 @@
 
     ],
     "title" : "重命名Lottie",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -2069,7 +2069,7 @@
 
     ],
     "title" : "插入图片",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
         "scrollViewDidScroll(_:)"
@@ -2092,7 +2092,7 @@
         "check" : "^.*\\.xcassets$",
         "key" : "config_swift_image_inject_path",
         "tips" : "注意: 只能是xcassets文件夹, 建议项目中用到的图片全部放到xcassets文件夹",
-        "configValue" : "",
+        "configValue" : "\/Users\/qiaoyang\/Desktop\/036_Baxoya\/codeResource\/Baxoya\/Business\/Images.xcassets",
         "required" : 1
       },
       {
@@ -2112,7 +2112,7 @@
 
     ],
     "title" : "重命名枚举",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -2155,7 +2155,7 @@
 
     ],
     "title" : "重命名属性",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -2208,7 +2208,7 @@
 
     ],
     "title" : "插入属性",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
         "scrollViewDidScroll:"
@@ -2251,7 +2251,7 @@
 
     ],
     "title" : "重命名方法",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -2294,7 +2294,7 @@
 
     ],
     "title" : "修改闭包",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -2327,7 +2327,7 @@
 
     ],
     "title" : "拆分方法",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -2360,7 +2360,7 @@
 
     ],
     "title" : "插入方法",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -2393,7 +2393,7 @@
 
     ],
     "title" : "修改方法",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -2446,7 +2446,7 @@
 
     ],
     "title" : "重命名全局变量",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -2499,7 +2499,7 @@
 
     ],
     "title" : "修改字体",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -2532,7 +2532,7 @@
 
     ],
     "title" : "修改颜色",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -2565,7 +2565,7 @@
 
     ],
     "title" : "修改布局",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
         "scrollViewDidScroll"
@@ -2608,7 +2608,7 @@
 
     ],
     "title" : "重命名多语言",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -2651,7 +2651,7 @@
 
     ],
     "title" : "插入局部变量",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
         "main.m"
@@ -2684,7 +2684,7 @@
 
     ],
     "title" : "修改局部变量",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
         "main.m"
@@ -2717,7 +2717,7 @@
 
     ],
     "title" : "修改字符串",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -2790,7 +2790,7 @@
 
     ],
     "title" : "修改xib、storyboard",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -2823,7 +2823,7 @@
 
     ],
     "title" : "插入文件",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -2846,7 +2846,7 @@
         "check" : "",
         "key" : "config_swift_file_inject_target",
         "tips" : "工程的target，例如: confuse_test，默认第一个，多个请用逗号隔开\n注意：需要自行检查",
-        "configValue" : "",
+        "configValue" : "Riverla",
         "required" : 0
       },
       {
@@ -2886,7 +2886,7 @@
 
     ],
     "title" : "插入文本",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -2929,7 +2929,7 @@
 
     ],
     "title" : "重命名类",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
         "Main",
@@ -3000,7 +3000,7 @@
 
     ],
     "title" : "修改图片",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -3163,7 +3163,7 @@
 
     ],
     "title" : "修改Lottie",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 
@@ -3229,7 +3229,7 @@
 
     ],
     "title" : "修改工程",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
         "test_target",
@@ -3286,7 +3286,7 @@
 
     ],
     "title" : "文件对比",
-    "selected" : 1,
+    "selected" : 0,
     "black" : {
       "defaultValues" : [
 

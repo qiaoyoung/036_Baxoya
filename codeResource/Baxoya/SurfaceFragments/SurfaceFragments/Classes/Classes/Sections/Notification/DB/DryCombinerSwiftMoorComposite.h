@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  DryCombinerSwiftMoorComposite.h
 //  NIM
@@ -6,24 +8,37 @@
 //  Copyright (c) 2015年 Netease. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
 
+//: @class RebaseAccelerationWidget;
 @class RebaseAccelerationWidget;
+//: @interface DryCombinerSwiftMoorComposite : NSObject
 @interface DryCombinerSwiftMoorComposite : NSObject
 
-dSINGLETON_FOR_CLASS_HEADER(DryCombinerSwiftMoorComposite);
+//: - (NSArray *)fetchNotifications:(RebaseAccelerationWidget *)notification
+- (NSArray *)buttonToSpan:(RebaseAccelerationWidget *)notification
+                          //: limit:(NSInteger)limit;
+                          monsterWilling:(NSInteger)limit;;
 
-@property (nonatomic,assign) NSInteger unreadCount;
+//: @property (nonatomic,assign) NSInteger unreadCount;
+@property (nonatomic,assign) NSInteger builderNim;
 
-- (NSArray *)fetchNotifications:(RebaseAccelerationWidget *)notification
-                          limit:(NSInteger)limit;
+//: - (BOOL)saveNotification:(RebaseAccelerationWidget *)notification;
+- (BOOL)will:(RebaseAccelerationWidget *)notification;
 
-- (BOOL)saveNotification:(RebaseAccelerationWidget *)notification;
 
-- (void)deleteNotification:(RebaseAccelerationWidget *)notification;
+//: + (instancetype)sharedInstance;;
++ (instancetype)clickClassic;
+//: - (void)deleteAllNotification;
+- (void)distant;
 
-- (void)deleteAllNotification;
+//: - (void)markAllNotificationsAsRead;
+- (void)beside;
 
-- (void)markAllNotificationsAsRead;
+//: - (void)deleteNotification:(RebaseAccelerationWidget *)notification;
+- (void)special:(RebaseAccelerationWidget *)notification;
 
+//: @end
 @end

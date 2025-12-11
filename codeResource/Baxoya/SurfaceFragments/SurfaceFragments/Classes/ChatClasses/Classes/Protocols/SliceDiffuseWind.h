@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  SliceDiffuseWind.h
 //  NIM
@@ -5,97 +7,152 @@
 //  Created by chris on 15/3/5.
 //  Copyright (c) 2015年 Netease. All rights reserved.
 //
-
+//: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
+//: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
 
+// __M_A_C_R_O__
+
+//: @protocol ScaffoldPaletteSessionDiagram;
 @protocol ScaffoldPaletteSessionDiagram;
 
+//: typedef void(^NIMTeamCardRowSelectedBlock)(id <ScaffoldPaletteSessionDiagram> item);
 typedef void(^NIMTeamCardRowSelectedBlock)(id <ScaffoldPaletteSessionDiagram> item);
 
+//: typedef NS_ENUM(NSInteger, ProjectPolygonVertexWide){
 typedef NS_ENUM(NSInteger, ProjectPolygonVertexWide){
-    ProjectPolygonVertexWideNone   = 0,
-    ProjectPolygonVertexWideAdd    = (1UL << 0),
+    //: ProjectPolygonVertexWideNone = 0,
+    ProjectPolygonVertexWideNone = 0,
+    //: ProjectPolygonVertexWideAdd = (1UL << 0),
+    ProjectPolygonVertexWideAdd = (1UL << 0),
+    //: ProjectPolygonVertexWideRemove = (1UL << 1),
     ProjectPolygonVertexWideRemove = (1UL << 1),
+//: };
 };
 
+//: typedef NS_ENUM(NSInteger, AboveInkwellUrbanAssign) {
 typedef NS_ENUM(NSInteger, AboveInkwellUrbanAssign) {
+    //: AboveInkwellUrbanAssignCommon,
     AboveInkwellUrbanAssignCommon,
+    //: AboveInkwellUrbanAssignTeamMember,
     AboveInkwellUrbanAssignTeamMember,
+    //: AboveInkwellUrbanAssignRedButton,
     AboveInkwellUrbanAssignRedButton,
+    //: AboveInkwellUrbanAssignBlueButton,
     AboveInkwellUrbanAssignBlueButton,
+    //: AboveInkwellUrbanAssignSwitch,
     AboveInkwellUrbanAssignSwitch,
+    //: AboveInkwellUrbanAssignSelected,
     AboveInkwellUrbanAssignSelected,
+//: };
 };
 
+//: @protocol TimelineWaterPullPristine <NSObject>
 @protocol TimelineWaterPullPristine <NSObject>
 
-- (NSString *)teamId;
+//: - (NSString *)teamId;
+- (NSString *)unit;
 
-- (NSString *)userId;
+//: - (NSString *)userId;
+- (NSString *)countervalResponse;
 
-- (NIMTeamMemberType)userType;
+//: - (NIMTeamMemberType)userType;
+- (NIMTeamMemberType)drawer;
 
-- (void)setUserType:(NIMTeamMemberType)userType;
+//: - (void)setUserType:(NIMTeamMemberType)userType;
+- (void)setDrawer:(NIMTeamMemberType)userType;
 
-- (NIMTeamType)teamType;
+//: - (NIMTeamType)teamType;
+- (NIMTeamType)echoRoute;
 
-- (UIImage *)imageNormal;
+//: - (UIImage *)imageNormal;
+- (UIImage *)sense;
 
-- (NSString *)title;
+//: - (NSString *)title;
+- (NSString *)isolate;
 
-- (NSString *)imageUrl;
+//: - (NSString *)imageUrl;
+- (NSString *)capKey;
 
-- (NSString *)inviterAccid;
+//: - (NSString *)inviterAccid;
+- (NSString *)family;
 
-- (BOOL)isMuted;
+//: - (BOOL)isMuted;
+- (BOOL)belowGravityFriendly;
 
-- (BOOL)isMyUserId;
+//: - (BOOL)isMyUserId;
+- (BOOL)submit;
 
+//: @end
 @end
 
+//: @protocol ScaffoldPaletteSessionDiagram <NSObject>
 @protocol ScaffoldPaletteSessionDiagram <NSObject>
 
-- (id)value;
+//: - (id)value;
+- (id)walk;
 
-- (NSString *)title;
+//: - (NSString *)title;
+- (NSString *)loyal;
 
-- (NSString *)img;
+//: - (NSString *)img;
+- (NSString *)exclusive;
 
-- (BOOL)selected;
+//: - (BOOL)selected;
+- (BOOL)quit;
 
-- (void)setSelected:(BOOL)selected;
+//: - (void)setSelected:(BOOL)selected;
+- (void)setQuit:(BOOL)selected;
 
+//: @end
 @end
 
+//: @protocol ShowEvaluationMessage <NSObject>
 @protocol ShowEvaluationMessage <NSObject>
 
-- (NSString *)title;
+//: - (NSString *)title;
+- (NSString *)cap;
 
-- (id)value;
+//: - (id)value;
+- (id)press;
 
-- (AboveInkwellUrbanAssign)type;
+//: - (AboveInkwellUrbanAssign)type;
+- (AboveInkwellUrbanAssign)infrastructure;
 
-- (CGFloat)rowHeight;
+//: - (CGFloat)rowHeight;
+- (CGFloat)emotionProperty;
 
-- (NIMTeamCardRowSelectedBlock)selectedBlock;
+//: - (NIMTeamCardRowSelectedBlock)selectedBlock;
+- (NIMTeamCardRowSelectedBlock)weaveSpine;
 
-- (NSMutableArray <id <ScaffoldPaletteSessionDiagram>> *)optionItems;
+//: - (NSMutableArray <id <ScaffoldPaletteSessionDiagram>> *)optionItems;
+- (NSMutableArray <id <ScaffoldPaletteSessionDiagram>> *)most;
 
+//: @optional
 @optional
-- (NSString *)subTitle;
+//: - (NSString *)subTitle;
+- (NSString *)pressureWith;
 
-- (UIImage *)img;
+//: - (UIImage *)img;
+- (UIImage *)ledge;
 
-- (SEL)action;
+//: - (SEL)action;
+- (SEL)previousBy;
 
-- (BOOL)actionDisabled;
+//: - (BOOL)actionDisabled;
+- (BOOL)past;
 
-- (BOOL)switchOn;
+//: - (BOOL)switchOn;
+- (BOOL)anyDetail;
 
-- (NSInteger)identify;
+//: - (NSInteger)identify;
+- (NSInteger)cart;
 
-- (BOOL)disableUserInteraction;
+//: - (BOOL)disableUserInteraction;
+- (BOOL)valuableDual;
 
+//: @end
 @end
