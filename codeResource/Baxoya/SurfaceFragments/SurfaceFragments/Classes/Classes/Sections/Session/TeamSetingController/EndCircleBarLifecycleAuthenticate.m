@@ -485,101 +485,101 @@ DrawerHeadLifecycleUnder,IdentifyMatrixRepaintDelegate,UINavigationControllerDel
     //: ConcatenateBehindSwirlAlongside *teamShareCart = [[ConcatenateBehindSwirlAlongside alloc] init];
     ConcatenateBehindSwirlAlongside *teamShareCart = [[ConcatenateBehindSwirlAlongside alloc] init];
     //: teamShareCart.title = [UpdateTreatStripSincere getTextWithKey:@"send_group_card"];
-    teamShareCart.brilliant = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&moduleRockResource)];
+    teamShareCart.cap = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&moduleRockResource)];
     //: teamShareCart.subTitle = self.teamListManager.team.teamName;
-    teamShareCart.grandLibrary = self.extend.able.teamName;
+    teamShareCart.pressureWith = self.extend.able.teamName;
     //: teamShareCart.action = @selector(sendGroupCart);
     teamShareCart.futureWord = @selector(owlHouse);
     //: teamShareCart.rowHeight = 50.f;
-    teamShareCart.magnitudeegrate = 50.f;
+    teamShareCart.emotionProperty = 50.f;
     //: teamShareCart.type = AboveInkwellUrbanAssignCommon;
-    teamShareCart.sliceRidgeLeaf = AboveInkwellUrbanAssignCommon;
+    teamShareCart.infrastructure = AboveInkwellUrbanAssignCommon;
 //    teamShareCart.actionDisabled = !canEdit;
     //: teamShareCart.img = [UIImage imageNamed:@"ic_card_share"];
-    teamShareCart.styleWing = [UIImage imageNamed:StringFromConvertAssembleData(&styleHeadPreference)];
+    teamShareCart.ledge = [UIImage imageNamed:StringFromConvertAssembleData(&styleHeadPreference)];
 
     //: ConcatenateBehindSwirlAlongside *teamMembers = [[ConcatenateBehindSwirlAlongside alloc] init];
     ConcatenateBehindSwirlAlongside *teamMembers = [[ConcatenateBehindSwirlAlongside alloc] init];
     //: teamMembers.title = [UpdateTreatStripSincere getTextWithKey:@"group_info_activity_team_member"];
-    teamMembers.brilliant = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&kStairAlert)];
+    teamMembers.cap = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&kStairAlert)];
     //: teamMembers.subTitle = self.teamListManager.team.teamName;
-    teamMembers.grandLibrary = self.extend.able.teamName;
+    teamMembers.pressureWith = self.extend.able.teamName;
     //: teamMembers.action = @selector(enterMemberCard);
     teamMembers.futureWord = @selector(splitHidden);
     //: teamMembers.rowHeight = 50.f;
-    teamMembers.magnitudeegrate = 50.f;
+    teamMembers.emotionProperty = 50.f;
     //: teamMembers.type = AboveInkwellUrbanAssignCommon;
-    teamMembers.sliceRidgeLeaf = AboveInkwellUrbanAssignCommon;
+    teamMembers.infrastructure = AboveInkwellUrbanAssignCommon;
     //: teamMembers.actionDisabled = !self.canAddFriend;
-    teamMembers.sortGalaxies = !self.loopRecord;
+    teamMembers.past = !self.loopRecord;
     //: teamMembers.img = [UIImage imageNamed:@"ic_group_members"];
-    teamMembers.styleWing = [UIImage imageNamed:StringFromConvertAssembleData(&dataWildGrandConfig)];
+    teamMembers.ledge = [UIImage imageNamed:StringFromConvertAssembleData(&dataWildGrandConfig)];
 
     //: ConcatenateBehindSwirlAlongside *teamAnnoucement = [[ConcatenateBehindSwirlAlongside alloc] init];
     ConcatenateBehindSwirlAlongside *teamAnnoucement = [[ConcatenateBehindSwirlAlongside alloc] init];
     //: teamAnnoucement.title = [UpdateTreatStripSincere getTextWithKey:@"activity_group_info_group_toast"];
-    teamAnnoucement.brilliant = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&appErrorBarTitle)];
+    teamAnnoucement.cap = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&appErrorBarTitle)];
     //: teamAnnoucement.subTitle = self.teamListManager.team.teamName;
-    teamAnnoucement.grandLibrary = self.extend.able.teamName;
+    teamAnnoucement.pressureWith = self.extend.able.teamName;
     //: teamAnnoucement.action = @selector(updateTeamAnnouncement);
     teamAnnoucement.futureWord = @selector(hardResult);
     //: teamAnnoucement.rowHeight = 50.f;
-    teamAnnoucement.magnitudeegrate = 50.f;
+    teamAnnoucement.emotionProperty = 50.f;
     //: teamAnnoucement.type = AboveInkwellUrbanAssignCommon;
-    teamAnnoucement.sliceRidgeLeaf = AboveInkwellUrbanAssignCommon;
+    teamAnnoucement.infrastructure = AboveInkwellUrbanAssignCommon;
 //    teamAnnoucement.actionDisabled = !canEdit;
     //: teamAnnoucement.img = [UIImage imageNamed:@"ic_announcement"];
-    teamAnnoucement.styleWing = [UIImage imageNamed:StringFromConvertAssembleData(&styleHeadAmongTitle)];
+    teamAnnoucement.ledge = [UIImage imageNamed:StringFromConvertAssembleData(&styleHeadAmongTitle)];
 
     //: ConcatenateBehindSwirlAlongside *teamName = [[ConcatenateBehindSwirlAlongside alloc] init];
     ConcatenateBehindSwirlAlongside *teamName = [[ConcatenateBehindSwirlAlongside alloc] init];
     //: teamName.title = [UpdateTreatStripSincere getTextWithKey:@"Group_name"];
-    teamName.brilliant = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&dataScanFormat)];
+    teamName.cap = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&dataScanFormat)];
     //: teamName.subTitle = self.teamListManager.team.teamName;
-    teamName.grandLibrary = self.extend.able.teamName;
+    teamName.pressureWith = self.extend.able.teamName;
     //: teamName.action = @selector(updateTeamName);
     teamName.futureWord = @selector(leafSunny);
     //: teamName.rowHeight = 50.f;
-    teamName.magnitudeegrate = 50.f;
+    teamName.emotionProperty = 50.f;
     //: teamName.type = AboveInkwellUrbanAssignCommon;
-    teamName.sliceRidgeLeaf = AboveInkwellUrbanAssignCommon;
+    teamName.infrastructure = AboveInkwellUrbanAssignCommon;
     //: teamName.actionDisabled = !canEdit;
-    teamName.sortGalaxies = !canEdit;
+    teamName.past = !canEdit;
     //: teamName.img = [UIImage imageNamed:@"ic_group_edit"];
-    teamName.styleWing = [UIImage imageNamed:StringFromConvertAssembleData(&widgetFenceExpandValue)];
+    teamName.ledge = [UIImage imageNamed:StringFromConvertAssembleData(&widgetFenceExpandValue)];
 
 
     //: ConcatenateBehindSwirlAlongside *teamNick = [[ConcatenateBehindSwirlAlongside alloc] init];
     ConcatenateBehindSwirlAlongside *teamNick = [[ConcatenateBehindSwirlAlongside alloc] init];
     //: teamNick.title = [UpdateTreatStripSincere getTextWithKey:@"activity_group_info_group_nick"];
-    teamNick.brilliant = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&screenFineDetailTimer)];
+    teamNick.cap = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&screenFineDetailTimer)];
     //: teamNick.subTitle = self.teamListManager.myTeamInfo.nickname;
-    teamNick.grandLibrary = self.extend.silent.nickname;
+    teamNick.pressureWith = self.extend.silent.nickname;
     //: teamNick.action = @selector(updateTeamNick);
     teamNick.futureWord = @selector(soundScope);
     //: teamNick.rowHeight = 50.f;
-    teamNick.magnitudeegrate = 50.f;
+    teamNick.emotionProperty = 50.f;
     //: teamNick.type = AboveInkwellUrbanAssignCommon;
-    teamNick.sliceRidgeLeaf = AboveInkwellUrbanAssignCommon;
+    teamNick.infrastructure = AboveInkwellUrbanAssignCommon;
     //: teamNick.img = [UIImage imageNamed:@"ic_group_nick"];
-    teamNick.styleWing = [UIImage imageNamed:StringFromConvertAssembleData(&dataSolarWanderValue)];
+    teamNick.ledge = [UIImage imageNamed:StringFromConvertAssembleData(&dataSolarWanderValue)];
 
     //: ConcatenateBehindSwirlAlongside *teamIntro = [[ConcatenateBehindSwirlAlongside alloc] init];
     ConcatenateBehindSwirlAlongside *teamIntro = [[ConcatenateBehindSwirlAlongside alloc] init];
     //: teamIntro.title = [UpdateTreatStripSincere getTextWithKey:@"team_info_set_activity_group_tip"];
-    teamIntro.brilliant = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&appCornerDetectTitle)];
+    teamIntro.cap = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&appCornerDetectTitle)];
     //: teamIntro.subTitle = self.teamListManager.team.intro.length ? self.teamListManager.team.intro : (canEdit ? [UpdateTreatStripSincere getTextWithKey:@"team_info_set_activity_default_group_tip"] : @"");
-    teamIntro.grandLibrary = self.extend.able.intro.length ? self.extend.able.intro : (canEdit ? [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&globalMildMagnitudeenseHelper)] : @"");
+    teamIntro.pressureWith = self.extend.able.intro.length ? self.extend.able.intro : (canEdit ? [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&globalMildMagnitudeenseHelper)] : @"");
     //: teamIntro.action = @selector(updateTeamIntro);
     teamIntro.futureWord = @selector(filterPreserve);
     //: teamIntro.rowHeight = 50.f;
-    teamIntro.magnitudeegrate = 50.f;
+    teamIntro.emotionProperty = 50.f;
     //: teamIntro.type = AboveInkwellUrbanAssignCommon;
-    teamIntro.sliceRidgeLeaf = AboveInkwellUrbanAssignCommon;
+    teamIntro.infrastructure = AboveInkwellUrbanAssignCommon;
     //: teamIntro.actionDisabled = !canEdit;
-    teamIntro.sortGalaxies = !canEdit;
+    teamIntro.past = !canEdit;
     //: teamIntro.img = [UIImage imageNamed:@"ic_group_introduction"];
-    teamIntro.styleWing = [UIImage imageNamed:StringFromConvertAssembleData(&dataWhitePreference)];
+    teamIntro.ledge = [UIImage imageNamed:StringFromConvertAssembleData(&dataWhitePreference)];
 
 //    ConcatenateBehindSwirlAlongside *teamAnnouncement = [[ConcatenateBehindSwirlAlongside alloc] init];
 //    teamAnnouncement.title = @"群公告".nim_localized;
@@ -594,170 +594,170 @@ DrawerHeadLifecycleUnder,IdentifyMatrixRepaintDelegate,UINavigationControllerDel
     //: ConcatenateBehindSwirlAlongside *teamMute = [[ConcatenateBehindSwirlAlongside alloc] init];
     ConcatenateBehindSwirlAlongside *teamMute = [[ConcatenateBehindSwirlAlongside alloc] init];
     //: teamMute.title = [UpdateTreatStripSincere getTextWithKey:@"activity_group_info_group_mute"];
-    teamMute.brilliant = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&viewPackageName)];
+    teamMute.cap = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&viewPackageName)];
     //: teamMute.switchOn = inAllMuteMode;
-    teamMute.brainRebuild = inAllMuteMode;
+    teamMute.anyDetail = inAllMuteMode;
 //    teamMute.subTitle = [WriteStampSelectVelocity teamMuteText:inAllMuteMode];
     //: teamMute.rowHeight = 50.f;
-    teamMute.magnitudeegrate = 50.f;
+    teamMute.emotionProperty = 50.f;
     //: teamMute.type = AboveInkwellUrbanAssignSwitch;
-    teamMute.sliceRidgeLeaf = AboveInkwellUrbanAssignSwitch;
+    teamMute.infrastructure = AboveInkwellUrbanAssignSwitch;
     //: teamMute.optionItems = [WriteStampSelectVelocity teamMuteItemsWithSeleced:inAllMuteMode];
     teamMute.journey = [WriteStampSelectVelocity countense:inAllMuteMode];
     //: teamMute.actionDisabled = !canEdit;
-    teamMute.sortGalaxies = !canEdit;
+    teamMute.past = !canEdit;
     //: teamMute.selectedBlock = ^(id<ScaffoldPaletteSessionDiagram> item) {
-    teamMute.observer = ^(id<ScaffoldPaletteSessionDiagram> item) {
+    teamMute.weaveSpine = ^(id<ScaffoldPaletteSessionDiagram> item) {
         //: [weakSelf didUpdateTeamMute:[item.value integerValue]];
-        [weakSelf doFactory:[item.walk integerValue]];
+        [weakSelf doFactory:[item.press integerValue]];
     //: };
     };
     //: teamMute.identify = CompatibleIndexIdentifyMute;
-    teamMute.factory = CompatibleIndexIdentifyMute;
+    teamMute.cart = CompatibleIndexIdentifyMute;
     //: teamMute.img = [UIImage imageNamed:@"ic_group_all"];
-    teamMute.styleWing = [UIImage imageNamed:StringFromConvertAssembleData(&dataSearchPreference)];
+    teamMute.ledge = [UIImage imageNamed:StringFromConvertAssembleData(&dataSearchPreference)];
 
     //: ConcatenateBehindSwirlAlongside *teamMuteList = [[ConcatenateBehindSwirlAlongside alloc] init];
     ConcatenateBehindSwirlAlongside *teamMuteList = [[ConcatenateBehindSwirlAlongside alloc] init];
     //: teamMuteList.title = [UpdateTreatStripSincere getTextWithKey:@"group_mute_member_list_activity_title"];
-    teamMuteList.brilliant = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&constFluentMessage)];
+    teamMuteList.cap = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&constFluentMessage)];
     //: teamMuteList.rowHeight = 50.f;
-    teamMuteList.magnitudeegrate = 50.f;
+    teamMuteList.emotionProperty = 50.f;
     //: teamMuteList.type = AboveInkwellUrbanAssignCommon;
-    teamMuteList.sliceRidgeLeaf = AboveInkwellUrbanAssignCommon;
+    teamMuteList.infrastructure = AboveInkwellUrbanAssignCommon;
     //: teamMuteList.action = @selector(enterMuteList);
     teamMuteList.futureWord = @selector(emotionRatio);
     //: teamMuteList.img = [UIImage imageNamed:@"ic_card_black"];
-    teamMuteList.styleWing = [UIImage imageNamed:StringFromConvertAssembleData(&commonMergeAuthorizeCivicMessage)];
+    teamMuteList.ledge = [UIImage imageNamed:StringFromConvertAssembleData(&commonMergeAuthorizeCivicMessage)];
 
     //: ConcatenateBehindSwirlAlongside *teamNotify = [[ConcatenateBehindSwirlAlongside alloc] init];
     ConcatenateBehindSwirlAlongside *teamNotify = [[ConcatenateBehindSwirlAlongside alloc] init];
     //: teamNotify.title = [UpdateTreatStripSincere getTextWithKey:@"message_info_activity_msg_notice"];
-    teamNotify.brilliant = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&widgetThresholdMessage)];//@"消息提醒".nim_localized;
+    teamNotify.cap = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&widgetThresholdMessage)];//@"消息提醒".nim_localized;
     //: teamNotify.subTitle = [WriteStampSelectVelocity notifyStateText:self.teamListManager.team.notifyStateForNewMsg];
-    teamNotify.grandLibrary = [WriteStampSelectVelocity standProgram:self.extend.able.notifyStateForNewMsg];
+    teamNotify.pressureWith = [WriteStampSelectVelocity standProgram:self.extend.able.notifyStateForNewMsg];
     //: teamNotify.rowHeight = 50.f;
-    teamNotify.magnitudeegrate = 50.f;
+    teamNotify.emotionProperty = 50.f;
     //: teamNotify.type = AboveInkwellUrbanAssignSelected;
-    teamNotify.sliceRidgeLeaf = AboveInkwellUrbanAssignSelected;
+    teamNotify.infrastructure = AboveInkwellUrbanAssignSelected;
     //: teamNotify.optionItems = [WriteStampSelectVelocity notifyStateItemsWithSeleced:self.teamListManager.team.notifyStateForNewMsg];
     teamNotify.journey = [WriteStampSelectVelocity inspect:self.extend.able.notifyStateForNewMsg];
     //: teamNotify.selectedBlock = ^(id<ScaffoldPaletteSessionDiagram> item) {
-    teamNotify.observer = ^(id<ScaffoldPaletteSessionDiagram> item) {
+    teamNotify.weaveSpine = ^(id<ScaffoldPaletteSessionDiagram> item) {
         //: [weakSelf didUpdateNotifiyState:[item.value integerValue]];
-        [weakSelf need:[item.walk integerValue]];
+        [weakSelf need:[item.press integerValue]];
     //: };
     };
     //: teamNotify.img = [UIImage imageNamed:@"ic_card_notice"];
-    teamNotify.styleWing = [UIImage imageNamed:StringFromConvertAssembleData(&appTrackNumber)];
+    teamNotify.ledge = [UIImage imageNamed:StringFromConvertAssembleData(&appTrackNumber)];
 
 
     //: ConcatenateBehindSwirlAlongside *itemAuth = [[ConcatenateBehindSwirlAlongside alloc] init];
     ConcatenateBehindSwirlAlongside *itemAuth = [[ConcatenateBehindSwirlAlongside alloc] init];
     //: itemAuth.title = [UpdateTreatStripSincere getTextWithKey:@"authentication"];
-    itemAuth.brilliant = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&commonDriftPlatform)];
+    itemAuth.cap = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&commonDriftPlatform)];
     //: itemAuth.subTitle = [WriteStampSelectVelocity jonModeText:self.teamListManager.team.joinMode];
-    itemAuth.grandLibrary = [WriteStampSelectVelocity destination:self.extend.able.joinMode];
+    itemAuth.pressureWith = [WriteStampSelectVelocity destination:self.extend.able.joinMode];
     //: itemAuth.actionDisabled = !canEdit;
-    itemAuth.sortGalaxies = !canEdit;
+    itemAuth.past = !canEdit;
     //: itemAuth.rowHeight = 50.f;
-    itemAuth.magnitudeegrate = 50.f;
+    itemAuth.emotionProperty = 50.f;
     //: itemAuth.type = AboveInkwellUrbanAssignSelected;
-    itemAuth.sliceRidgeLeaf = AboveInkwellUrbanAssignSelected;
+    itemAuth.infrastructure = AboveInkwellUrbanAssignSelected;
     //: itemAuth.optionItems = [WriteStampSelectVelocity joinModeItemsWithSeleced:self.teamListManager.team.joinMode];
     itemAuth.journey = [WriteStampSelectVelocity steadyAssemble:self.extend.able.joinMode];
     //: itemAuth.selectedBlock = ^(id<ScaffoldPaletteSessionDiagram> item) {
-    itemAuth.observer = ^(id<ScaffoldPaletteSessionDiagram> item) {
+    itemAuth.weaveSpine = ^(id<ScaffoldPaletteSessionDiagram> item) {
         //: [weakSelf didupdateTeamJoinMode:[item.value integerValue]];
-        [weakSelf submit:[item.walk integerValue]];
+        [weakSelf submit:[item.press integerValue]];
     //: };
     };
     //: itemAuth.img = [UIImage imageNamed:@"ic_identity_authentication"];
-    itemAuth.styleWing = [UIImage imageNamed:StringFromConvertAssembleData(&appSlopeEvent)];
+    itemAuth.ledge = [UIImage imageNamed:StringFromConvertAssembleData(&appSlopeEvent)];
 
     //: ConcatenateBehindSwirlAlongside *itemInvite = [[ConcatenateBehindSwirlAlongside alloc] init];
     ConcatenateBehindSwirlAlongside *itemInvite = [[ConcatenateBehindSwirlAlongside alloc] init];
     //: itemInvite.title = [UpdateTreatStripSincere getTextWithKey:@"activity_group_info_invite_permission"];
-    itemInvite.brilliant = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&constFlowAlert)];
+    itemInvite.cap = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&constFlowAlert)];
     //: itemInvite.subTitle = [WriteStampSelectVelocity InviteModeText:self.teamListManager.team.inviteMode];
-    itemInvite.grandLibrary = [WriteStampSelectVelocity symbol:self.extend.able.inviteMode];
+    itemInvite.pressureWith = [WriteStampSelectVelocity symbol:self.extend.able.inviteMode];
     //: itemInvite.actionDisabled = !canEdit;
-    itemInvite.sortGalaxies = !canEdit;
+    itemInvite.past = !canEdit;
     //: itemInvite.rowHeight = 50.f;
-    itemInvite.magnitudeegrate = 50.f;
+    itemInvite.emotionProperty = 50.f;
     //: itemInvite.type = AboveInkwellUrbanAssignSelected;
-    itemInvite.sliceRidgeLeaf = AboveInkwellUrbanAssignSelected;
+    itemInvite.infrastructure = AboveInkwellUrbanAssignSelected;
     //: itemInvite.optionItems = [WriteStampSelectVelocity InviteModeItemsWithSeleced:self.teamListManager.team.inviteMode];
     itemInvite.journey = [WriteStampSelectVelocity lead:self.extend.able.inviteMode];
     //: itemInvite.selectedBlock = ^(id<ScaffoldPaletteSessionDiagram> item) {
-    itemInvite.observer = ^(id<ScaffoldPaletteSessionDiagram> item) {
+    itemInvite.weaveSpine = ^(id<ScaffoldPaletteSessionDiagram> item) {
         //: [weakSelf didUpdateTeamInviteMode:[item.value integerValue]];
-        [weakSelf succeedGeneral:[item.walk integerValue]];
+        [weakSelf succeedGeneral:[item.press integerValue]];
     //: };
     };
     //: itemInvite.img = [UIImage imageNamed:@"ic_invite"];
-    itemInvite.styleWing = [UIImage imageNamed:StringFromConvertAssembleData(&globalStairKey)];
+    itemInvite.ledge = [UIImage imageNamed:StringFromConvertAssembleData(&globalStairKey)];
 
     //: ConcatenateBehindSwirlAlongside *itemUpdateInfo = [[ConcatenateBehindSwirlAlongside alloc] init];
     ConcatenateBehindSwirlAlongside *itemUpdateInfo = [[ConcatenateBehindSwirlAlongside alloc] init];
     //: itemUpdateInfo.title = [UpdateTreatStripSincere getTextWithKey:@"activity_group_info_group_modify_permission"];
-    itemUpdateInfo.brilliant = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&componentWithString)];
+    itemUpdateInfo.cap = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&componentWithString)];
     //: itemUpdateInfo.subTitle = [WriteStampSelectVelocity updateInfoModeText:self.teamListManager.team.updateInfoMode];
-    itemUpdateInfo.grandLibrary = [WriteStampSelectVelocity output:self.extend.able.updateInfoMode];
+    itemUpdateInfo.pressureWith = [WriteStampSelectVelocity output:self.extend.able.updateInfoMode];
     //: itemUpdateInfo.actionDisabled = !canEdit;
-    itemUpdateInfo.sortGalaxies = !canEdit;
+    itemUpdateInfo.past = !canEdit;
     //: itemUpdateInfo.rowHeight = 50.f;
-    itemUpdateInfo.magnitudeegrate = 50.f;
+    itemUpdateInfo.emotionProperty = 50.f;
     //: itemUpdateInfo.type = AboveInkwellUrbanAssignSelected;
-    itemUpdateInfo.sliceRidgeLeaf = AboveInkwellUrbanAssignSelected;
+    itemUpdateInfo.infrastructure = AboveInkwellUrbanAssignSelected;
     //: itemUpdateInfo.optionItems = [WriteStampSelectVelocity updateInfoModeItemsWithSeleced:self.teamListManager.team.updateInfoMode];
     itemUpdateInfo.journey = [WriteStampSelectVelocity dryTotalry:self.extend.able.updateInfoMode];
     //: itemUpdateInfo.selectedBlock = ^(id<ScaffoldPaletteSessionDiagram> item) {
-    itemUpdateInfo.observer = ^(id<ScaffoldPaletteSessionDiagram> item) {
+    itemUpdateInfo.weaveSpine = ^(id<ScaffoldPaletteSessionDiagram> item) {
         //: [weakSelf didUpdateTeamInfoMode:[item.value integerValue]];
-        [weakSelf untilAmid:[item.walk integerValue]];
+        [weakSelf untilAmid:[item.press integerValue]];
     //: };
     };
     //: itemUpdateInfo.img = [UIImage imageNamed:@"ic_modify"];
-    itemUpdateInfo.styleWing = [UIImage imageNamed:StringFromConvertAssembleData(&constPainterReceiverAlert)];
+    itemUpdateInfo.ledge = [UIImage imageNamed:StringFromConvertAssembleData(&constPainterReceiverAlert)];
 
     //: ConcatenateBehindSwirlAlongside *itemBeInvite = [[ConcatenateBehindSwirlAlongside alloc] init];
     ConcatenateBehindSwirlAlongside *itemBeInvite = [[ConcatenateBehindSwirlAlongside alloc] init];
     //: itemBeInvite.title = [UpdateTreatStripSincere getTextWithKey:@"activity_group_info_invite_verify"];
-    itemBeInvite.brilliant = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&colorScanRebuildNumber)];
+    itemBeInvite.cap = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&colorScanRebuildNumber)];
     //: itemBeInvite.subTitle = [WriteStampSelectVelocity beInviteModeText:self.teamListManager.team.beInviteMode];
-    itemBeInvite.grandLibrary = [WriteStampSelectVelocity pastCableAccurate:self.extend.able.beInviteMode];
+    itemBeInvite.pressureWith = [WriteStampSelectVelocity pastCableAccurate:self.extend.able.beInviteMode];
     //: itemBeInvite.actionDisabled = !canEdit;
-    itemBeInvite.sortGalaxies = !canEdit;
+    itemBeInvite.past = !canEdit;
     //: itemBeInvite.rowHeight = 50.f;
-    itemBeInvite.magnitudeegrate = 50.f;
+    itemBeInvite.emotionProperty = 50.f;
     //: itemBeInvite.type = AboveInkwellUrbanAssignSelected;
-    itemBeInvite.sliceRidgeLeaf = AboveInkwellUrbanAssignSelected;
+    itemBeInvite.infrastructure = AboveInkwellUrbanAssignSelected;
     //: itemBeInvite.optionItems = [WriteStampSelectVelocity beInviteModeItemsWithSeleced:self.teamListManager.team.beInviteMode];
     itemBeInvite.journey = [WriteStampSelectVelocity ring:self.extend.able.beInviteMode];
     //: itemBeInvite.selectedBlock = ^(id<ScaffoldPaletteSessionDiagram> item) {
-    itemBeInvite.observer = ^(id<ScaffoldPaletteSessionDiagram> item) {
+    itemBeInvite.weaveSpine = ^(id<ScaffoldPaletteSessionDiagram> item) {
         //: [weakSelf didUpdateTeamBeInviteMode:[item.value integerValue]];
-        [weakSelf recordPing:[item.walk integerValue]];
+        [weakSelf recordPing:[item.press integerValue]];
     //: };
     };
     //: itemBeInvite.img = [UIImage imageNamed:@"ic_invitee_verification"];
-    itemBeInvite.styleWing = [UIImage imageNamed:StringFromConvertAssembleData(&dataFastPath)];
+    itemBeInvite.ledge = [UIImage imageNamed:StringFromConvertAssembleData(&dataFastPath)];
 
     //: ConcatenateBehindSwirlAlongside *itemTop = [[ConcatenateBehindSwirlAlongside alloc] init];
     ConcatenateBehindSwirlAlongside *itemTop = [[ConcatenateBehindSwirlAlongside alloc] init];
     //: itemTop.title = [UpdateTreatStripSincere getTextWithKey:@"Chat_settop"];
-    itemTop.brilliant = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&appRenderMessage)];
+    itemTop.cap = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&appRenderMessage)];
     //: itemTop.switchOn = self.option.isTop;
-    itemTop.brainRebuild = self.cool.distribute;
+    itemTop.anyDetail = self.cool.distribute;
     //: itemTop.rowHeight = 50.f;
-    itemTop.magnitudeegrate = 50.f;
+    itemTop.emotionProperty = 50.f;
     //: itemTop.type = AboveInkwellUrbanAssignSwitch;
-    itemTop.sliceRidgeLeaf = AboveInkwellUrbanAssignSwitch;
+    itemTop.infrastructure = AboveInkwellUrbanAssignSwitch;
     //: itemTop.identify = CompatibleIndexIdentifyTop;
-    itemTop.factory = CompatibleIndexIdentifyTop;
+    itemTop.cart = CompatibleIndexIdentifyTop;
     //: itemTop.img = [UIImage imageNamed:@"ic_group_top"];
-    itemTop.styleWing = [UIImage imageNamed:StringFromConvertAssembleData(&globalWorthPreference)];
+    itemTop.ledge = [UIImage imageNamed:StringFromConvertAssembleData(&globalWorthPreference)];
 
 //        ConcatenateBehindSwirlAlongside *itemQuit = [[ConcatenateBehindSwirlAlongside alloc] init];
 //        itemQuit.title = @"退出高级群".nim_localized;
@@ -769,28 +769,28 @@ DrawerHeadLifecycleUnder,IdentifyMatrixRepaintDelegate,UINavigationControllerDel
         //: ConcatenateBehindSwirlAlongside *itemDismiss = [[ConcatenateBehindSwirlAlongside alloc] init];
         ConcatenateBehindSwirlAlongside *itemDismiss = [[ConcatenateBehindSwirlAlongside alloc] init];
         //: itemDismiss.title = [UpdateTreatStripSincere getTextWithKey:@"group_info_activity_jiesan"];
-        itemDismiss.brilliant = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&themeChainKey)];
+        itemDismiss.cap = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&themeChainKey)];
         //: itemDismiss.action = @selector(dismissTeam);
         itemDismiss.futureWord = @selector(automaticallyTake);
         //: itemDismiss.rowHeight = 50.f;
-        itemDismiss.magnitudeegrate = 50.f;
+        itemDismiss.emotionProperty = 50.f;
         //: itemDismiss.type = AboveInkwellUrbanAssignRedButton;
-        itemDismiss.sliceRidgeLeaf = AboveInkwellUrbanAssignRedButton;
+        itemDismiss.infrastructure = AboveInkwellUrbanAssignRedButton;
     //: itemDismiss.img = [UIImage imageNamed:@"ic_announcement"];
-    itemDismiss.styleWing = [UIImage imageNamed:StringFromConvertAssembleData(&styleHeadAmongTitle)];
+    itemDismiss.ledge = [UIImage imageNamed:StringFromConvertAssembleData(&styleHeadAmongTitle)];
 
     //: ConcatenateBehindSwirlAlongside *teamChange = [[ConcatenateBehindSwirlAlongside alloc] init];
     ConcatenateBehindSwirlAlongside *teamChange = [[ConcatenateBehindSwirlAlongside alloc] init];
     //: teamChange.title = [UpdateTreatStripSincere getTextWithKey:@"Transfer_group_ownership"];
-    teamChange.brilliant = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&themeQueryerDisableMessage)];
+    teamChange.cap = [UpdateTreatStripSincere signalBySpot:StringFromConvertAssembleData(&themeQueryerDisableMessage)];
     //: teamChange.rowHeight = 50.f;
-    teamChange.magnitudeegrate = 50.f;
+    teamChange.emotionProperty = 50.f;
     //: teamChange.type = AboveInkwellUrbanAssignCommon;
-    teamChange.sliceRidgeLeaf = AboveInkwellUrbanAssignCommon;
+    teamChange.infrastructure = AboveInkwellUrbanAssignCommon;
     //: teamChange.action = @selector(onMore);
     teamChange.futureWord = @selector(sumyDown);
     //: teamChange.img = [UIImage imageNamed:@"ic_group_transfer"];
-    teamChange.styleWing = [UIImage imageNamed:StringFromConvertAssembleData(&userTheoryConfig)];
+    teamChange.ledge = [UIImage imageNamed:StringFromConvertAssembleData(&userTheoryConfig)];
 
 
     //: if (isOwner) {

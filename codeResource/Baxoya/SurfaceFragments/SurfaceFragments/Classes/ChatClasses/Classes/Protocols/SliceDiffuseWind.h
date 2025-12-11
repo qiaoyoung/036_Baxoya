@@ -93,19 +93,19 @@ typedef NS_ENUM(NSInteger, AboveInkwellUrbanAssign) {
 @protocol ScaffoldPaletteSessionDiagram <NSObject>
 
 //: - (id)value;
-- (id)walk;
+- (id)press;
 
 //: - (NSString *)title;
-- (NSString *)loyal;
+- (NSString *)cap;
 
 //: - (NSString *)img;
-- (NSString *)exclusive;
+- (NSString *)ledge;
 
 //: - (BOOL)selected;
-- (BOOL)quit;
+- (BOOL)organic;
 
 //: - (void)setSelected:(BOOL)selected;
-- (void)setQuit:(BOOL)selected;
+- (void)setOrganic:(BOOL)selected;
 
 //: @end
 @end
@@ -129,7 +129,7 @@ typedef NS_ENUM(NSInteger, AboveInkwellUrbanAssign) {
 - (NIMTeamCardRowSelectedBlock)weaveSpine;
 
 //: - (NSMutableArray <id <ScaffoldPaletteSessionDiagram>> *)optionItems;
-- (NSMutableArray <id <ScaffoldPaletteSessionDiagram>> *)most;
+- (NSMutableArray <id <ScaffoldPaletteSessionDiagram>> *)journey;
 
 //: @optional
 @optional
@@ -140,7 +140,7 @@ typedef NS_ENUM(NSInteger, AboveInkwellUrbanAssign) {
 - (UIImage *)ledge;
 
 //: - (SEL)action;
-- (SEL)previousBy;
+- (SEL)futureWord;
 
 //: - (BOOL)actionDisabled;
 - (BOOL)past;

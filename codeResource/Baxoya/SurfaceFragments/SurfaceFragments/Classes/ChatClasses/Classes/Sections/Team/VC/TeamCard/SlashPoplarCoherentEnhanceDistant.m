@@ -254,7 +254,7 @@ typedef struct {
         //: SenseImportStyleSparkHarbor *vc = [SenseImportStyleSparkHarbor instanceWithTitle:bodyData.title
         SenseImportStyleSparkHarbor *vc = [SenseImportStyleSparkHarbor fuse:bodyData.cap
                                                                                //: items:bodyData.optionItems
-                                                                               magic:bodyData.most
+                                                                               magic:bodyData.journey
                                                                               //: result:^(id<ScaffoldPaletteSessionDiagram> _Nonnull item) {
                                                                               lead:^(id<ScaffoldPaletteSessionDiagram> _Nonnull item) {
               //: if (bodyData.selectedBlock) {
@@ -271,11 +271,11 @@ typedef struct {
         //: if ([bodyData respondsToSelector:@selector(action)]) {
         if ([bodyData respondsToSelector:@selector(futureWord)]) {
             //: if (bodyData.action) {
-            if (bodyData.previousBy) {
+            if (bodyData.futureWord) {
                 //: do {
                 do {
                 //: [self performSelector:bodyData.action];
-                [self performSelector:bodyData.previousBy];
+                [self performSelector:bodyData.futureWord];
                 //: } while (0);
                 } while (0);
             }

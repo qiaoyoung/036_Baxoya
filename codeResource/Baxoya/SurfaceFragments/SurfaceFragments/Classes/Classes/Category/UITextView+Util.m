@@ -204,7 +204,7 @@ static const void *dataResignReadPlatform = &dataResignReadPlatform;
 }
 
 //: - (NSString *)placeholder
-- (NSString *)sequenceStatussed
+- (NSString *)placeholder
 {
     // 如果有placeholder值才去调用，这步很重要
     //: if (self.placeholderExist) {
@@ -375,8 +375,7 @@ static const void *dataResignReadPlatform = &dataResignReadPlatform;
     return placeholderView;
 }
 
-//: - (void)setPlaceholder:(NSString *)placeholder
-- (void)setSequenceStatussed:(NSString *)placeholder
+- (void)setPlaceholder:(NSString *)placeholder
 {
     // 为placeholder赋值
     //: [self placeholderView].text = placeholder;

@@ -152,11 +152,11 @@ Byte constSinkPlatform[] = {25, 30, 5, 10, 94, 44, 230, 150, 8, 181, 104, 116, 1
     //: cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     //: cell.iconImageView.image = [UIImage imageNamed:bodyData.img];
-    cell.role.image = [UIImage imageNamed:bodyData.exclusive];
+    cell.role.image = [UIImage imageNamed:bodyData.ledge];
     //: cell.titleLabel.text = bodyData.title;
-    cell.holdUrban.text = bodyData.loyal;
+    cell.holdUrban.text = bodyData.cap;
     //: cell.arrowsImageView.hidden = ![bodyData selected];
-    cell.structure.hidden = ![bodyData quit];
+    cell.structure.hidden = ![bodyData organic];
 
     //: return cell;
     return cell;
@@ -187,7 +187,7 @@ Byte constSinkPlatform[] = {25, 30, 5, 10, 94, 44, 230, 150, 8, 181, 104, 116, 1
         //: [items enumerateObjectsUsingBlock:^(id<ScaffoldPaletteSessionDiagram> _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         [items enumerateObjectsUsingBlock:^(id<ScaffoldPaletteSessionDiagram> _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             //: if (obj.selected) {
-            if (obj.quit) {
+            if (obj.organic) {
                 //: weakSelf.selectedIndex = idx;
                 weakSelf.fragmentModest = idx;
             }
@@ -219,7 +219,7 @@ Byte constSinkPlatform[] = {25, 30, 5, 10, 94, 44, 230, 150, 8, 181, 104, 116, 1
         //: BOOL selected = (idx == indexPath.section);
         BOOL selected = (idx == indexPath.section);
         //: [obj setSelected:selected];
-        [obj setQuit:selected];
+        [obj setOrganic:selected];
     //: }];
     }];
     //: [self.tableView reloadData];

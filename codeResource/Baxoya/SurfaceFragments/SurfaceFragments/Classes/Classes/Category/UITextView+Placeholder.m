@@ -20,7 +20,7 @@
 
 
 //: @dynamic placeholder;
-@dynamic sequenceStatussed;
+@dynamic placeholder;
 //: @dynamic placeholderLabel;
 @dynamic platformEnforce;
 //: @dynamic textValue;
@@ -107,8 +107,7 @@ NSString const *moduleCustomTimer = @"kKeyLabel";
 
 //: NSString const *kKeyPlaceHolder = @"kKeyPlaceHolder";
 NSString const *colorLeapValue = @"kKeyPlaceHolder";
-//: -(void)setPlaceholder:(NSString *)_placeholder
--(void)setSequenceStatussed:(NSString *)_placeholder
+-(void)setPlaceholder:(NSString *)_placeholder
 {
     //  Sets our "placeholder" text string, creates a new UILabel to contain it, and modifies our UITextView to cope with
     //  showing/hiding the UILabel when needed.
@@ -147,7 +146,7 @@ NSString const *colorLeapValue = @"kKeyPlaceHolder";
     [self put];
 }
 //: -(NSString*)placeholder
--(NSString*)sequenceStatussed
+-(NSString*)placeholder
 {
     //  Returns our "placeholder" text string
     //: return objc_getAssociatedObject(self, &kKeyPlaceHolder);

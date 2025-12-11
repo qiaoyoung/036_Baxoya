@@ -614,11 +614,11 @@
         //: ConcatenateBehindSwirlAlongside *item = [[ConcatenateBehindSwirlAlongside alloc] init];
         ConcatenateBehindSwirlAlongside *item = [[ConcatenateBehindSwirlAlongside alloc] init];
         //: item.value = dic[[WriteStampSelectVelocity getTeamHelperValue]];
-        item.play = dic[[WriteStampSelectVelocity tingAcross]];
+        item.press = dic[[WriteStampSelectVelocity tingAcross]];
         //: item.title = dic[[WriteStampSelectVelocity getTeamHelperText]];
-        item.brilliant = dic[[WriteStampSelectVelocity grandShrink]];
+        item.cap = dic[[WriteStampSelectVelocity grandShrink]];
         //: item.img = dic[[WriteStampSelectVelocity getTeamHelperImg]];
-        item.styleWing = dic[[WriteStampSelectVelocity coordinator]];
+        item.ledge = dic[[WriteStampSelectVelocity coordinator]];
         //: item.selected = (selectValue == [dic[[WriteStampSelectVelocity getTeamHelperValue]] integerValue]);
         item.organic = (selectValue == [dic[[WriteStampSelectVelocity tingAcross]] integerValue]);
         //: [items addObject:item];

@@ -295,7 +295,7 @@
     //: self.contentTextView.delegate = self;
     self.fill.delegate = self;
     //: self.contentTextView.placeholder = [UpdateTreatStripSincere getTextWithKey:@"Please_enter_content"];
-    self.fill.sequenceStatussed = [UpdateTreatStripSincere signalBySpot:[Frustration_Data themeActivityWillingKey]];
+    self.fill.placeholder = [UpdateTreatStripSincere signalBySpot:[Frustration_Data themeActivityWillingKey]];
     //: self.contentTextView.text = self.defaultContent;
     self.fill.text = self.circuitOwl;
     //: [contentView addSubview:self.contentTextView];

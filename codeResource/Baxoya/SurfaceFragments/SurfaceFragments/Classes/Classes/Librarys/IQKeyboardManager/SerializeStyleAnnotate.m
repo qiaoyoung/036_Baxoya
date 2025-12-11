@@ -46,7 +46,7 @@ NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
 @implementation SerializeStyleAnnotate
 
 //: @synthesize placeholder = _placeholder;
-@synthesize sequenceStatussed = _variable;
+@synthesize placeholder = _variable;
 //: @synthesize placeholderLabel = _placeholderLabel;
 @synthesize platformEnforce = _receiveHorizon;
 //: @synthesize placeholderTextColor = _placeholderTextColor;
@@ -200,8 +200,7 @@ NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(feedbackEnhance) name:UITextViewTextDidChangeNotification object:self];
 }
 
-//: -(void)setPlaceholder:(NSString *)placeholder
--(void)setSequenceStatussed:(NSString *)placeholder
+-(void)setPlaceholder:(NSString *)placeholder
 {
     //: _placeholder = placeholder;
     _variable = placeholder;

@@ -1593,7 +1593,7 @@ typedef struct {
     self.theory.treeContext.strategyListGiven = nil;
 
     //: NSString *placeholder = [RunBonnyJourneyTweak sharedKit].config.placeholder;
-    NSString *placeholder = [RunBonnyJourneyTweak fabricWithoutStormDisabled].valley.sequenceStatussed;
+    NSString *placeholder = [RunBonnyJourneyTweak fabricWithoutStormDisabled].valley.placeholder;
     //: [_toolBar setPlaceHolder:placeholder];
     [_theory setLogic:placeholder];
 

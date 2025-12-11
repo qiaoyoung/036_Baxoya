@@ -80,7 +80,7 @@ Byte dataTerrainConfig[] = {51, 10, 28, 8, 82, 136, 151, 164, 140, 139, 143, 144
 @property (nonatomic, strong) ControlOptimizePlanetFragments *chapter;
 
 //: @property (nonatomic, strong) NIMSession *session;
-@property (nonatomic, strong) NIMSession *promise;
+@property (nonatomic, strong) NIMSession *past;
 
 //: @end
 @end
@@ -1413,7 +1413,7 @@ Byte dataTerrainConfig[] = {51, 10, 28, 8, 82, 136, 151, 164, 140, 139, 143, 144
         //: _team = team;
         _able = team;
         //: _session = session;
-        _promise = session;
+        _past = session;
         //: if (team.type == NIMTeamTypeSuper) {
         if (team.type == NIMTeamTypeSuper) {
             //: [[NIMSDK sharedSDK].superTeamManager addDelegate:self];

@@ -75,7 +75,7 @@ typedef NS_ENUM(NSInteger,RestQuietType) {
  *  输入框的占位符
  */
 //: @property (nonatomic, copy) NSString *placeholder;
-@property (nonatomic, copy) NSString *sequenceStatussed;
+@property (nonatomic, copy) NSString *placeholder;
 
 
 /**

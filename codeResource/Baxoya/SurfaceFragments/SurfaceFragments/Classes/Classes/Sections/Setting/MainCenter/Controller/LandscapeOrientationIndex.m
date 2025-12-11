@@ -676,7 +676,7 @@
     //: _textView = [[UITextView alloc] initWithFrame:CGRectMake(15, 15, [[UIScreen mainScreen] bounds].size.width-60, 230)];
     _intervalense = [[UITextView alloc] initWithFrame:CGRectMake(15, 15, [[UIScreen mainScreen] bounds].size.width-60, 230)];
     //: _textView.placeholder = [UpdateTreatStripSincere getTextWithKey:@"report_info"];
-    _intervalense.sequenceStatussed = [UpdateTreatStripSincere signalBySpot:[ExoticData sharedInstance].styleClearTimer];//@"请输入您的举报信息";
+    _intervalense.placeholder = [UpdateTreatStripSincere signalBySpot:[ExoticData sharedInstance].styleClearTimer];//@"请输入您的举报信息";
     //: _textView.backgroundColor = [UIColor whiteColor];
     _intervalense.backgroundColor = [UIColor whiteColor];
     //: _textView.delegate = self;

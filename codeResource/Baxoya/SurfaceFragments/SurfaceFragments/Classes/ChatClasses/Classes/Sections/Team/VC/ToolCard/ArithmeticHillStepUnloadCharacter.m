@@ -223,7 +223,7 @@ typedef struct {
     //: self.contentTextView.delegate = self;
     self.might.delegate = self;
     //: self.contentTextView.placeholder = [UpdateTreatStripSincere getTextWithKey:@"Please_enter_content"];
-    self.might.sequenceStatussed = [UpdateTreatStripSincere signalBySpot:[SodiumPinData layoutVisibleFormat]];
+    self.might.placeholder = [UpdateTreatStripSincere signalBySpot:[SodiumPinData layoutVisibleFormat]];
     //: self.contentTextView.text = self.defaultContent;
     self.might.text = self.momentUnit;
     //: [contentView addSubview:self.contentTextView];

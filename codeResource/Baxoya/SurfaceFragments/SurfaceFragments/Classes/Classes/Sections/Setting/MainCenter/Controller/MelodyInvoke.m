@@ -417,7 +417,7 @@ typedef struct {
         //: _textView.textColor = [UIColor colorWithHexString:@"#333333"];
         _coordinate.textColor = [UIColor deviceFleet:[TriggerSnowData sharedInstance].componentWhiteMessage];
         //: _textView.placeholder = [UpdateTreatStripSincere getTextWithKey:@"activity_set_bio_title"];
-        _coordinate.sequenceStatussed = [UpdateTreatStripSincere signalBySpot:[TriggerSnowData sharedInstance].viewCountTitle];
+        _coordinate.placeholder = [UpdateTreatStripSincere signalBySpot:[TriggerSnowData sharedInstance].viewCountTitle];
         //: _textView.delegate = self;
         _coordinate.delegate = self;
 //        _textView.textContainerInset = UIEdgeInsetsMake(20, 20, 20, 20);

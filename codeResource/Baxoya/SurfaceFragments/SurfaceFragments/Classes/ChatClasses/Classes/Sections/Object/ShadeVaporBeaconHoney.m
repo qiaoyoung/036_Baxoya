@@ -89,7 +89,7 @@
 }
 
 //: @property (nonatomic,weak) id<BelowSublimeLocalizationPing> delegate;
-@property (nonatomic,weak) id<BelowSublimeLocalizationPing> amendPartses;
+@property (nonatomic,weak) id<BelowSublimeLocalizationPing> atDocument;
 
 //: @property (nonatomic,strong) UIRefreshControl *refreshControl;
 @property (nonatomic,strong) UIRefreshControl *handle;
@@ -185,10 +185,10 @@
 - (void)deserted:(id)sender
 {
     //: if ([self.delegate respondsToSelector:@selector(onRefresh)])
-    if ([self.amendPartses respondsToSelector:@selector(playDelicate)])
+    if ([self.atDocument respondsToSelector:@selector(playDelicate)])
     {
         //: [self.delegate onRefresh];
-        [self.amendPartses playDelicate];
+        [self.atDocument playDelicate];
     }
 }
 
