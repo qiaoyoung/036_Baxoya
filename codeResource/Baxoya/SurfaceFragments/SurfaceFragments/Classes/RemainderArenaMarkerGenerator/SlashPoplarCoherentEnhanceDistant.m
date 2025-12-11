@@ -245,7 +245,7 @@ typedef struct {
     //: id<ShowEvaluationMessage> bodyData = [self bodyDataAtIndexPath:indexPath];
     id<ShowEvaluationMessage> bodyData = [self container:indexPath];
     //: if ([bodyData respondsToSelector:@selector(actionDisabled)] && bodyData.actionDisabled) {
-    if ([bodyData respondsToSelector:@selector(sortGalaxies)] && bodyData.past) {
+    if ([bodyData respondsToSelector:@selector(past)] && bodyData.past) {
         //: return;
         return;
     }
@@ -969,7 +969,7 @@ typedef struct {
 //    cell.imageView.image = bodyData.img;
 
     //: if ([bodyData respondsToSelector:@selector(actionDisabled)] && bodyData.actionDisabled) {
-    if ([bodyData respondsToSelector:@selector(sortGalaxies)] && bodyData.past) {
+    if ([bodyData respondsToSelector:@selector(past)] && bodyData.past) {
         //: cell.accessoryType = UITableViewCellAccessoryNone;
         cell.accessoryType = UITableViewCellAccessoryNone;
     //: }else{
