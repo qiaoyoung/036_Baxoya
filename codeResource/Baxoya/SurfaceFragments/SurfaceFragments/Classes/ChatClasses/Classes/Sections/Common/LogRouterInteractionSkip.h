@@ -13,8 +13,8 @@
 #import <UIKit/UIKit.h>
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
-//: #import "ValidationMinifyCatalyst.h"
-#import "ValidationMinifyCatalyst.h"
+//:  
+ 
 
 //: @interface LogRouterInteractionSkip : UIControl
 @interface LogRouterInteractionSkip : UIControl

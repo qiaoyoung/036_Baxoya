@@ -60,9 +60,9 @@ Byte commonGradualSimpleConfig[] = {62, 5, 90, 5, 221, 24, 11, 22, 18, 31, 141};
 //: @synthesize avatarSize = _avatarSize;
 @synthesize legacy = _sternTail;
 //: @synthesize repliedMessage = _repliedMessage;
-@synthesize lightPrompt = _twist;
+@synthesize lightPrompt = _lightPrompt;
 //: @synthesize parentMessage = _parentMessage;
-@synthesize theme = _group;
+@synthesize theme =  _theme;
 
 //: - (void)quickComments:(NIMMessage *)message
 - (void)presentSound:(NIMMessage *)message

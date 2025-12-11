@@ -98,11 +98,7 @@ typedef void (^FontVentureOrderlyDismissCompletion)(void);
 
 //: #pragma mark - Customization
 #pragma mark - Customization
-
-/// Represents the default style for the HUD.
-/// @discussion Default: FontVentureOrderlyStyleAutomatic.
-__attribute__((annotate("ui_appearance_selector")));
-
+ 
 /// The image displayed when showing success messages.
 /// @discussion Default: checkmark from SF Symbols (iOS 13+) or the bundled success image provided by Freepik.
 //: @property (strong, nonatomic, nonnull) UIImage *successImage __attribute__((annotate("ui_appearance_selector")));
@@ -126,7 +122,7 @@ __attribute__((annotate("ui_appearance_selector")));
 
 /// The container view used for displaying the HUD. If nil, the default window level is used.
 //: @property (strong, nonatomic, nullable) UIView *containerView;
-@property (strong, nonatomic, nullable) UIView *server;
+@property (strong, nonatomic, nullable) UIView *server
  __attribute__((annotate("ui_appearance_selector")));
 
 /// The image displayed when showing error messages.
@@ -157,7 +153,7 @@ __attribute__((annotate("ui_appearance_selector")));
 /// The maximum window level on which the HUD can be displayed.
 /// @discussion Default: UIWindowLevelNormal.
 //: @property (assign, nonatomic) UIWindowLevel maxSupportedWindowLevel;
-@property (assign, nonatomic) UIWindowLevel pool;
+@property (assign, nonatomic) UIWindowLevel pool
  __attribute__((annotate("ui_appearance_selector")));
 
 /// A specific view for extensions. This property is only used if #define SV_APP_EXTENSIONS is set.
@@ -173,10 +169,10 @@ __attribute__((annotate("ui_appearance_selector")));
 /// Defines the animation type used when the HUD is displayed.
 /// @discussion Default: FontVentureOrderlyAnimationTypeFlat.
 //: @property (assign, nonatomic) FontVentureOrderlyAnimationType defaultAnimationType __attribute__((annotate("ui_appearance_selector")));
-@property (assign, nonatomic) FontVentureOrderlyAnimationType contrast /// The minimum amount of time in seconds the HUD will display.
+@property (assign, nonatomic) FontVentureOrderlyAnimationType contrast; /// The minimum amount of time in seconds the HUD will display.
 /// @discussion Default: 5.0 seconds.
 //: @property (assign, nonatomic) NSTimeInterval minimumDismissTimeInterval;
-@property (assign, nonatomic) NSTimeInterval ratio;
+@property (assign, nonatomic) NSTimeInterval ratio
  __attribute__((annotate("ui_appearance_selector")));
 
 /// Represents the type of mask applied when the HUD is displayed.
@@ -187,7 +183,7 @@ __attribute__((annotate("ui_appearance_selector")));
 /// Duration of the fade-in animation when showing the HUD.
 /// @discussion Default: 0.15.
 //: @property (assign, nonatomic) NSTimeInterval fadeInAnimationDuration __attribute__((annotate("ui_appearance_selector")));
-@property (assign, nonatomic) NSTimeInterval deployRationalCoordinate /// The minimum size for the HUD. Useful for maintaining a consistent size when the message might cause resizing.
+@property (assign, nonatomic) NSTimeInterval deployRationalCoordinate; /// The minimum size for the HUD. Useful for maintaining a consistent size when the message might cause resizing.
 /// @discussion Default: CGSizeZero.
 //: @property (assign, nonatomic) CGSize minimumSize __attribute__((annotate("ui_appearance_selector")));
 @property (assign, nonatomic) CGSize computer __attribute__((annotate("ui_appearance_selector")));
@@ -208,14 +204,13 @@ __attribute__((annotate("ui_appearance_selector")));
 /// Indicates if haptic feedback should be used.
 /// @discussion Default: NO.
 //: @property (assign, nonatomic) BOOL hapticsEnabled;
-@property (assign, nonatomic) BOOL iconWithout;
-
+@property (assign, nonatomic) BOOL iconWithout
 __attribute__((annotate("ui_appearance_selector")));
 
 /// Color for the background layer behind the HUD.
 /// @discussion Default: [UIColor colorWithWhite:0 alpha:0.4].
 //: @property (strong, nonatomic, nonnull) UIColor *backgroundLayerColor __attribute__((annotate("ui_appearance_selector")));
-@property (strong, nonatomic, nonnull) UIColor *strong
+@property (strong, nonatomic, nonnull) UIColor *strong;
 //: @property (assign, nonatomic) FontVentureOrderlyStyle defaultStyle __attribute__((annotate("ui_appearance_selector")));
 @property (assign, nonatomic) FontVentureOrderlyStyle net __attribute__((annotate("ui_appearance_selector")));
 
@@ -227,7 +222,7 @@ __attribute__((annotate("ui_appearance_selector")));
 /// Color for any foreground images in the HUD.
 /// @discussion Default: same as foregroundColor.
 //: @property (strong, nonatomic, nullable) UIColor *foregroundImageColor __attribute__((annotate("ui_appearance_selector")));
-@property (strong, nonatomic, nullable) UIColor *app /// Offset from the center position, can be used to adjust the HUD position.
+@property (strong, nonatomic, nullable) UIColor *app; /// Offset from the center position, can be used to adjust the HUD position.
 /// @discussion Default: 0, 0.
 //: @property (assign, nonatomic) UIOffset offsetFromCenter __attribute__((annotate("ui_appearance_selector")));
 @property (assign, nonatomic) UIOffset attach
@@ -242,7 +237,7 @@ __attribute__((annotate("ui_appearance_selector")));
 /// Thickness of the ring shown in the HUD.
 /// @discussion Default: 2 pt.
 //: @property (assign, nonatomic) CGFloat ringThickness __attribute__((annotate("ui_appearance_selector")));
-@property (assign, nonatomic) CGFloat evaluationArtifact
+@property (assign, nonatomic) CGFloat evaluationArtifact;
 /// Sets the ring thickness for the HUD.
 /// @param ringThickness Thickness of the ring.
 //: + (void)setRingThickness:(CGFloat)ringThickness;

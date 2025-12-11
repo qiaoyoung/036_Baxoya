@@ -391,7 +391,7 @@ static char themeOriginHelper;
         //: CGPoint origin = CGPointMake(roundf((self.bounds.size.width-viewBounds.size.width)/2), roundf((self.bounds.size.height-viewBounds.size.height)/2));
         CGPoint origin = CGPointMake(roundf((self.bounds.size.width-viewBounds.size.width)/2), roundf((self.bounds.size.height-viewBounds.size.height)/2));
         //: [customView setFrame:CGRectMake(origin.x, origin.y, viewBounds.size.width, viewBounds.size.height)];
-        [customView setFrame:CGRectMake(origin.x, origin.light, viewBounds.size.width, viewBounds.size.height)];
+        [customView setFrame:CGRectMake(origin.x, origin.y, viewBounds.size.width, viewBounds.size.height)];
     }
     //: else {
     else {
@@ -567,7 +567,7 @@ static char themeOriginHelper;
 //: - (void)setScrollViewContentInsetForLoading {
 - (void)shared {
     //: CGFloat offset = ((self.scrollView.contentOffset.y * -1) > (0) ? (self.scrollView.contentOffset.y * -1) : (0));
-    CGFloat offset = ((self.assist.contentOffset.light * -1) > (0) ? (self.assist.contentOffset.light * -1) : (0));
+    CGFloat offset = ((self.assist.contentOffset.y * -1) > (0) ? (self.assist.contentOffset.y * -1) : (0));
     //: UIEdgeInsets currentInsets = self.scrollView.contentInset;
     UIEdgeInsets currentInsets = self.assist.contentInset;
     //: switch (self.position) {
@@ -970,7 +970,7 @@ static char themeOriginHelper;
         case TideCountConfigureParsePositionTop:
 
             //: if((fabs(self.scrollView.contentOffset.y) < 1.19209290e-7F)) {
-            if((fabs(self.assist.contentOffset.light) < 1.19209290e-7F)) {
+            if((fabs(self.assist.contentOffset.y) < 1.19209290e-7F)) {
                 //: [self.scrollView setContentOffset:CGPointMake(self.scrollView.contentOffset.x, -self.frame.size.height) animated:YES];
                 [self.assist setContentOffset:CGPointMake(self.assist.contentOffset.x, -self.frame.size.height) animated:YES];
                 //: self.wasTriggeredByUser = NO;
@@ -987,11 +987,11 @@ static char themeOriginHelper;
         case TideCountConfigureParsePositionBottom:
 
             //: if(((fabs(self.scrollView.contentOffset.y) < 1.19209290e-7F) && self.scrollView.contentSize.height < self.scrollView.bounds.size.height)
-            if(((fabs(self.assist.contentOffset.light) < 1.19209290e-7F) && self.assist.contentSize.height < self.assist.bounds.size.height)
+            if(((fabs(self.assist.contentOffset.y) < 1.19209290e-7F) && self.assist.contentSize.height < self.assist.bounds.size.height)
                //: || (fabs((self.scrollView.contentOffset.y) - (self.scrollView.contentSize.height - self.scrollView.bounds.size.height)) < 1.19209290e-7F)) {
-               || (fabs((self.assist.contentOffset.light) - (self.assist.contentSize.height - self.assist.bounds.size.height)) < 1.19209290e-7F)) {
+               || (fabs((self.assist.contentOffset.y) - (self.assist.contentSize.height - self.assist.bounds.size.height)) < 1.19209290e-7F)) {
                 //: [self.scrollView setContentOffset:(CGPoint){.y = ((self.scrollView.contentSize.height - self.scrollView.bounds.size.height) > (0.0f) ? (self.scrollView.contentSize.height - self.scrollView.bounds.size.height) : (0.0f)) + self.frame.size.height} animated:YES];
-                [self.scrollView setContentOffset:(CGPoint){.light = ((self.scrollView.contentSize.height - self.scrollView.bounds.size.height) > (0.0f) ? (self.scrollView.contentSize.height - self.scrollView.bounds.size.height) : (0.0f)) + self.frame.size.height} animated:YES];
+                [self.assist setContentOffset:(CGPoint){.y = ((self.assist.contentSize.height - self.assist.bounds.size.height) > (0.0f) ? (self.assist.contentSize.height - self.assist.bounds.size.height) : (0.0f)) + self.frame.size.height} animated:YES];
                 //: self.wasTriggeredByUser = NO;
                 self.perform = NO;
             }
@@ -1045,7 +1045,7 @@ static char themeOriginHelper;
             //: case TideCountConfigureParsePositionTop:
             case TideCountConfigureParsePositionTop:
                 //: scrollOffsetThreshold = self.frame.origin.y - self.originalTopInset;
-                scrollOffsetThreshold = self.frame.origin.light - self.common;
+                scrollOffsetThreshold = self.frame.origin.y - self.common;
                 //: break;
                 break;
             //: case TideCountConfigureParsePositionBottom:
@@ -1061,19 +1061,19 @@ static char themeOriginHelper;
             //: self.state = TideCountConfigureParseStateLoading;
             self.pickSloping = TideCountConfigureParseStateLoading;
         //: else if(contentOffset.y < scrollOffsetThreshold && self.scrollView.isDragging && self.state == TideCountConfigureParseStateStopped && self.position == TideCountConfigureParsePositionTop)
-        else if(contentOffset.light < scrollOffsetThreshold && self.assist.isDragging && self.pickSloping == TideCountConfigureParseStateStopped && self.particle == TideCountConfigureParsePositionTop)
+        else if(contentOffset.y < scrollOffsetThreshold && self.assist.isDragging && self.pickSloping == TideCountConfigureParseStateStopped && self.particle == TideCountConfigureParsePositionTop)
             //: self.state = TideCountConfigureParseStateTriggered;
             self.pickSloping = TideCountConfigureParseStateTriggered;
         //: else if(contentOffset.y >= scrollOffsetThreshold && self.state != TideCountConfigureParseStateStopped && self.position == TideCountConfigureParsePositionTop)
-        else if(contentOffset.light >= scrollOffsetThreshold && self.pickSloping != TideCountConfigureParseStateStopped && self.particle == TideCountConfigureParsePositionTop)
+        else if(contentOffset.y >= scrollOffsetThreshold && self.pickSloping != TideCountConfigureParseStateStopped && self.particle == TideCountConfigureParsePositionTop)
             //: self.state = TideCountConfigureParseStateStopped;
             self.pickSloping = TideCountConfigureParseStateStopped;
         //: else if(contentOffset.y > scrollOffsetThreshold && self.scrollView.isDragging && self.state == TideCountConfigureParseStateStopped && self.position == TideCountConfigureParsePositionBottom)
-        else if(contentOffset.light > scrollOffsetThreshold && self.assist.isDragging && self.pickSloping == TideCountConfigureParseStateStopped && self.particle == TideCountConfigureParsePositionBottom)
+        else if(contentOffset.y > scrollOffsetThreshold && self.assist.isDragging && self.pickSloping == TideCountConfigureParseStateStopped && self.particle == TideCountConfigureParsePositionBottom)
             //: self.state = TideCountConfigureParseStateTriggered;
             self.pickSloping = TideCountConfigureParseStateTriggered;
         //: else if(contentOffset.y <= scrollOffsetThreshold && self.state != TideCountConfigureParseStateStopped && self.position == TideCountConfigureParsePositionBottom)
-        else if(contentOffset.light <= scrollOffsetThreshold && self.pickSloping != TideCountConfigureParseStateStopped && self.particle == TideCountConfigureParsePositionBottom)
+        else if(contentOffset.y <= scrollOffsetThreshold && self.pickSloping != TideCountConfigureParseStateStopped && self.particle == TideCountConfigureParsePositionBottom)
             //: self.state = TideCountConfigureParseStateStopped;
             self.pickSloping = TideCountConfigureParseStateStopped;
     //: } else {
@@ -1087,7 +1087,7 @@ static char themeOriginHelper;
             //: case TideCountConfigureParsePositionTop:
             case TideCountConfigureParsePositionTop:
                 //: offset = ((self.scrollView.contentOffset.y * -1) > (0.0f) ? (self.scrollView.contentOffset.y * -1) : (0.0f));
-                offset = ((self.assist.contentOffset.light * -1) > (0.0f) ? (self.assist.contentOffset.light * -1) : (0.0f));
+                offset = ((self.assist.contentOffset.y * -1) > (0.0f) ? (self.assist.contentOffset.y * -1) : (0.0f));
                 //: offset = ((offset) < (self.originalTopInset + self.bounds.size.height) ? (offset) : (self.originalTopInset + self.bounds.size.height));
                 offset = ((offset) < (self.common + self.bounds.size.height) ? (offset) : (self.common + self.bounds.size.height));
                 //: contentInset = self.scrollView.contentInset;

@@ -31,7 +31,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 //    [GeneratedPluginRegistrant registerWithRegistry:self];
     //: [[TenseUnder sharedInstance] sourceMightyVersionConverter:self.window];
-    [[TenseUnder sharedInstance] sourceMightyVersionConverter:self.window];
+    [[TenseUnder activeStop] whisperStep:self.window];
     //: return YES;
     return YES;
 }
@@ -41,7 +41,7 @@
 //: - (void)applicationDidBecomeActive:(UIApplication *)application {
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     //: [[TenseUnder sharedInstance] applicationDidBecomeActive:application];
-    [[TenseUnder sharedInstance] applicationDidBecomeActive:application];
+    [[TenseUnder activeStop] appearanceAcross:application];
 }
 
 //: #pragma mark - openURL
@@ -55,13 +55,13 @@
 //: - (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
 - (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
     //: [[TenseUnder sharedInstance] application:app didRegisterForRemoteNotificationsWithDeviceToken:deviceToken];
-    [[TenseUnder sharedInstance] application:app didRegisterForRemoteNotificationsWithDeviceToken:deviceToken];
+    [[TenseUnder activeStop] beyondAlongside:app checkAmendAction:deviceToken];
 }
 
 //: - (void)applicationDidEnterBackground:(UIApplication *)application {
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     //: [[TenseUnder sharedInstance] applicationDidEnterBackground:application];
-    [[TenseUnder sharedInstance] applicationDidEnterBackground:application];
+    [[TenseUnder activeStop] smooth:application];
 }
 
 //: @end

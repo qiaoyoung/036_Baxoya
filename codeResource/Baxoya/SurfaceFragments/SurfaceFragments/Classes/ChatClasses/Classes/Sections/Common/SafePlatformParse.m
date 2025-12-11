@@ -155,8 +155,8 @@
 #import "StartStoryPressureClarity.h"
 //: #import "PositionCheckboxMinifyPage.h"
 #import "PositionCheckboxMinifyPage.h"
-//: #import "ValidationMinifyCatalyst.h"
-#import "ValidationMinifyCatalyst.h"
+//:  
+ 
 //: #import "TZImageManager.h"
 #import "TZImageManager.h"
 //: #import "FairyRealBlock.h"

@@ -26,7 +26,7 @@ IB_DESIGNABLE
 @property (nonatomic) IBInspectable BOOL prefer;
 
 //: @property (nonatomic) UIBlurEffect *blurEffect NS_AVAILABLE_IOS(8_0); 
-@property (nonatomic) UIBlurEffect *distantNature//: @property (nonatomic, readonly) UILabel *textLabel; 
+@property (nonatomic) UIBlurEffect *distantNature;//: @property (nonatomic, readonly) UILabel *textLabel; 
 @property (nonatomic, readonly) UILabel *alongsideSong;// UI_APPEARANCE_SELECTOR;
 //: @property (nonatomic, copy) void(^animationDidStopBlock)();
 @property (nonatomic, copy) void(^estimate)();

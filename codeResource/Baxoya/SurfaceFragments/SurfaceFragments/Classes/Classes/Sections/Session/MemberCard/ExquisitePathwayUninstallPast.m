@@ -63,8 +63,8 @@ Byte screenCreateEvent[] = {12, 30, 61, 13, 170, 214, 102, 80, 99, 210, 183, 157
 #import "ControlOptimizePlanetFragments.h"
 //: #import "CatalystCalibrateBirch.h"
 #import "CatalystCalibrateBirch.h"
-//: #import "ValidationMinifyCatalyst.h"
-#import "ValidationMinifyCatalyst.h"
+//:  
+ 
 //: #import "FairyRealBlock.h"
 #import "FairyRealBlock.h"
 //: #import "PositionCheckboxMinifyPage.h"

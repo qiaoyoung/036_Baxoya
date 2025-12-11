@@ -707,7 +707,7 @@ typedef struct {
 
 //: @property (nonatomic, strong) WithoutCollateStrategyAuthenticate *loadingView;
 @property (nonatomic, strong) WithoutCollateStrategyAuthenticate *naturePresent;
-@property (nonatomic, strong) ConstructConvertView *resume//: @property (nonatomic, strong) UIButton *resqBtn;
+@property (nonatomic, strong) ConstructConvertView *resume;//: @property (nonatomic, strong) UIButton *resqBtn;
 @property (nonatomic, strong) UIButton *classicCompare;
 
 //: @property (nonatomic, strong) UIButton *mesBtn;

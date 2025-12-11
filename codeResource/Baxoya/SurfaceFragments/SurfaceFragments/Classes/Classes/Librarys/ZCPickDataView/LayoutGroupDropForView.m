@@ -238,7 +238,7 @@ typedef struct {
 //: - (void)leftButtonClicked:(id)sender{
 - (void)sited:(id)sender{
     //: Class currentClass = object_getClass(self.delegate);
-    Class currentClass = bodyMaybe(self.amendPartses);
+    Class currentClass = object_getClass(self.amendPartses);
     //: if ((currentClass == delegateClass) && [self.delegate respondsToSelector:@selector(dismissDataPickerView)]) {
     if ((currentClass == corner) && [self.amendPartses respondsToSelector:@selector(windEvent)]) {
         //: [self.delegate dismissDataPickerView];
@@ -399,7 +399,7 @@ typedef struct {
 //: - (void)rightButtonClicked:(id)sender{
 - (void)computerModest:(id)sender{
     //: Class currentClass = object_getClass(self.delegate);
-    Class currentClass = bodyMaybe(self.amendPartses);
+    Class currentClass = object_getClass(self.amendPartses);
     //: if ((currentClass == delegateClass) && [self.delegate respondsToSelector:@selector(dismissDataPickerView)]) {
     if ((currentClass == corner) && [self.amendPartses respondsToSelector:@selector(windEvent)]) {
         //: [self.delegate dismissDataPickerView];
@@ -430,7 +430,7 @@ typedef struct {
     //: self.delegate = delegate;
     self.amendPartses = delegate;
     //: delegateClass = object_getClass(delegate);
-    corner = bodyMaybe(delegate);
+    corner = object_getClass(delegate);
 }
 
 //: - (void)datePickerValueChanged{

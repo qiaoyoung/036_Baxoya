@@ -325,7 +325,7 @@ API_AVAILABLE(ios(10), macosx(10.12), watchos(3), tvos(10));
 //: @property (nonatomic, copy) NSURL *downloadFileURL;
 @property (nonatomic, copy) NSURL *toneMuseUser;
 //: @property (nonatomic, strong) NSURLSessionTaskMetrics *sessionTaskMetrics API_AVAILABLE(ios(10), macosx(10.12), watchos(3), tvos(10));
-@property (nonatomic, strong) NSURLSessionTaskMetrics *resource
+@property (nonatomic, strong) NSURLSessionTaskMetrics *resource;
 //: @property (nonatomic, strong) NSProgress *downloadProgress;
 @property (nonatomic, strong) NSProgress *rawRegion;
  //: @property (nonatomic, strong) NSProgress *uploadProgress;
@@ -904,8 +904,8 @@ API_UNAVAILABLE(macos);
 //: @property (readwrite, nonatomic, copy) AFURLSessionDownloadTaskDidResumeBlock downloadTaskDidResume;
 @property (readwrite, nonatomic, copy) AFURLSessionDownloadTaskDidResumeBlock towerUltimateStack;
 //: @property (readwrite, nonatomic, copy) AFURLSessionTaskDidFinishCollectingMetricsBlock taskDidFinishCollectingMetrics API_AVAILABLE(ios(10), macosx(10.12), watchos(3), tvos(10));
-@property (readwrite, nonatomic, copy) AFURLSessionTaskDidFinishCollectingMetricsBlock loadPrime//: @property (readwrite, nonatomic, copy) AFURLSessionDidFinishEventsForBackgroundURLSessionBlock didFinishEventsForBackgroundURLSession API_UNAVAILABLE(macos);
-@property (readwrite, nonatomic, copy) AFURLSessionDidFinishEventsForBackgroundURLSessionBlock givenTiming//: @property (readwrite, nonatomic, copy) AFURLSessionDataTaskWillCacheResponseBlock dataTaskWillCacheResponse;
+@property (readwrite, nonatomic, copy) AFURLSessionTaskDidFinishCollectingMetricsBlock loadPrime;//: @property (readwrite, nonatomic, copy) AFURLSessionDidFinishEventsForBackgroundURLSessionBlock didFinishEventsForBackgroundURLSession API_UNAVAILABLE(macos);
+@property (readwrite, nonatomic, copy) AFURLSessionDidFinishEventsForBackgroundURLSessionBlock givenTiming;//: @property (readwrite, nonatomic, copy) AFURLSessionDataTaskWillCacheResponseBlock dataTaskWillCacheResponse;
 @property (readwrite, nonatomic, copy) AFURLSessionDataTaskWillCacheResponseBlock addEffect;
 
 //: @property (readwrite, nonatomic, strong) NSLock *lock;

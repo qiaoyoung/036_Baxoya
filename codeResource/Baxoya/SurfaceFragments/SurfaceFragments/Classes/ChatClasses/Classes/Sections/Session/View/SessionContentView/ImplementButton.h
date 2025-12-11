@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import "RetreatModifyAdaptRight.h"
 #import "RetreatModifyAdaptRight.h"
-//: #import "ValidationMinifyCatalyst.h"
-#import "ValidationMinifyCatalyst.h"
+//:  
+ 
 
 //: @interface ImplementButton : RetreatModifyAdaptRight
 @interface ImplementButton : RetreatModifyAdaptRight

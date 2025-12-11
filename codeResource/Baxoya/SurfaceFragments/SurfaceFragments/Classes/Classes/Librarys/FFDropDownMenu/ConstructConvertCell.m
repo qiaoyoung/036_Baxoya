@@ -115,9 +115,7 @@
 
 //: - (void)setMenuModel:(id)menuModel {
 - (void)setFront:(id)menuModel {
-    //: _menuModel = menuModel;
-    _menuModel = menuModel;
-
+  
     //: ConstructConvertModel *realMenuModel = (ConstructConvertModel *)menuModel;
     ConstructConvertModel *realMenuModel = (ConstructConvertModel *)menuModel;
     //: self.customTitleLabel.text = realMenuModel.menuItemTitle;

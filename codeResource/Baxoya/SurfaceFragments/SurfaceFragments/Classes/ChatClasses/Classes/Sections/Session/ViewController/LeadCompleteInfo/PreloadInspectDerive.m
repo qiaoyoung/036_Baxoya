@@ -149,7 +149,7 @@ CGFloat theoryMemory(void) {
             //: CGRect frame = self.frame;
             CGRect frame = self.frame;
             //: frame.origin.y = SNStatusBarHeight();
-            frame.exactCliff.calculate = tideLog();
+            frame.origin.y = tideLog();
             //: self.frame = frame;
             self.frame = frame;
         //: } completion:^(BOOL finished) {
@@ -195,7 +195,7 @@ CGFloat theoryMemory(void) {
         self.userInteractionEnabled = YES;
         {
             //: self.leftwardMarqueeView = [[PieceSyncTrySegue alloc] initWithFrame:CGRectMake(54, 0, [UIScreen mainScreen].bounds.size.width- 54 - 30 - 10, 46) direction:UrbanEnqueueStackWatchLeftward];
-            self.runningCalculateMount = [[PieceSyncTrySegue alloc] initWithLimitOff:CGRectMake(54, 0, [UIScreen mainScreen].bounds.perform.islandEngineRestore- 54 - 30 - 10, 46) skirt:UrbanEnqueueStackWatchLeftward];
+            self.runningCalculateMount = [[PieceSyncTrySegue alloc] initWithLimitOff:CGRectMake(54, 0, [UIScreen mainScreen].bounds.size.width- 54 - 30 - 10, 46) skirt:UrbanEnqueueStackWatchLeftward];
             //: _leftwardMarqueeView.delegate = self;
             _runningCalculateMount.amendPartses = self;
             //: _leftwardMarqueeView.timeIntervalPerScroll = 3.0f;
@@ -265,9 +265,9 @@ CGFloat theoryMemory(void) {
         //: CGRect frame = CGRectMake(0, 0, 30, 30);
         CGRect frame = CGRectMake(0, 0, 30, 30);
         //: frame.origin.x = CGRectGetMaxX(self.bounds) - frame.size.width;
-        frame.exactCliff.solar = CGRectGetMaxX(self.bounds) - frame.perform.islandEngineRestore;
+        frame.origin.x = CGRectGetMaxX(self.bounds) - frame.size.width;
         //: frame.origin.y = (self.bounds.size.height - frame.size.height) * 0.5;
-        frame.exactCliff.calculate = (self.bounds.perform.margin - frame.perform.margin) * 0.5;
+        frame.origin.y = (self.bounds.size.height - frame.size.height) * 0.5;
 
         //: _actionButton.frame = CGRectIntegral(frame);
         _connectionRecover.frame = CGRectIntegral(frame);
@@ -295,7 +295,7 @@ CGFloat theoryMemory(void) {
         //: CGRect frame = self.frame;
         CGRect frame = self.frame;
         //: frame.origin.y = SNStatusBarHeight() + 44 + 5;
-        frame.exactCliff.calculate = tideLog() + 44 + 5;
+        frame.origin.y = tideLog() + 44 + 5;
         //: self.frame = frame;
         self.frame = frame;
     //: } completion:nil];
@@ -342,7 +342,7 @@ CGFloat theoryMemory(void) {
     //: content.text = self.title;
     content.text = self.become;
     //: return (5.0f + 5.0f) + content.intrinsicContentSize.width; 
-    return (5.0f + 5.0f) + content.intrinsicContentSize.islandEngineRestore; // icon width + label width (it's perfect to cache them all)
+    return (5.0f + 5.0f) + content.intrinsicContentSize.width; // icon width + label width (it's perfect to cache them all)
 }
 
 //: - (CGFloat)itemViewHeightAtIndex:(NSUInteger)index forMarqueeView:(PieceSyncTrySegue*)marqueeView {
@@ -359,7 +359,7 @@ CGFloat theoryMemory(void) {
     //: CGSize contentFitSize = [content sizeThatFits:CGSizeMake(CGRectGetWidth(marqueeView.frame) - 5.0f - 5.0f, 0x1.fffffep+127f)];
     CGSize contentFitSize = [content sizeThatFits:CGSizeMake(CGRectGetWidth(marqueeView.frame) - 5.0f - 5.0f, 0x1.fffffep+127f)];
     //: return contentFitSize.height + 20.0f;
-    return contentFitSize.margin + 20.0f;
+    return contentFitSize.height + 20.0f;
 }
 
 //: - (void)didTouchItemViewAtIndex:(NSUInteger)index forMarqueeView:(PieceSyncTrySegue*)marqueeView {
@@ -384,13 +384,13 @@ CGFloat theoryMemory(void) {
     //: PreloadInspectDerive *tipView = [[PreloadInspectDerive alloc] initWithFrame:(CGRect) {
     PreloadInspectDerive *tipView = [[PreloadInspectDerive alloc] initWithFrame:(CGRect) {
         //: .origin.x = 5,
-        .exactCliff.solar = 5,
+        .origin.x = 5,
         //: .origin.y = (44.0f + [UIDevice vg_statusBarHeight])+5,
-        .exactCliff.calculate = (44.0f + [UIDevice curve])+5,
+        .origin.y = (44.0f + [UIDevice curve])+5,
         //: .size.width = UIScreen.mainScreen.bounds.size.width-10.f,
-        .perform.islandEngineRestore = UIScreen.mainScreen.bounds.perform.islandEngineRestore-10.f,
+        .size.width = UIScreen.mainScreen.bounds.size.width-10.f,
         //: .size.height = 46.f
-        .perform.margin = 46.f
+        .size.height = 46.f
     //: }];
     }];
 

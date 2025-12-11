@@ -81,9 +81,7 @@ Tree_Data commonGrandConfig = (Tree_Data){124, (Byte []){95, 57, 63, 57, 57, 58,
 /** 重写setMenuModel---对控件进行赋值 */
 //: - (void)setMenuModel:(id)menuModel {
 - (void)setFront:(id)menuModel {
-    //: _menuModel = menuModel;
-    _menuModel = menuModel;
-
+ 
     //: ConstructConvertModel *realMenuModel = (ConstructConvertModel *)menuModel;
     ConstructConvertModel *realMenuModel = (ConstructConvertModel *)menuModel;
     //: self.customTitleLabel.text = realMenuModel.menuItemTitle;

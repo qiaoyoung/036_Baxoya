@@ -29,11 +29,9 @@
 
 //: @interface UIScrollView (MightVelocityInformationVersion_internal)
 @interface UIScrollView (MightVelocityInformationVersion_internal)
+ 
+@property (nonatomic, assign) BOOL endResolve;
 
-
-
-
-
-
+@property (nonatomic, assign) UIScrollViewContentInsetAdjustmentBehavior featureRegion;
 //: @end
 @end

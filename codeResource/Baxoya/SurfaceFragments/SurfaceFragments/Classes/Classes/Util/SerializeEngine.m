@@ -40,8 +40,8 @@ static void domeFine(SystemSoundID soundID, void *data)
     {
         //: SEL selector = NSSelectorFromString(@"vibrate");
         SEL selector = NSSelectorFromString(StringFromPointMistData(layoutStrokeBindAlert));
-        //: SuppressPerformSelectorLeakWarning([(SerializeEngine *)notifier performSelector:selector withObject:nil afterDelay:1.0]);
-        SuppressPerformSelectorLeakWarning([(SerializeEngine *)notifier performSelector:selector withObject:nil afterDelay:1.0]);
+        //:  ([(SerializeEngine *)notifier performSelector:selector withObject:nil afterDelay:1.0]);
+         ([(SerializeEngine *)notifier performSelector:selector withObject:nil afterDelay:1.0]);
     }
 }
 

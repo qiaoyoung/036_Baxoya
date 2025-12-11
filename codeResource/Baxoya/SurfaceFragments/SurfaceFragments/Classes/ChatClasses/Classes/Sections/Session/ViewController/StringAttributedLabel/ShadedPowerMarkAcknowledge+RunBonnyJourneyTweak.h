@@ -9,8 +9,8 @@
 //
 
 // __M_A_C_R_O__
-//: #import "ValidationMinifyCatalyst.h"
-#import "ValidationMinifyCatalyst.h"
+//:  
+#import "ShadedPowerMarkAcknowledge.h"
 
 //: @interface ShadedPowerMarkAcknowledge (RunBonnyJourneyTweak)
 @interface ShadedPowerMarkAcknowledge (RunBonnyJourneyTweak)
