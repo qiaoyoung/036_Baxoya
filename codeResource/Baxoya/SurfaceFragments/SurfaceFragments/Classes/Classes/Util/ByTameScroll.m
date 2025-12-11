@@ -596,7 +596,7 @@
     //: AFHTTPSessionManager *sessionManager = [AFHTTPSessionManager manager];
     AFHTTPSessionManager *sessionManager = [AFHTTPSessionManager central];
     //: sessionManager.requestSerializer.timeoutInterval = 5.f;
-    sessionManager.bareLined.warmResolves = 5.f;
+    sessionManager.bareLined.timeoutInterval = 5.f;
     //: sessionManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/html", @"text/json", @"text/plain", @"text/javascript", @"text/xml", @"image/|*", nil];
     sessionManager.serverAgreementsing.reachCabled = [NSSet setWithObjects:[[ForwardQuantityegrate_Data sharedInstance] dataPresentTimer], [[ForwardQuantityegrate_Data sharedInstance] componentWindowHoneyHelper], [[ForwardQuantityegrate_Data sharedInstance] themeSegmentPanelString], [[ForwardQuantityegrate_Data sharedInstance] dataDeployFlameMonsterConfig], [[ForwardQuantityegrate_Data sharedInstance] themeDryDriftName], [[ForwardQuantityegrate_Data sharedInstance] themeRoleHelper], [[ForwardQuantityegrate_Data sharedInstance] dataCivicAlert], nil];
     //: [sessionManager setResponseSerializer:[AFHTTPResponseSerializer serializer]];

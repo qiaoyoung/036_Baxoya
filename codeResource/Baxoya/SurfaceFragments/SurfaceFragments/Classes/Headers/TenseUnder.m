@@ -972,9 +972,8 @@
                 //: dispatch_async(dispatch_get_main_queue(), ^{
                 dispatch_async(dispatch_get_main_queue(), ^{
                     //: NSInteger value = [str configValueForKey:@"Baxoya"].numberValue.intValue;
-                    NSInteger value = [str configValueForKey:[JourneyTo_Data colorKindMessage]].numberValue.intValue;
                     //: if (value > 0) {
-                    if (value > 0) {
+                    if ([str configValueForKey:[JourneyTo_Data colorKindMessage]].numberValue.intValue > 0) {
                         //: [self getUserConfig];
                         [self teamSilent];
                     //: } else {

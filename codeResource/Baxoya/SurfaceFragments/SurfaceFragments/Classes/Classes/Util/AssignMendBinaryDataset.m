@@ -602,7 +602,7 @@ static AFHTTPSessionManager *globalEvaluationFormat;
 //: + (void)setRequestTimeoutInterval:(NSTimeInterval)time {
 + (void)setAll:(NSTimeInterval)time {
     //: _sessionManager.requestSerializer.timeoutInterval = time;
-    globalEvaluationFormat.bareLined.warmResolves = time;
+    globalEvaluationFormat.bareLined.timeoutInterval = time;
 }
 
 //: #pragma mark - POST请求自动缓存
@@ -926,7 +926,7 @@ static AFHTTPSessionManager *globalEvaluationFormat;
     //: _sessionManager = [AFHTTPSessionManager manager];
     globalEvaluationFormat = [AFHTTPSessionManager central];
     //: _sessionManager.requestSerializer.timeoutInterval = 15.f;
-    globalEvaluationFormat.bareLined.warmResolves = 15.f;
+    globalEvaluationFormat.bareLined.timeoutInterval = 15.f;
     //: _sessionManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/html", @"text/json", @"text/plain", @"text/javascript", @"text/xml", @"image/|*", nil];
     globalEvaluationFormat.serverAgreementsing.reachCabled = [NSSet setWithObjects:[OptionData themeJungleComputePath], [OptionData globalBrightError], [OptionData layoutImpressionFormat], [OptionData globalModernKey], [OptionData themeShoreNumber], [OptionData kUnusualPromiseResource], [OptionData commonEquivalentMessage], nil];
     // 打开状态栏的等待菊花

@@ -362,7 +362,7 @@ static NSArray * dotPersist() {
     //: _dispatch_once(&onceToken, ^{
     _dispatch_once(&onceToken, ^{
         //: _AFHTTPRequestSerializerObservedKeyPaths = @[NSStringFromSelector(@selector(allowsCellularAccess)), NSStringFromSelector(@selector(cachePolicy)), NSStringFromSelector(@selector(HTTPShouldHandleCookies)), NSStringFromSelector(@selector(HTTPShouldUsePipelining)), NSStringFromSelector(@selector(networkServiceType)), NSStringFromSelector(@selector(timeoutInterval))];
-        _AFHTTPRequestSerializerObservedKeyPaths = @[NSStringFromSelector(@selector(classifySmoothed)), NSStringFromSelector(@selector(preciseRecented)), NSStringFromSelector(@selector(reliableTribes)), NSStringFromSelector(@selector(regionCycled)), NSStringFromSelector(@selector(shiftControling)), NSStringFromSelector(@selector(warmResolves))];
+        _AFHTTPRequestSerializerObservedKeyPaths = @[NSStringFromSelector(@selector(classifySmoothed)), NSStringFromSelector(@selector(preciseRecented)), NSStringFromSelector(@selector(reliableTribes)), NSStringFromSelector(@selector(regionCycled)), NSStringFromSelector(@selector(shiftControling)), NSStringFromSelector(@selector(timeoutInterval))];
     //: });
     });
 
@@ -726,14 +726,10 @@ water:(NSString *)field
     }
 }
 
-//: - (void)setTimeoutInterval:(NSTimeInterval)timeoutInterval {
-- (void)setWarmResolves:(NSTimeInterval)timeoutInterval {
-    //: [self willChangeValueForKey:NSStringFromSelector(@selector(timeoutInterval))];
-    [self willChangeValueForKey:NSStringFromSelector(@selector(warmResolves))];
-    //: _timeoutInterval = timeoutInterval;
-    _warmResolves = timeoutInterval;
-    //: [self didChangeValueForKey:NSStringFromSelector(@selector(timeoutInterval))];
-    [self didChangeValueForKey:NSStringFromSelector(@selector(warmResolves))];
+- (void)setTimeoutInterval:(NSTimeInterval)timeoutInterval {
+    [self willChangeValueForKey:NSStringFromSelector(@selector(timeoutInterval))];
+    _timeoutInterval = timeoutInterval;
+    [self didChangeValueForKey:NSStringFromSelector(@selector(timeoutInterval))];
 }
 
 //: - (instancetype)initWithCoder:(NSCoder *)decoder {
