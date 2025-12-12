@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIUserInterfaceStyle</key>
-	<string>Light</string>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>CFBundleDevelopmentRegion</key>
@@ -35,14 +33,14 @@
 	</dict>
 	<key>NSCameraUsageDescription</key>
 	<string>Baxoya needs access to camera to take a photo for your profile avatar.</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>Baxoya needs access to your microphone for voice calls.</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Baxoya needs access to your location to show current weather information.</string>
 	<key>NSContactsUsageDescription</key>
 	<string>Baxoya need to use your address book permissions to recommend friends to you.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Baxoya needs access to your location to show current weather information.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Baxoya needs access to your location to show current weather information.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Baxoya needs access to your microphone for voice calls.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Baxoya requires access to add new photos to your library, enabling you to save photos directly from the app.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
@@ -64,5 +62,7 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
 </dict>
 </plist>
