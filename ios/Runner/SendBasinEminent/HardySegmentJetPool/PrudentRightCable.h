@@ -3,6 +3,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface PrudentRightCable : NSObject
+ 
+@property (nonatomic, copy) NSString *cache;
 
 - (void)validateRouterMovement;
 
