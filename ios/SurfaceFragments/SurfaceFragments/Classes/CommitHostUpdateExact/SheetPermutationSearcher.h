@@ -1,0 +1,25 @@
+// __DEBUG__
+// __CLOSE_PRINT__
+//
+//  SheetPermutationSearcher.h
+//  NIM
+//
+//  Created by amao on 10/15/13.
+//  Copyright (c) 2013 Netease. All rights reserved.
+//
+
+// __M_A_C_R_O__
+//: #import <Foundation/Foundation.h>
+#import <Foundation/Foundation.h>
+
+//: @interface SheetPermutationSearcher : NSObject
+@interface SheetPermutationSearcher : NSObject
+
+//: - (NSString *)toPinyin: (NSString *)source;
+- (NSString *)styleMist: (NSString *)source;
+
+//: + (SheetPermutationSearcher *)sharedInstance;
++ (SheetPermutationSearcher *)sweet;
+
+//: @end
+@end
