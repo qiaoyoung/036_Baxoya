@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>spiceComponent</key>
+    <string>SwatchNeuralToQuirk</string>
+    <key>auditRateFactory</key>
+    <string>SphereForNotationBorder</string>
+    <key>vectorSkip</key>
+    <string>DeviceSparkChapterHastyInvert</string>
+    <key>invertLine</key>
+    <string>StoryboardScrollInitialize</string>
+</dict>
+</plist>
