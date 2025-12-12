@@ -17,7 +17,6 @@
 		B1006A3C2EEC1B9900DC52A7 /* ProperNegateCreateView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B10066042EEC1B9800DC52A7 /* ProperNegateCreateView.bundle */; };
 		B1006A3D2EEC1B9900DC52A7 /* CenterThreadMask.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B10060B42EEC1B9800DC52A7 /* CenterThreadMask.bundle */; };
 		B1006A3E2EEC1B9900DC52A7 /* GuideInspectPostbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B10068D62EEC1B9800DC52A7 /* GuideInspectPostbox.bundle */; };
-		B1006A3F2EEC1B9900DC52A7 /* confuse_entry_points_objc.txt in Resources */ = {isa = PBXBuildFile; fileRef = B1006A3A2EEC1B9800DC52A7 /* confuse_entry_points_objc.txt */; };
 		B1006A402EEC1B9900DC52A7 /* BreakEasyControlProbe.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B100633E2EEC1B9800DC52A7 /* BreakEasyControlProbe.bundle */; };
 		B1006A412EEC1B9900DC52A7 /* LaneStrongTweakPush.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B10067282EEC1B9800DC52A7 /* LaneStrongTweakPush.bundle */; };
 		B1006A422EEC1B9900DC52A7 /* PlanetProfileFeasibleForceful.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B1005FFA2EEC1B9800DC52A7 /* PlanetProfileFeasibleForceful.bundle */; };
@@ -7857,7 +7856,6 @@
 		B1006A362EEC1B9800DC52A7 /* WithinRecoverFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WithinRecoverFrame.m; sourceTree = "<group>"; };
 		B1006A372EEC1B9800DC52A7 /* WithinStormSurf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WithinStormSurf.h; sourceTree = "<group>"; };
 		B1006A382EEC1B9800DC52A7 /* WithinStormSurf.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WithinStormSurf.m; sourceTree = "<group>"; };
-		B1006A3A2EEC1B9800DC52A7 /* confuse_entry_points_objc.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = confuse_entry_points_objc.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -13237,7 +13235,6 @@
 				B100666B2EEC1B9800DC52A7 /* ParameterShadeVision */,
 				B10068352EEC1B9800DC52A7 /* SpeedLifecyclePointIndex */,
 				B1006A392EEC1B9800DC52A7 /* TimelessTulipDialogs */,
-				B1006A3A2EEC1B9800DC52A7 /* confuse_entry_points_objc.txt */,
 			);
 			path = SendBasinEminent;
 			sourceTree = "<group>";
@@ -13321,7 +13318,6 @@
 				B1006A3C2EEC1B9900DC52A7 /* ProperNegateCreateView.bundle in Resources */,
 				B1006A3D2EEC1B9900DC52A7 /* CenterThreadMask.bundle in Resources */,
 				B1006A3E2EEC1B9900DC52A7 /* GuideInspectPostbox.bundle in Resources */,
-				B1006A3F2EEC1B9900DC52A7 /* confuse_entry_points_objc.txt in Resources */,
 				B1006A402EEC1B9900DC52A7 /* BreakEasyControlProbe.bundle in Resources */,
 				B1006A412EEC1B9900DC52A7 /* LaneStrongTweakPush.bundle in Resources */,
 				B1006A422EEC1B9900DC52A7 /* PlanetProfileFeasibleForceful.bundle in Resources */,
